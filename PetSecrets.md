@@ -13,7 +13,7 @@ Dit snoepje wordt gegeven met een dispenser die in de huiskamer bij de hond staa
 
 Doordat baasjes met hun hond kunnen interageren op afstand en hen beloningen kunnen geven, hebben ze minder het gevoel dat ze hun hond “in de steek” laten. Ook krijgen ze met de live stressmeter een gevoel van controle over de situatie. Deze combinatie gaat schuldgevoel en verlatingsangst bij baasjes tegen. Daarnaast heeft het ook een kalmerend en positief effect op honden en helpt het ook bij hun verlatingsangst.
 
-![Hero Schets](https://github.com/user-attachments/assets/57367578-41ae-4802-bb67-ff5da8c02a72)
+![Hero Schets](https://github.com/user-attachments/assets/aa6882d1-d53e-430d-b6bf-dd8766a94dfd)
 
 
 ## Introductie
