@@ -13,7 +13,7 @@ Dit snoepje wordt gegeven met een dispenser die in de huiskamer bij de hond staa
 
 Doordat baasjes met hun hond kunnen interageren op afstand en hen beloningen kunnen geven, hebben ze minder het gevoel dat ze hun hond “in de steek” laten. Ook krijgen ze met de live stressmeter een gevoel van controle over de situatie. Deze combinatie gaat schuldgevoel en verlatingsangst bij baasjes tegen. Daarnaast heeft het ook een kalmerend en positief effect op honden en helpt het ook bij hun verlatingsangst.
 
-![Hero Schets](https://github.com/user-attachments/assets/bf0bd94f-76d4-4f3a-87d1-432f3891a9d7)
+![Hero Schets](https://github.com/user-attachments/assets/57367578-41ae-4802-bb67-ff5da8c02a72)
 
 
 ## Introductie
@@ -299,11 +299,13 @@ Weir, M. W., & Buzhardt, L. B. (2021). Signs Your Dog is Stressed and How to Rel
 #### Discovery
 - [Protocol Desk Research](https://drive.google.com/open?id=12NoSPLVdtqdJvY9GGp3hxP2CgzPXKmhn7qTBTSI8jzo&usp=drive_copy)
 - [Rapport Desk Research](https://drive.google.com/open?id=1nwAojQh_iuqRsD4tWcjPdfd3RWFngSalvPzl8VSPMy8&usp=drive_copy)
+- [Protocol Enquête](https://drive.google.com/open?id=1HmJS_FUbtiWwMl9GDVSUkFMg1g5jXy9eZN2ppk55EnM&usp=drive_copy)
+- [Rapport Enquête](https://drive.google.com/open?id=1KBX2Eb1pT8rqreE2QZYYUB29RSH8C9AHngRhWPiVAmU&usp=drive_copy)
 
 Documenten vorige doelgroep:
 - [Protocol Interview Hondenangst](https://drive.google.com/open?id=1zZneJo5kH-Q7wN455WCUAMYRw7pHSGI2z7Pq_jXhClo&usp=drive_copy)
-- [Protocol Literatuuronderzoek Agressie in Honden](https://drive.google.com/open?id=1vmsakiGM8-fPnucMtHcgnxS1Q0aaKagbW9WcryPoZKI&usp=drive_copy)
 - [Rapport Interview Hondenangst](https://drive.google.com/open?id=1QnPZ1St09KmCzzjZ3P4mOhKraC_8iDDg6yY-tCSVShM&usp=drive_copy)
+- [Protocol Literatuuronderzoek Agressie in Honden](https://drive.google.com/open?id=1vmsakiGM8-fPnucMtHcgnxS1Q0aaKagbW9WcryPoZKI&usp=drive_copy)
 - [Rapport Literatuuroderzoek Agressie in Honden](https://drive.google.com/open?id=1vKehdKbhXgFpB10Dc2ouAJcSDHj97Kox1RxfLqvWKpc&usp=drive_copy)
 
 #### Definition 
