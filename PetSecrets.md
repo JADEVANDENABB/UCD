@@ -84,7 +84,7 @@ De enquête is te raadplegen als bron (“Je Hond Alleen Laten, een Do Or Don’
 We zijn op zoek gegaan naar meetbare tekenen van stress bij honden, zodat deze door de halsband gemeten kunnen worden.
 We ondervonden dat blaffen en hijgen zonder fysieke inspanning een teken kan zijn van stress (Weir & Buzhardt, 2021).
 
-Uit een onderzoek waarbij de hartslag van honden werd gemeten tijdens een bezoek aan de dierenarts, kunnen we enkele belangrijke conclusies trekken. Een verhoogde hartslag is een belangrijke indicator van stress, maar er zijn ook andere gedragsmatige tekenen en de geschiedenis van de hond die op verhoogde spanning kunnen wijzen. Tekenen zoals een tussen de achterpoten geklemde staart, naar achteren geplaatste oren, hijgen en trillen zijn allemaal indicatoren van stress. 
+Uit een onderzoek waarbij de hartslag van honden werd gemeten tijdens een bezoek aan de dierenarts, kunnen we enkele belangrijke conclusies trekken (Edwards et al., 2022). Een verhoogde hartslag is een belangrijke indicator van stress, maar er zijn ook andere gedragsmatige tekenen en de geschiedenis van de hond die op verhoogde spanning kunnen wijzen. Tekenen zoals een tussen de achterpoten geklemde staart, naar achteren geplaatste oren, hijgen en trillen zijn allemaal indicatoren van stress. 
 
 Ook hebben we enkele dingen gevonden die stress bij honden kunnen verminderen. (Stressed Out Dog: 10 Ways To Ease Their Stress - Diggs, 2021) (Weir & Buzhardt, 2021):
 - Fysieke stimulatie
