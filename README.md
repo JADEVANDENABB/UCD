@@ -23,9 +23,12 @@ Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/catego
 Max 400 woorden. Beschrijf je methodologie (enkel SEM1, zie les methodologie). Maak hierbij gebruik van een afbeelding om je tijdlijn weer te geven. Op deze tijdlijn moeten minimaal een tijdsincatie te zien zijn, moeten fasen te zien zijn en moeten activiteiten te zien zijn.
 
 ## Discovery
-Max. 1000 woorden
 ### Doestellingen
-Wat wilde je bereiken?
+- Meer diepgang en begrip krijgen in de hondenbaasjes en honden zelf om zo de noden beter te kunnen inschatten.
+- Begrijpen hoe stress in honden kan gemeten worden met een halsband.
+- Onderzoeken welke middelen helpen tegen stress bij honden.
+- Bestaande producten en diensten, die deze problematiek al (deels) oplossen, exploreren en hiervan leren.
+- Verworven informatie gaan combineren tot een nieuw concept.
 ### Materiaal & methoden
 Hoe onderzocht je dit? Wees volledig.
 ### Resultaten
