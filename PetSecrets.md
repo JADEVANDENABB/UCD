@@ -1,4 +1,4 @@
-# Projecttitel
+# Pet Secrets
 *Omschrijving van je concept in 1 zin* 
 
 *Projectteam: Naam 1; Naam 2*
@@ -103,7 +103,9 @@ Het gebruik van een laser om het jaaginstinct van een hond te activeren lijkt le
 #### Benchmarking
 We zijn op zoek gegaan naar andere producten op de markt, die deze problematiek (deels) oplossen. 
 We zijn gaan kijken naar producten die een camera en/of dispenser hebben, interactieve speeltjes en producten die werken met het DAP-Feromoon.
-![image](https://github.com/user-attachments/assets/14e51f53-215c-4762-b193-540d856c148e)
+
+![image](https://github.com/user-attachments/assets/718de693-476e-4513-8a39-1532b2fa71b7)
+
 
 #### Problem-solution matrix
 ![image](https://github.com/user-attachments/assets/0f1ab4bc-0e01-4031-b35a-8f72b25a4e22)
