@@ -29,19 +29,20 @@ Het doel is om aan het eind van het schooljaar een werkend prototype van het pro
 
 
 ## Methodologie
-De productontwikkeling startte met de discovery fase, waarin werd gezocht naar een probleem dat aansloot bij de design challenge. Aanvankelijk focusten we op hondenagressie en hondenfobie in het algemeen. Na de eerste conceptpitch bleek echter dat dit product veel vertrouwen van de gebruiker vereiste. Hondenangst en hondenagressie is namelijk een zeer grote uitdaging om op te lossen met slechts één product. Daarnaast is hondenagressie ook moeilijk om correct te meten. Zo bleek een andere een andere problematiek binnen dezelfde doelgroep die meer potentie had: hondenbaasjes die moeite hebben met het alleen thuislaten van hun hond. Het zal in dit dossier dus ook enkel over deze specifieke doelgroep gaan.
+De productontwikkeling startte met de discovery fase, waarin werd gezocht naar een probleem dat aansloot bij de design challenge. Aanvankelijk ging het project over hondenagressie en hondenfobie in het algemeen. Na de eerste conceptpitch bleek echter dat dit product veel vertrouwen van de gebruiker vereiste. Hondenangst en hondenagressie is namelijk een zeer grote uitdaging om op te lossen. Daarnaast is hondenagressie ook moeilijk om correct te meten. Zo bleek een andere een andere problematiek binnen dezelfde doelgroep die meer potentie had: hondenbaasjes die moeite hebben met het alleen thuislaten van hun hond. Het zal in dit dossier dus ook enkel over deze specifieke doelgroep gaan.
 
 
-We brainstormden over hoe we dit probleem konden oplossen en kwamen op het idee van een halsband die via hartslag en beweging de stressniveaus van de hond monitort. Deze gegevens worden vervolgens gebruikt om de hond beter te begrijpen en doelbewuster te reageren op zijn noden en behoeften. Na onderzoek, een enquête, benchmarking en brainstormsessies ontwikkelden we een eerste concept. Dit omvatte een interactieve oplossing om honden thuis te vermaken.
-In de definitionfase onderzochten we hoe we het product vorm konden geven. Ons concept bestond uit een app waarmee baasjes op afstand hun hond kunnen observeren, snoepjes kunnen geven, speelgoed kunnen activeren, enzovoort. We werkten de interface uit in Figma en ProtoPie om testpersonen een zo realistisch mogelijk beeld te geven van de werking. Parallel hieraan maakten we quick-and-dirty prototypes van een dispenser, waarmee we verschillende ideeën testten.
+Er werd gebrainstormd over mogelijke oplossingen voor dit probleem, wat leidde tot het idee van een halsband die via hartslag en beweging de stressniveaus van de hond monitort. De verzamelde gegevens worden gebruikt om het gedrag van de hond beter te begrijpen en gerichter in te spelen op zijn behoeften.
+Na onderzoek, een enquête, benchmarking en brainstormsessies werd een eerste concept ontwikkeld. Dit omvatte een interactieve oplossing om honden thuis te vermaken.
+In de definitiefase werd onderzocht hoe het product vorm kon krijgen. Het concept bestond uit een app waarmee baasjes op afstand hun hond kunnen observeren, snoepjes kunnen geven, speelgoed kunnen activeren, enzovoort. De interface werd uitgewerkt in Figma en ProtoPie om testpersonen een zo realistisch mogelijk beeld te geven van de werking. Tegelijkertijd werden quick-and-dirty prototypes van een dispenser gemaakt om verschillende ideeën te testen.
 
-Deze prototypes en interfaces werden getest via de eerder aan bod gekomen techniek: Concept Testing in een gecontroleerde omgeving. Hiermee hebben we een optimaal concept van de dispenser kunnen realiseren, inzicht gekregen in het soort wearable en een goed beeld gekregen van de functies die de app moet kunnen besturen.
+Deze prototypes en interfaces werden getest via de eerder aan bod gekomen techniek: Concept Testing in een gecontroleerde omgeving. Hiermee werd een optimaal concept van de dispenser gerealiseerd, werd inzicht verworven in het soort wearable en een goed beeld verkregen van de functies die de app moet kunnen besturen.
  
-Wat het interactieve speeltje betreft hebben we besloten om deze enkel conceptueel uit te werken. Wij hebben niet de middelen om dit fysiek te ontwerpen, aangezien het helemaal draait rond de automatisch bewegingen en prikkels die het maakt. 
+Wat het interactieve speeltje betreft werd besloten om deze enkel conceptueel uit te werken door gebrek aan middelen om dit fysiek te ontwerpen, aangezien het helemaal draait rond de automatisch bewegingen en prikkels die het maakt. 
 
-In de tweede wave optimaliseerden de we meldingen die de app zal geven. Het belangrijkste doel was dat baasjes zich gerustgesteld voelen terwijl ze van huis zijn. We hebben dit getest met een variant op ESM-testing, waarbij de baasjes op hun werk meldingen kregen over hun hond (zoals het uiteindelijke product dit ook zal doen) en deze samen met hen te evalueren.
+In de tweede wave werden de meldingen die de app zal geven geoptimaliseerd. Het belangrijkste doel was dat baasjes zich gerustgesteld voelen terwijl ze van huis zijn. Dit werd getest met een variant op ESM-testing, waarbij de baasjes op hun werk meldingen kregen over hun hond (zoals het uiteindelijke product dit ook zal doen) en deze samen met hen te evalueren.
 
-Aan het einde van het semester hebben we een verslag opgesteld waarin de voortgang en bevindingen tot dan toe zijn gedocumenteerd. Dit verslag geeft een overzicht van de stappen die zijn genomen en de ontwikkeling van ons project.
+Aan het einde van het semester werd een verslag opgesteld waarin de voortgang en bevindingen tot dan toe zijn gedocumenteerd. Dit verslag geeft een overzicht van de stappen die zijn genomen en de ontwikkeling van ons project.
 
 
 ![image](https://github.com/user-attachments/assets/91ec4d0c-99f9-41ee-86b4-430e1830f22e)
@@ -55,22 +56,22 @@ Aan het einde van het semester hebben we een verslag opgesteld waarin de voortga
 - Verworven informatie gaan combineren tot een nieuw concept.
 ### Materiaal & methoden
 #### Enquête
-We hebben een enquête opgesteld en verspreid in diverse Facebookgroepen om meer inzicht te krijgen in de problematiek. Deze enquête werd door 221 mensen ingevuld. De vragen waren gericht op hoe vaak mensen moeite hadden met het alleen thuis laten van hun hond en wat de belangrijkste redenen hiervoor waren.
+Er is een enquête opgesteld en verspreid in diverse Facebookgroepen om meer inzicht te krijgen in de problematiek. Deze enquête werd door 221 mensen ingevuld. De vragen waren gericht op hoe vaak mensen moeite hadden met het alleen thuis laten van hun hond en wat de belangrijkste redenen hiervoor waren.
 
 #### Desk Research
-Aan de hand van een google search zochten we naar manieren om stress te meten en verminderen bij honden. We richtten ons tot wetenschappelijke bronnen, ervaringsdeskundigen en artikels
+Aan de hand van een google search werd gezocht naar manieren om stress te meten en verminderen bij honden. Het onderzoek richt zich tot wetenschappelijke bronnen, ervaringsdeskundigen en artikels
 
 #### Benchmarking
-Daarnaast hebben we benchmarking toegepast om bestaande oplossingen voor dit probleem in kaart te brengen. We hebben een aantal producten onderzocht die ontworpen zijn om stress bij honden te verminderen.
+Daarnaast werd benchmarking toegepast om bestaande oplossingen voor dit probleem in kaart te brengen. Er zijn een aantal producten onderzocht die ontworpen zijn om stress bij honden te verminderen.
 
 #### Problem-solution matrix
-We maken gebruik van een problem-solution matrix om te brainstormen tot een nieuw concept. 
+Er wordt gebruik gemaakt van een problem-solution matrix om te brainstormen tot een nieuw concept. 
 
 ### Resultaten
 #### Enquête
 ![image](https://github.com/user-attachments/assets/9fca5ecf-fc36-4433-96a0-d8953199ffab)
 
-Uit de enquête hebben we geleerd dat 83% van de respondenten een vorm van ongemakkelijkheid voelt wanneer hun hond alleen thuis is. Ruim 30% heeft hier zelfs vaak last van.
+De enquête toonde aan dat 83% van de respondenten een vorm van ongemakkelijkheid voelt wanneer hun hond alleen thuis is. Ruim 30% heeft hier zelfs vaak last van.
 Een deel van de respondenten heeft ook meer dan één hond, wat de kans verkleint dat ze moeite hebben met deze situatie.
 
 De respondenten konden hier een oorzaak voor geven. Zie hier enkele opgelijst:
@@ -114,25 +115,25 @@ We zijn gaan kijken naar producten die een camera en/of dispenser hebben, intera
 
 ### Conclusies & implicaties
 #### Enquête
-Uit de enquête hebben we kunnen besluiten dat de problematiek zeer reëel is 
+Uit de enquête hebben kan besloten worden dat de problematiek zeer reëel is 
 en dat een groot deel van de baasjes zich erin herkent.
 
-=> We willen dat ons product verlatingsangst, destructief gedrag en langdurig in de bench zitten voorkomt.
-=> Daarnaast willen we er ook voor zorgen dat de hond meer plezier heeft door de dag.
+=> Het product moet verlatingsangst, destructief gedrag en langdurig in de bench zitten voorkomen.
+=> Daarnaast moet het er ook voor zorgen dat de hond meer plezier heeft door de dag.
 
 #### Desk Research
-Allereerst kunnen we besluiten dat de halsband de hartslag en beweging zal meten. Door inspanning gaat de hartslag omhoog, wat een vertekend beeld van stress kan geven. Door ook de beweging te meten, kan dit uitgesloten worden.
+Allereerst kan worden besloten dat de halsband de hartslag en beweging zal meten. Door inspanning gaat de hartslag omhoog, wat een vertekend beeld van stress kan geven. Door ook de beweging te meten, kan dit uitgesloten worden.
 Daarnaast kan blaffen ook op stress wijzen. Dit zal ook worden gemeten. 
 
-Fysieke en mentale stimulatie is een belangrijke factor wanneer we stress willen verminderen bij honden. Interactieve speeltjes zijn een goede manier om dit te bekomen.
+Fysieke en mentale stimulatie is een belangrijke factor wanneer stress verminderd moet worden bij honden. Interactieve speeltjes zijn een goede manier om dit te bekomen.
 
-Het DAP-feromoon is een goede manier om een rustigere omgeving te creëren. Dit is zeker iets dat we willen toevoegen aan het product. 
+Het DAP-feromoon is een goede manier om een rustigere omgeving te creëren. Dit is zeker een aspect dat goed is om toe te voegen aan het product. 
 
-Het gebruik van laserspelletjes is een functie die we niet opnemen om de veiligheid van het product te waarborgen en ongewenste effecten te vermijden.
+Het gebruik van laserspelletjes is een functie die niet wordt opgenomen om de veiligheid van het product te waarborgen en ongewenste effecten te vermijden.
 
 
 #### Benchmarking
-We maken een oplijsting van alle aspecten die we willen meenemen in de verdere ontwikkeling van het product. Dit zijn dingen die we positief vonden aan bepaalde producten of negatieve dingen die we vonden, die wij net beter willen doen.
+Er wordt een oplijsting gemaakt van alle aspecten die worden meegenomen in de verdere ontwikkeling van het product. Dit zijn dingen die positief waren aan bepaalde producten of negatieve dingen, die net beter moeten.
 - 360° camera
 - Auto-tracking
 - Night vision
@@ -154,14 +155,14 @@ We maken een oplijsting van alle aspecten die we willen meenemen in de verdere o
 
 ### Materiaal & methoden
 #### Wave 1: Concept testing in een gecontroleerde omgeving
-We starten vanuit een storyboard. 
+Er wordt gestart vanuit een storyboard. 
 ![Storyboard 1](https://github.com/user-attachments/assets/8b4af1e6-e5db-412a-9604-64dd7dd02e06)
-Hieruit leiden we de belangrijkste onderzoeksvragen af die we in de eerste wave willen beantwoorden.
+Hieruit worden de belangrijkste onderzoeksvragen afgeleid die in de eerste wave worden beantwoord.
 - Welke functies moeten met de interface kunnen worden bediend?
 - Welke wearable zal de hond krijgen?
 - Wat zal de werking zijn van de dispenser?
 	
-Om deze te onderzoeken creëren we prototypes voor de dispenser uit voornamelijk karton, maar ook met geprinte componenten, nagels en een lamp. Ook creëren we 2 interfaces, één met Figma en één met Protopie. 
+Om deze te onderzoeken worden prototypes gecreëerd voor de dispenser uit voornamelijk karton, maar ook met geprinte componenten, nagels en een lamp. Ook worden 2 interfaces gecreëerd, één met Figma en één met Protopie. 
 ![image](https://github.com/user-attachments/assets/3715c4c3-e484-4840-ba2d-09da68a7b09c)
 ![image](https://github.com/user-attachments/assets/d7be8d36-070e-453d-8158-0e0e85a35249)
 
@@ -170,17 +171,17 @@ Dit alles wordt getest (n=5) met de aangeleerde techniek ‘concept testing in e
 Hieruit worden de onderzoeksvragen beantwoord en wordt een PvE opgesteld.
 
 #### Wave 2: ESM-Testing 
-We creëren opnieuw een storyboard. 
+Er wordt vertrokken vanuit een nieuw storyboard. 
 ![storyboard 2](https://github.com/user-attachments/assets/99aee5f2-d8cb-4ad0-a6a0-8732e199d0a5)
 
-Hieruit halen we opnieuw een reeks onderzoeksvragen:
+Hieruit konden opnieuw een reeks onderzoeksvragen gevonden worden:
 - Welk effect hebben de meldingen op de gebruiker?
 - Wat voor meldingen zullen er verstuurd worden?
 - Hoe moeten deze geformuleerd zijn?
 - Hoe zal de gebruiker voorkeuren kunnen aangeven op de interface?
 - Moet de gebruiker kunnen instellen wanneer hij van huis gaat?
 
-Om dit te testen, integreren we enkele elementen uit de Figma interface in de Protopie interface en gaan we voorlopig met deze verder. Hierin wordt een instellingenmenu ontworpen waarin de gebruiker zijn voorkeuren kan geven welke meldingen hij wilt en of er automatisch beloningen gegeven mogen worden. 
+Om dit te testen, worden enkele elementen uit de Figma interface in de Protopie interface geïntegreerd en wordt voorlopig met deze verder gewerkt. Hierin wordt een instellingenmenu ontworpen waarin de gebruiker zijn voorkeuren kan geven welke meldingen hij wilt en of er automatisch beloningen gegeven mogen worden. 
 
 ![image](https://github.com/user-attachments/assets/e92e5613-8d80-4f0e-bbe1-51e59e27cb32)
 
@@ -259,9 +260,9 @@ De inzichten werden opgenomen in het eerste PRD, zie bijlage.
 
 
 ## Kritische reflectie
-Hoewel het een spannend gegeven was, zijn we zeer tevreden van de gemaakte pivot. De angst om een hond alleen te laten is een probleem waar veel mensen zich in kunnen vinden en met een grote impact op het leven. Het nieuwe concept kwam met vele nieuwe discussies en uitdagingen. Er moest namelijk een hele nieuwe probleemruimte onderzocht worden. 
+Hoewel het een spannend gegeven was, was het een goede keuze om de pivot te maken. De angst om een hond alleen te laten is een probleem waar veel mensen zich in kunnen vinden en met een grote impact op het leven. Het nieuwe concept kwam met vele nieuwe discussies en uitdagingen. Er moest namelijk een hele nieuwe probleemruimte onderzocht worden. 
 
-Via benchmarking, desk research en een enquête ontdekten we wat er al op de markt is en vooral wat nog niet. We zagen dat veel van de technologieën die we graag zouden opnemen in ons concept al bestonden. De combinatie ervan echter nog niet. Dit maakte de benchmarking cruciaal.
+Via benchmarking, desk research en een enquête werd onderzocht wat er al op de markt is en vooral wat nog niet. We zagen dat veel van de technologieën die we graag zouden opnemen in ons concept al bestonden. De combinatie ervan echter nog niet. Dit maakte de benchmarking cruciaal.
 
 De enquête had vooral het doel om te onderzoeken of er vraag naar het concept zou zijn en om de noden van de potentiële gebruikers te identificeren. Daarnaast vroegen we op het einde of we hen mochten contacteren voor verdere testen. Hoewel we samen genoeg hondenbaasjes kenden via familie of vrienden kozen we ervoor om het op deze manier te doen om uit onze comfortzone te gaan en te werken met mensen die we niet kennen.
 
@@ -271,7 +272,7 @@ Bij de tweede test (vanop afstand) konden we de locatiefactor ook achterwege lat
 
 Dit was de grootste uitdagen voor ons: de combinatie van het managen van een design proces en het rekruteren van respondenten. Natuurlijk wel een zeer leerrijk gegeven. 
 
-Met ons uiteindelijke concept zijn we zeer tevreden. We merkten dat de combinatie van interface, wearable, dispenser en speeltje ervoor zorgde dat de wearable zelf niet meer de hoofdzaak is van het concept, hoewel nog steeds erg belangrijk. De hoofdzaak ligt vooral bij de interface en hoe we hondenbaasjes hiermee gerust zullen stellen. Hoewel we nog de lay-out nog niet definitief is, weten we al wel duidelijk welke functies de interface moet bedienen. Ook hebben we de vormgeving van de dispenser al kunnen bepalen en hebben we een doel waarnaar we willen streven voor de wearable: een add-on die zowel op een harnas als halsband aangebracht kan worden.
+Het uiteindelijke concept voeldoet aan de eisen. We merkten dat de combinatie van interface, wearable, dispenser en speeltje ervoor zorgde dat de wearable zelf niet meer de hoofdzaak is van het concept, hoewel nog steeds erg belangrijk. De hoofdzaak ligt vooral bij de interface en hoe we hondenbaasjes hiermee gerust zullen stellen. Hoewel we nog de lay-out nog niet definitief is, weten we al wel duidelijk welke functies de interface moet bedienen. Ook hebben we de vormgeving van de dispenser al kunnen bepalen en hebben we een doel waarnaar we willen streven voor de wearable: een add-on die zowel op een harnas als halsband aangebracht kan worden.
 
 ## Bronnen
 Edwards, P. T., Smith, B. P., McArthur, M. L., & Hazel, S. J. (2022). At the heart of a dog’s veterinary experience: Heart rate responses in dogs vary across a standard physical examination. Journal Of Veterinary Behavior, 51, 23–34. https://doi.org/10.1016/j.jveb.2022.03.003
