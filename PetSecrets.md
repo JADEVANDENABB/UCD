@@ -236,18 +236,15 @@ Bijna al de respondenten rapporteerden terug dat ze het fijn vonden om de meldin
 
 Iets waar het merendeel van de respondenten zich zorgen over maakten is negatief aangeleerd gedrag. Dit is de reden dat bijna iedereen verkoos om zelf snoepjes te geven. Zo kunnen ze in het uiteindelijke product eerst met de camera kijken of hun hondje wel braaf is of of dat er echt iets aan de hand is om te vermijden dat ze een beloning geven als dit niet nodig is of als de hond iets stout aan het doen is.
 
-#### Design Requirements
-
-![Schermafbeelding 2025-01-08 232417](https://github.com/user-attachments/assets/eb467340-2761-4d50-9c50-8d620b68ad95)
-![image](https://github.com/user-attachments/assets/2c727524-a540-4b38-a8d7-cf2373ec2df2)
-![image](https://github.com/user-attachments/assets/955de8be-6053-4652-9e08-5ea3bd3ef5df)
-
 
 ### Conclusies & implicaties
 Het belangrijkste is dat de gebruikers meldingen krijgen op hun gsm wanneer hun hond gestrest is. Dit zal gemeten worden met een add-on die op een harnas of halsband aangebracht kan worden. De eerste reactie van de gebruiker is sowieso om op de camera te kijken hoe het met hun hond gesteld is. Daarna moeten ze de mogelijkheid hebben om een beloning te geven, een speeltje te doen bewegen of met hun hond te praten. 
 
 
 De meldingen die het baasje zal ontvangen moeten personaliseerbaar zijn en tactisch gebracht worden om geen negatieve gevoelens op te wekken bij het baasje. Ook moet het baasje de optie hebben om (deels) automatische beloningen of speeltjes in te schakelen indien ze geen tijd hebben om dit manueel te doen.
+
+
+De inzichten werden opgenomen in het eerste PRD, zie bijlage.
 
 
 ## Bill of materials
@@ -313,3 +310,6 @@ Documenten vorige doelgroep:
 - [Research Rapport 1](https://docs.google.com/document/d/1yilQ9UefsVjzdvXC7VtW43EICEz5C_KJ/edit?usp=drive_link&ouid=100698554298463412541&rtpof=true&sd=true)
 - [Research Protocol 2](https://docs.google.com/document/d/1mzSSf0l2kdn71YcoD3Gg5qnMDdDey4W6/edit?usp=drive_link&ouid=100698554298463412541&rtpof=true&sd=true)
 - [Research Rapport 2](https://docs.google.com/document/d/1i0SzPUXlemCXr5KHv018eJ6AVTDwXglVgw03eN1zgNI/edit?usp=drive_link)
+
+#### Design Requirements
+- [Product Design Requirements document](https://docs.google.com/document/d/1IC4OcWozN2yvY9vspUIQhzLAVct74eT16g4ceqlhoS8/edit?tab=t.0)
