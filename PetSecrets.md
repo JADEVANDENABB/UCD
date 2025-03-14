@@ -293,16 +293,66 @@ De interfaces en de dispenser worden getest met 4 respondenten. Twee nieuwe mens
 Er worden hen ook één voor één de interfaces getoond. Ze krijgen eerst de kans om deze zelf te exploreren, daarna worden er hen enkele opdrachten gegeven zodat ze zeker alle functies te zien krijgen. 
 
 
-Na elke interface vullen ze een BERT-testing formulier in, wat op het einde van de test verder met hen wordt besproken.
+Na elke interface vullen ze een BERT-testing formulier in, wat op het einde van de test verder met hen wordt besproken. Hiermee kunnen we duidelijk hun mening over de interfaces onderling vergelijken alsook hun mening t.o.v. hun ideale interface. Dit is ook een manier om hen grondiger te ondervragen en verder te laten nadenken over meerdere eigenschappen van de interfaces.
 
 
 
 
 ### Resultaten
+De dispenser heeft in deze fase grotendeels vorm gekregen en is getest bij de gebruikers.
 
+Wanneer de gebruikers initieel de dispenser in handen kregen, hadden ze soms moeite met deze te openen. Enkelen vonden het intuïtiever om de dispenser langs boven te openen wanneer gevraagd werd om snoepjes bij te vullen. Vervolgens kregen ze de binnenkant van de dispenser te zien. Deze was wellicht niet nauwkeurig genoeg gemaakt, waardoor vaak nog duiding moest worden gegeven over hoe het precies werkt. Wanneer deze dispenser in het volgende prototype opnieuw wordt gemaakt, zullen kwalitatieve materialen gebruikt worden, waardoor de werking duidelijker zal zijn. Ondanks dit alles konden ze het reservoir succesvol in- en uitladen. Er werd hen gevraagd om deze zelf op te vullen met snoepjes alsof ze gingen vertrekken naar hun werk. Ze hadden genoeg vakjes en nagenoeg alle snoepjes pasten erin. Er was nog een suggestie om het niet-bruikbare vak door middel van een constraint onbruikbaar te laten lijken, waardoor er minder verwarring is bij het inladen. Dit vak is onbruikbaar door de opening waar de snoepjes uitvallen. Ze reageerden ook positief op de globale werking van de dispenser.
+
+Vervolgens kregen ze de app-interfaces te zien waarmee ze moesten interageren. Velen vonden het fijner om meteen de camera te zien bij het openen van de app. Dit is een van de belangrijkste functies, dus dan is het inderdaad handig om dit meteen groot te tonen. Hetzelfde geldt voor de snoep-en speelgoedknoppen. Deze stonden in de tweede interface ook groot en centraal, wat ook in de smaak viel.
+Er was bij de tweede interface een activiteitenpagina, waarbij informatie over de dag te vinden is, zoals de hartslag, slaap, aantal gegeven snoepjes tot nu toe, etc.
+Dit vonden vele respondenten zeker een meerwaarde. Een ander positief aspect in de eerste interface was er een soort hartslagschaal wat duidelijk aantoont hoe de hond zich voelt op het moment. Deze varieert van slapend tot onrustig. 
+
+De resultaten van de BERT-testing formulieren zijn als volgt:
+![N=1 BERT](https://github.com/user-attachments/assets/91b6b1b5-5470-4aa7-98c8-02a81150cecb) ![N=2 BERT](https://github.com/user-attachments/assets/ad0cca02-4550-4d12-8c11-874cdefe5c5b)
+![N=3 BERT](https://github.com/user-attachments/assets/bf897453-a86a-4a55-9df6-2f270f54823a) ![N=4 BERT](https://github.com/user-attachments/assets/ed7032e1-ba6d-40a7-b669-a62fff7e494b)
+
+
+
+De meningen over de twee interfaces waren soms verdeeld in het formulier. Toch liggen de beoordelingen dicht bij de ideale verwachtingen van de gebruiker. 
+De tweede interface werd eerder als persoonlijk gezien omdat de camera meteen op het beginscherm stond. Deze interface sloot ook het meest aan bij de verwachting van rust door het gebruik van één centrale kleur.
+Beide interfaces scoren goed op gebied van efficiëntie,  één van de belangrijkste eigenschappen.
+Globaal viel de tweede interface meer in de smaak qua stijl. 
 
 
 ### Conclusies & implicaties
+Uit de gebruikerstesten zijn enkele designbeslissingen gemaakt wat betreft de dispenser en de interface.
+Er zijn aspecten die goed waren, die gebruikers zeker hebben bevestigd, maar ook enkele minpunten die worden verbeterd in de verdere studie van dit project.
+
+Elementen die behouden worden aan de dispenser in de toekomst:
+- Globale concept van het draaiende reservoir
+- Aantal vakjes voor snoepjes
+- De grootte van de vakjes 
+- De correcte werking van de Arduino
+
+Elementen die moeten worden aangepast aan de dispenser in de toekomst:
+- Constraint plaatsen bij het onbruikbare vakje in het draaimechanisme
+- Ergonomischere manier van uithalen van het reservoir
+- Intuïtiever aantonen hoe de dispenser wordt geopend
+- Vormelijk duidelijker aantonen hoe het reservoir in- en uitgeladen wordt
+- Het deksel beter bevestigen op het reservoir
+- Nieuwe, nauwkeurige, propere versie van de dispenser maken.
+
+Wat de interface betreft, vielen beide wel in de smaak. Iedere interface had zijn plus- en minpunten. 
+Beide waren duidelijk in gebruik. 
+
+Elementen die behouden moeten worden voor de verbeterde interface:
+- De activiteitpagina van de tweede interface
+- De thermometer schaal van de eerste interface
+- De camera op het beginscherm
+- De snoep- en speelgoedknoppen op het beginscherm
+- De globale simpliciteit en overzichtelijkheid
+
+Elementen die moeten verbeterd worden:
+- Beter nadenken over het verwoorden van alle tekst (bv. Ik vertrek/Ik ga vertrekken)
+- Duidelijker maken hoe je de microfoon en geluid aanzet
+- Groter vormelijk verschil maken wanneer je op de vertrekknop drukt
+- De slimme overgangen tussen de pagina’s
+- Een kleurencode koppelen aan de gevoelens van de hond
 
 
 ## Bill of materials
