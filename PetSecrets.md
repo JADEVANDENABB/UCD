@@ -266,9 +266,9 @@ Er wordt veel met Arduino geëxperimenteerd tijdens en buiten lessen. Er wordt t
 #### Prototyping
 Er worden twee verschillende interfaces uitgewerkt. Eén interface heeft een vrolijkere feel-good stijl, gelijkaardig aan - maar rustiger dan - de bekomen interface na de Definition fase. De andere interface heeft een meer moderne en luxueuze uitstraling, zoals eerder werd aangeraden. 
 
+![Schermafbeelding 2025-03-14 184750](https://github.com/user-attachments/assets/e59b8fd8-e04e-46a6-b74a-ab941049c913)
 
-Foto’s…
-
+![Schermafbeelding 2025-03-14 184908](https://github.com/user-attachments/assets/12aa5d2f-9e9a-4533-863b-2310593091d5)
 
 Ook wordt het mechanisme van de dispenser verder uitgewerkt. Dit bestaat uit een rad dat over een stappenmotor bevestigd wordt met een zeskantig verbindingselement. Het rad bevat 9 bruikbare ruimtes waarin gebruikers verschillende snoepjes van verschillende groottes kunnen insteken, alsook eventueel een klein worteltje of een ander gezond snackje (zoals aangehaald in wave 1 van de Definition fase). 
 
@@ -278,13 +278,7 @@ In de 2de wave kregen respondenten de kans om een maximaal aantal snoepjes in te
 
 Wanneer de gebruiker in de interface beslist een snoepje te geven, draait de stappenmotor over 36°. Wanneer er een snoepje onderaan terechtkomt, valt het uit de dispenser.
 
-![ArduinoDevelop1](https://github.com/user-attachments/assets/0c032266-ed7f-401b-8d79-b939f878d0b2)
-
-![DispenserDevelop1](https://github.com/user-attachments/assets/c1a62d89-c1c2-4be5-9729-bd126e4a3e7d)
-
-![DispenserDevelop1(2)](https://github.com/user-attachments/assets/2f7564cd-532e-4e69-987d-c9cf36badc41)
-
-![DispenserDevelop1(3)](https://github.com/user-attachments/assets/b6a6a23d-c107-4ef6-a2bd-33afa4be50da)
+![Schermafbeelding 2025-03-14 185256](https://github.com/user-attachments/assets/352c3064-2778-44a4-a547-69a5ee7d525d)
 
 
 De code om de dispenser te bedienen en de interacties van de interface worden met Arduino en Protopie gerealiseerd. 
@@ -299,7 +293,7 @@ De interfaces en de dispenser worden getest met 4 respondenten. Twee nieuwe mens
 Er worden hen ook één voor één de interfaces getoond. Ze krijgen eerst de kans om deze zelf te exploreren, daarna worden er hen enkele opdrachten gegeven zodat ze zeker alle functies te zien krijgen. 
 
 
-Na elke interface vullen ze een BERT-testing formulier in, wat op het einde van de test met hen wordt besproken.
+Na elke interface vullen ze een BERT-testing formulier in, wat op het einde van de test verder met hen wordt besproken.
 
 
 
@@ -374,6 +368,11 @@ Documenten vorige doelgroep:
 - [Research Rapport 1](https://docs.google.com/document/d/1yilQ9UefsVjzdvXC7VtW43EICEz5C_KJ/edit?usp=drive_link&ouid=100698554298463412541&rtpof=true&sd=true)
 - [Research Protocol 2](https://docs.google.com/document/d/1mzSSf0l2kdn71YcoD3Gg5qnMDdDey4W6/edit?usp=drive_link&ouid=100698554298463412541&rtpof=true&sd=true)
 - [Research Rapport 2](https://docs.google.com/document/d/1i0SzPUXlemCXr5KHv018eJ6AVTDwXglVgw03eN1zgNI/edit?usp=drive_link)
+
+#### Develop 1
+- [Protocol Develop 1](https://docs.google.com/document/d/1bwEKUesbhoMMZ5bdV68p_Ag0vcrsMxFo/edit)
+- [Rapport Develop 1](https://docs.google.com/document/d/1RSnKgyL_N9MLBn6FppJX8NyqoXoEJKtM/edit)
+
 
 #### Design Requirements
 - [Product Design Requirements document](https://docs.google.com/document/d/1IC4OcWozN2yvY9vspUIQhzLAVct74eT16g4ceqlhoS8/edit?tab=t.0)
