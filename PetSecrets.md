@@ -247,6 +247,69 @@ De meldingen die het baasje zal ontvangen moeten personaliseerbaar zijn en tacti
 
 De inzichten werden opgenomen in het eerste PRD, zie bijlage.
 
+## Definition
+
+### Doestellingen
+- Inzicht krijgen in methoden om de hartslag van een hond te meten
+- De stijl en lay-out van de interface bepalen
+- Het mechanisme van de dispenser uitwerken met aandacht voor ergonomie bij het bijvullen van de snoepjes
+- De bediening van de dispenser via de interface realiseren
+
+### Materiaal & methoden
+#### Vooronderzoek
+De manieren om de hartslag te meten bij honden worden onderzocht. De nadruk ligt hier vooral op methoden met Arduino om dit tijdens het project met de al vergaarde kennis te kunnen realiseren.
+
+
+Er wordt veel met Arduino geëxperimenteerd tijdens en buiten lessen. Er wordt telkens getracht deze kennis toe te passen op het project.
+
+
+#### Prototyping
+Er worden twee verschillende interfaces uitgewerkt. Eén interface heeft een vrolijkere feel-good stijl, gelijkaardig aan - maar rustiger dan - de bekomen interface na de Definition fase. De andere interface heeft een meer moderne en luxueuze uitstraling, zoals eerder werd aangeraden. 
+
+
+Foto’s…
+
+
+Ook wordt het mechanisme van de dispenser verder uitgewerkt. Dit bestaat uit een rad dat over een stappenmotor bevestigd wordt met een zeskantig verbindingselement. Het rad bevat 9 bruikbare ruimtes waarin gebruikers verschillende snoepjes van verschillende groottes kunnen insteken, alsook eventueel een klein worteltje of een ander gezond snackje (zoals aangehaald in wave 1 van de Definition fase). 
+
+
+In de 2de wave kregen respondenten de kans om een maximaal aantal snoepjes in te geven indien ze voor automatische bediening kozen. Maxima varieerden, maar gingen niet boven de 10, vandaar de keuze voor het aantal vakjes. 
+
+
+Wanneer de gebruiker in de interface beslist een snoepje te geven, draait de stappenmotor over 36°. Wanneer er een snoepje onderaan terechtkomt, valt het uit de dispenser.
+
+![ArduinoDevelop1](https://github.com/user-attachments/assets/0c032266-ed7f-401b-8d79-b939f878d0b2)
+
+![DispenserDevelop1](https://github.com/user-attachments/assets/c1a62d89-c1c2-4be5-9729-bd126e4a3e7d)
+
+![DispenserDevelop1(2)](https://github.com/user-attachments/assets/2f7564cd-532e-4e69-987d-c9cf36badc41)
+
+![DispenserDevelop1(3)](https://github.com/user-attachments/assets/b6a6a23d-c107-4ef6-a2bd-33afa4be50da)
+
+
+De code om de dispenser te bedienen en de interacties van de interface worden met Arduino en Protopie gerealiseerd. 
+
+
+#### Usability Testing + BERT Testing (n=4)
+
+
+De interfaces en de dispenser worden getest met 4 respondenten. Twee nieuwe mensen, en twee respondenten die al eerder deelnamen. De respondenten krijgen de dispenser te zien. Er wordt hen gevraagd om deze in te laden met snoepjes en later om het deel waar de snoepjes in zitten te verwijderen om het te wassen.
+
+
+Er worden hen ook één voor één de interfaces getoond. Ze krijgen eerst de kans om deze zelf te exploreren, daarna worden er hen enkele opdrachten gegeven zodat ze zeker alle functies te zien krijgen. 
+
+
+Na elke interface vullen ze een BERT-testing formulier in, wat op het einde van de test met hen wordt besproken.
+
+
+
+
+### Resultaten
+
+
+
+### Conclusies & implicaties
+
 
 ## Bill of materials
 - Figma
