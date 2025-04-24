@@ -247,7 +247,7 @@ De meldingen die het baasje zal ontvangen moeten personaliseerbaar zijn en tacti
 
 De inzichten werden opgenomen in het eerste PRD, zie bijlage.
 
-## Definition
+## Develop 1
 
 ### Doestellingen
 - Inzicht krijgen in methoden om de hartslag van een hond te meten
@@ -354,6 +354,56 @@ Elementen die moeten verbeterd worden:
 - De slimme overgangen tussen de pagina’s
 - Een kleurencode koppelen aan de gevoelens van de hond
 
+## Develop 1
+
+### Doestellingen
+- Welke dispenser sluit vormelijk aan bij de verwachtingen van de gebruiker?
+- Welke materialen en finishes zijn ideaal?
+- Welke manieren van in- en uitladen zijn het meest intuïtief en gebruiksvriendelijk?
+- Welke naam en logo sluit het best aan bij het product?
+- Met welke combinatie van hardware en software kunnen we het geheel prototypen?
+
+
+### Materiaal & methoden
+
+#### Usability testing (n=4)
+
+Er worden twee nieuwe namen bedacht met elk een uniek logo met een zeer verschillende stijl. Deze worden aan de respondenten voorgelegd. Er wordt hun mening en voorkeur gevraagd op zowel naam, stijl, lay-out en kleur. 
+
+![Schermafbeelding 2025-04-24 151337](https://github.com/user-attachments/assets/e02b6cea-573c-492c-9832-a492151c4112)
+
+
+Er worden verschillende dispensers ontworpen, beginnende vanuit moodboards of eerdere ideeën. Hiervan worden renders en CAD-modellen gemaakt. Aangezien de dispenser bij mensen in de woonkamer moet komen, kan een slechte vormgeving een dealbreaker zijn.$
+
+De eerste dispenser is simpel, met houten accenten.
+
+
+De tweede dispenser heeft een meer rechthoekige vormgeving. Deze werd zowel in het wit als zwart ontworpen.
+
+![Schermafbeelding 2025-04-24 151356](https://github.com/user-attachments/assets/b998f611-19a9-4ac3-ba0e-3c1be3c7b63c)
+
+De derde dispenser heeft een meer gedurfdere vormgeving.
+
+![Schermafbeelding 2025-04-24 151413](https://github.com/user-attachments/assets/a7630604-9f81-4777-9d16-741096e92605)
+
+Hiernaast worden er twee mechanismen uitgewerkt om de doos met de snoepjes in- en uit de dispenser te laden. Deze worden gemodelleerd, maar ook fysiek gerealiseerd zodat de respondenten ze effectief kunnen gebruiken. 
+
+Het eerste systeem rust op het bekende principe van de keukenkastjes. Het bakje met de snoepjes zit volledig in de dispenser. Wanneer het bakje ingedrukt wordt komt her er gedeeltelijk uit, zodat de gebruiker het gemakkelijk weg kan nemen. Wanneer het terug gevuld is, steekt de gebruiker het bakje terug en drukt hij het een beetje in. Het blijft dan mooi zitten.
+
+![Schermafbeelding 2025-04-24 150725](https://github.com/user-attachments/assets/067a2b8f-8fb1-4b0b-b453-b5bdd88851a4)
+
+Het tweede systeem werkt met een simpel handvat om het bakje weg te nemen. Pas wanneer het bakje uit de dispenser is, kan het deksel losgedraaid worden. Bij dit systeem werd er getracht het rad dat in het bakje zit meteen juist te centreren. Dit wordt gedaan met behulp van een grote gleuf onderaan het bakje die de vorm heeft van het rad. Het rad kan hierdoor mooi gepositioneerd worden, maar nog niet draaien. Onder deze gleuven zijn er nog kleine gleufjes aanwezig. In de dispenser - waar het bakje moet komen - zijn er kleine uitstulpingen die perfect in deze kleine gleufjes passen. Wanneer het gevulde bakje met rad en deksel terug in de dispenser wordt geplaatst, wordt het rad een beetje omhoog geduwd zodat het vrij is om te draaien.
+
+![Schermafbeelding 2025-04-24 150606](https://github.com/user-attachments/assets/a8fdfac9-d3f8-4069-a3a6-c2951ea4f5e2)
+
+
+#### Exploratie prototyping strategiën
+
+Er wordt nagedacht over welke mogelijkheden de software en hardware moeten hebben. Er wordt gekeken naar Arduino, Protopie, Figma, Raspberry Pi etc. Wanneer de beste keuze voor dit project bepaald is, wordt met deze keuze(s) geëxperimenteerd om vooraf de mogelijkheden en limieten al goed te kennen.
+
+### Resultaten
+
+### Conclusies & implicaties
 
 ## Bill of materials
 - Figma
@@ -379,7 +429,7 @@ Bij de tweede test (vanop afstand) konden we de locatiefactor ook achterwege lat
 
 Dit was de grootste uitdagen voor ons: de combinatie van het managen van een design proces en het rekruteren van respondenten. Natuurlijk wel een zeer leerrijk gegeven. 
 
-Het uiteindelijke concept voeldoet aan de eisen. We merkten dat de combinatie van interface, wearable, dispenser en speeltje ervoor zorgde dat de wearable zelf niet meer de hoofdzaak is van het concept, hoewel nog steeds erg belangrijk. De hoofdzaak ligt vooral bij de interface en hoe we hondenbaasjes hiermee gerust zullen stellen. Hoewel we nog de lay-out nog niet definitief is, weten we al wel duidelijk welke functies de interface moet bedienen. Ook hebben we de vormgeving van de dispenser al kunnen bepalen en hebben we een doel waarnaar we willen streven voor de wearable: een add-on die zowel op een harnas als halsband aangebracht kan worden.
+Het uiteindelijke concept voeldoet aan de eisen. We merkten dat de combinatie van interface, wearable, dispenser en speeltje ervoor zorgde dat de wearable zelf niet meer de hoofdzaak is van het concept, hoewel nog steeds erg belangrijk. De hoofdzaak ligt vooral bij de interface en hoe we hondenbaasjes hiermee gerust zullen stellen. Hoewel de lay-out nog niet definitief is, weten we al wel duidelijk welke functies de interface moet bedienen. Ook hebben we de vormgeving van de dispenser al kunnen bepalen en hebben we een doel waarnaar we willen streven voor de wearable: een add-on die zowel op een harnas als halsband aangebracht kan worden.
 
 ## Bronnen
 Edwards, P. T., Smith, B. P., McArthur, M. L., & Hazel, S. J. (2022). At the heart of a dog’s veterinary experience: Heart rate responses in dogs vary across a standard physical examination. Journal Of Veterinary Behavior, 51, 23–34. https://doi.org/10.1016/j.jveb.2022.03.003
