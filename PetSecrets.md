@@ -373,7 +373,7 @@ Er worden twee nieuwe namen bedacht met elk een uniek logo met een zeer verschil
 ![Schermafbeelding 2025-04-24 151337](https://github.com/user-attachments/assets/e02b6cea-573c-492c-9832-a492151c4112)
 
 
-Er worden verschillende dispensers ontworpen, beginnende vanuit moodboards of eerdere ideeën. Hiervan worden renders en CAD-modellen gemaakt. Aangezien de dispenser bij mensen in de woonkamer moet komen, kan een slechte vormgeving een dealbreaker zijn.$
+Er worden verschillende dispensers ontworpen, beginnende vanuit moodboards of eerdere ideeën. Hiervan worden renders en CAD-modellen gemaakt. Aangezien de dispenser bij mensen in de woonkamer moet komen, kan een slechte vormgeving een dealbreaker zijn.
 
 De eerste dispenser is simpel, met houten accenten.
 
@@ -397,11 +397,29 @@ Het tweede systeem werkt met een simpel handvat om het bakje weg te nemen. Pas w
 ![Schermafbeelding 2025-04-24 150606](https://github.com/user-attachments/assets/a8fdfac9-d3f8-4069-a3a6-c2951ea4f5e2)
 
 
-#### Exploratie prototyping strategiën
+#### Exploratie prototyping strategieën
 
 Er wordt nagedacht over welke mogelijkheden de software en hardware moeten hebben. Er wordt gekeken naar Arduino, Protopie, Figma, Raspberry Pi etc. Wanneer de beste keuze voor dit project bepaald is, wordt met deze keuze(s) geëxperimenteerd om vooraf de mogelijkheden en limieten al goed te kennen.
 
 ### Resultaten
+
+#### Usability Testing (n=4)
+
+De meeste respondenten verkozen het Petch logo, hoewel de kleuren van het Doggy Secrets logo ook velen aanstonden. Eén van de respondenten zei dat ze de klassiekere stijl van het Petch logo apprecieert - het geheel mag wel elegant zijn, maar dat ze wel graag wat meer kleur zou hebben. 
+
+De meningen over het uiterlijk van de dispenser waren verdeeld. Enkelen waren voorstander van het simpelere ontwerp, namelijk de rechthoekige dispenser. Anderen kozen voor de meer stilistisch gedurfde dispenser met de ribben. Dit omdat het meer op een lamp lijkt en daarom mooi in de woonkamer past. Het hout viel minder in de smaak. Enkele respondenten vreesden dat dit zou vloeken met eventuele andere soorten hout in de woonkamer.  
+
+Voor het uit- en inladen verkoos iedere respondent het druksysteem. Voor sommigen omdat dit het gemakkelijkst was, voor anderen omdat het simpelweg 'leuker' is. Niemand van de respondenten zegt de groeven om het rad juist te positioneren in het andere systeem noodzakelijk te vinden. 
+
+De consensus is dat de dispenser op batterijen moet werken. Dit zodat men de dispenser kan ophangen waar men wilt en niet gebonden is aan een stopcontact. Ook wordt er voorkomen dat de hond op de draad zou bijten of eraan zou trekken.
+
+#### Exploratie prototyping strategieën
+
+Er wordt gekozen voor een combinatie tussen Raspberry Pi en Arduino voor de volgende wave. Er wordt afgestapt van ProtoPie omwille van de limiet van 3 minuten. Ook moeten er live camerabeelden in de app worden opgenomen. Hiervoor is Raspberry Pi een betere keuze. De Raspberry Pi zal in de dispenser zitten. Hierop wordt de app gemaakt. Dit met een webserver op de Raspberry Pi, die ingericht is als een app. Hiervoor wordt er gebruikgemaakt van Flask en Jinja2 voor html templates. Alsook CSS bestanden om de lay-out te perfectioneren. 
+
+Deze 'app' zal dan de hardware aansturen. De app krijgt de hartslag en de beweging door van de hartslagmeter. Omdat de gewone (Arduino) hartslagcomponenten niet werken op honden vanwege hun haren, wordt deze hartslag via 'Wizard Of Oz'-testing of een algoritme nagebootst. 
+
+De Raspberry Pi bediend rechtsreeks de dispenser. Het speelgoedje zal werken via een Arduino die een signaal doorkrijgt van de Pi wanneer de gebruiker op deze bepaalde knop drukt. 
 
 ### Conclusies & implicaties
 
@@ -473,6 +491,8 @@ Documenten vorige doelgroep:
 - [Protocol Develop 1](https://docs.google.com/document/d/1bwEKUesbhoMMZ5bdV68p_Ag0vcrsMxFo/edit)
 - [Rapport Develop 1](https://docs.google.com/document/d/1RSnKgyL_N9MLBn6FppJX8NyqoXoEJKtM/edit)
 
-
+#### Develop 2
+- [Protocol Develop 2](https://docs.google.com/document/d/1RSnKgyL_N9MLBn6FppJX8NyqoXoEJKtM/edit)
+- [Rapport Develop 2](https://docs.google.com/document/d/1nyFvRlF0dW1UbK6vEDtkl61VtpNfXT7T/edit)
 #### Design Requirements
 - [Product Design Requirements document](https://docs.google.com/document/d/1IC4OcWozN2yvY9vspUIQhzLAVct74eT16g4ceqlhoS8/edit?tab=t.0)
