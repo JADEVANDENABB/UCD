@@ -492,7 +492,7 @@ Documenten vorige doelgroep:
 - [Rapport Develop 1](https://docs.google.com/document/d/1RSnKgyL_N9MLBn6FppJX8NyqoXoEJKtM/edit)
 
 #### Develop 2
-- [Protocol Develop 2](https://docs.google.com/document/d/1RSnKgyL_N9MLBn6FppJX8NyqoXoEJKtM/edit)
+- [Protocol Develop 2](https://docs.google.com/document/d/1zO6E0KBcmWP6ro3-CIrUER94Cl7l1OQ-/edit)
 - [Rapport Develop 2](https://docs.google.com/document/d/1nyFvRlF0dW1UbK6vEDtkl61VtpNfXT7T/edit)
 #### Design Requirements
 - [Product Design Requirements document](https://docs.google.com/document/d/1IC4OcWozN2yvY9vspUIQhzLAVct74eT16g4ceqlhoS8/edit?tab=t.0)
