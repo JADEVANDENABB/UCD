@@ -247,6 +247,21 @@ De meldingen die het baasje zal ontvangen moeten personaliseerbaar zijn en tacti
 
 De inzichten werden opgenomen in het eerste PRD, zie bijlage.
 
+## Kritische reflectie
+Hoewel het een spannend gegeven was, was het een goede keuze om de pivot te maken. De angst om een hond alleen te laten is een probleem waar veel mensen zich in kunnen vinden en met een grote impact op het leven. Het nieuwe concept kwam met vele nieuwe discussies en uitdagingen. Er moest namelijk een hele nieuwe probleemruimte onderzocht worden. 
+
+Via benchmarking, desk research en een enquête werd onderzocht wat er al op de markt is en vooral wat nog niet. We zagen dat veel van de technologieën die we graag zouden opnemen in ons concept al bestonden. De combinatie ervan echter nog niet. Dit maakte de benchmarking cruciaal.
+
+De enquête had vooral het doel om te onderzoeken of er vraag naar het concept zou zijn en om de noden van de potentiële gebruikers te identificeren. Daarnaast vroegen we op het einde of we hen mochten contacteren voor verdere testen. Hoewel we samen genoeg hondenbaasjes kenden via familie of vrienden kozen we ervoor om het op deze manier te doen om uit onze comfortzone te gaan en te werken met mensen die we niet kennen.
+
+In de definition fase gingen we met deze mensen aan de slag. Hoewel 40% van de respondenten zei dat we hen mochten contacteren was het toch extreem moeilijk om effectieve afspraken te maken. Eerst moesten de mensen gefilterd worden: mensen die geen problemen ervaren met hun hond alleen thuis laten of die heel erg ver wonen waren natuurlijk niet interessant. Uiteindelijk zijn er een 20-tal mensen gecontacteerd, waarvan slechts 2 wilden deelnemen. 
+
+Bij de tweede test (vanop afstand) konden we de locatiefactor ook achterwege laten en een grotere groep mensen contacteren. Toch hebben uiteindelijk slechts 3 mensen deelgenomen.
+
+Dit was de grootste uitdagen voor ons: de combinatie van het managen van een design proces en het rekruteren van respondenten. Natuurlijk wel een zeer leerrijk gegeven. 
+
+Het uiteindelijke concept voeldoet aan de eisen. We merkten dat de combinatie van interface, wearable, dispenser en speeltje ervoor zorgde dat de wearable zelf niet meer de hoofdzaak is van het concept, hoewel nog steeds erg belangrijk. De hoofdzaak ligt vooral bij de interface en hoe we hondenbaasjes hiermee gerust zullen stellen. Hoewel de lay-out nog niet definitief is, weten we al wel duidelijk welke functies de interface moet bedienen. Ook hebben we de vormgeving van de dispenser al kunnen bepalen en hebben we een doel waarnaar we willen streven voor de wearable: een add-on die zowel op een harnas als halsband aangebracht kan worden.
+
 ## Develop 1
 
 ### Doestellingen
@@ -354,7 +369,7 @@ Elementen die moeten verbeterd worden:
 - De slimme overgangen tussen de pagina’s
 - Een kleurencode koppelen aan de gevoelens van de hond
 
-## Develop 1
+## Develop 2
 
 ### Doestellingen
 - Welke dispenser sluit vormelijk aan bij de verwachtingen van de gebruiker?
@@ -368,34 +383,54 @@ Elementen die moeten verbeterd worden:
 
 #### Usability testing (n=4)
 
-Er worden twee nieuwe namen bedacht met elk een uniek logo met een zeer verschillende stijl. Deze worden aan de respondenten voorgelegd. Er wordt hun mening en voorkeur gevraagd op zowel naam, stijl, lay-out en kleur. 
+Bij de gebruikerstesten zullen we focussen op 3 grote onderdelen om onze onderzoeksvragen te beantwoorden:
 
-![Schermafbeelding 2025-04-24 151337](https://github.com/user-attachments/assets/e02b6cea-573c-492c-9832-a492151c4112)
-
-
-Er worden verschillende dispensers ontworpen, beginnende vanuit moodboards of eerdere ideeën. Hiervan worden renders en CAD-modellen gemaakt. Aangezien de dispenser bij mensen in de woonkamer moet komen, kan een slechte vormgeving een dealbreaker zijn.
-
-De eerste dispenser is simpel, met houten accenten.
-
-
-De tweede dispenser heeft een meer rechthoekige vormgeving. Deze werd zowel in het wit als zwart ontworpen.
-
-![Schermafbeelding 2025-04-24 151356](https://github.com/user-attachments/assets/b998f611-19a9-4ac3-ba0e-3c1be3c7b63c)
-
-De derde dispenser heeft een meer gedurfdere vormgeving.
-
-![Schermafbeelding 2025-04-24 151413](https://github.com/user-attachments/assets/a7630604-9f81-4777-9d16-741096e92605)
+*Mechanisme*
 
 Hiernaast worden er twee mechanismen uitgewerkt om de doos met de snoepjes in- en uit de dispenser te laden. Deze worden gemodelleerd, maar ook fysiek gerealiseerd zodat de respondenten ze effectief kunnen gebruiken. 
 
-Het eerste systeem rust op het bekende principe van de keukenkastjes. Het bakje met de snoepjes zit volledig in de dispenser. Wanneer het bakje ingedrukt wordt komt her er gedeeltelijk uit, zodat de gebruiker het gemakkelijk weg kan nemen. Wanneer het terug gevuld is, steekt de gebruiker het bakje terug en drukt hij het een beetje in. Het blijft dan mooi zitten.
+Het **eerste systeem** rust op het bekende principe van de keukenkastjes. Het bakje met de snoepjes zit volledig in de dispenser. Wanneer het bakje ingedrukt wordt komt her er gedeeltelijk uit, zodat de gebruiker het gemakkelijk kan verwijderen. Dit kan door het met twee handen te nemen of door het met één hand via de gleuf vast te nemen. Wanneer het terug gevuld is, steekt de gebruiker het bakje terug en drukt hij het een beetje in. Het blijft dan mooi zitten.
 
 ![Schermafbeelding 2025-04-24 150725](https://github.com/user-attachments/assets/067a2b8f-8fb1-4b0b-b453-b5bdd88851a4)
 
-Het tweede systeem werkt met een simpel handvat om het bakje weg te nemen. Pas wanneer het bakje uit de dispenser is, kan het deksel losgedraaid worden. Bij dit systeem werd er getracht het rad dat in het bakje zit meteen juist te centreren. Dit wordt gedaan met behulp van een grote gleuf onderaan het bakje die de vorm heeft van het rad. Het rad kan hierdoor mooi gepositioneerd worden, maar nog niet draaien. Onder deze gleuven zijn er nog kleine gleufjes aanwezig. In de dispenser - waar het bakje moet komen - zijn er kleine uitstulpingen die perfect in deze kleine gleufjes passen. Wanneer het gevulde bakje met rad en deksel terug in de dispenser wordt geplaatst, wordt het rad een beetje omhoog geduwd zodat het vrij is om te draaien.
+Het **tweede systeem** werkt met een simpel handvat om het bakje weg te nemen. Pas wanneer het bakje uit de dispenser is, kan het deksel losgedraaid worden. Bij dit systeem werd er getracht het rad dat in het bakje zit meteen juist te centreren. Dit wordt gedaan met behulp van een grote gleuven in de bodem van het bakje die de vorm hebben van het rad. Het rad kan hierdoor mooi gepositioneerd worden, maar nog niet draaien. Onder deze gleuven zijn er nog kleine gleufjes aanwezig. In de dispenser - waar het bakje moet komen - zijn er kleine uitstulpingen die perfect in deze kleine gleufjes passen. Wanneer het gevulde bakje met rad en deksel terug in de dispenser wordt geplaatst, wordt het rad een beetje omhoog geduwd zodat het vrij is om te draaien.
 
 ![Schermafbeelding 2025-04-24 150606](https://github.com/user-attachments/assets/a8fdfac9-d3f8-4069-a3a6-c2951ea4f5e2)
 
+*Design*
+
+Er worden verschillende dispensers ontworpen, beginnende vanuit moodboards of eerdere ideeën. Hiervan worden renders en CAD-modellen gemaakt. Aangezien de dispenser bij mensen in de woonkamer moet komen, kan een slechte vormgeving een dealbreaker zijn.
+
+De **eerste** dispenser is simpel, met houten accenten.
+
+![image](https://github.com/user-attachments/assets/148aad7a-86c3-4c5a-a31c-a3509f3f1953)
+
+De **tweede** is eerder rechthoekig. Hier werd inspiratie gehaald bij **Daikin airconditioners**.
+Dit zijn ook zeer praktische producten die moeten opgaan in de stijl van het huis.
+Dit is te zien in het bijhorend moodboard:
+
+![Schermafbeelding 2025-04-24 151356](https://github.com/user-attachments/assets/b998f611-19a9-4ac3-ba0e-3c1be3c7b63c)
+
+
+![image](https://github.com/user-attachments/assets/be2a21e1-aa92-4423-ade0-e32583a537ce)
+
+De **derde** is stilistisch meer gedurfd. Hier is er gespeeld geweest met matte texturen. Ook hier hoort een moodboard bij:
+
+![Schermafbeelding 2025-04-24 151413](https://github.com/user-attachments/assets/a7630604-9f81-4777-9d16-741096e92605)
+
+
+![image](https://github.com/user-attachments/assets/a486ba17-68de-410c-ba94-20c7e1492c64)
+
+*Logo en naam*
+
+Er worden twee nieuwe namen bedacht met elk een uniek logo met een zeer verschillende stijl. Deze worden aan de respondenten voorgelegd. Er wordt hun mening en voorkeur gevraagd op zowel naam, stijl, lay-out en kleur. 
+
+![image](https://github.com/user-attachments/assets/42b31f51-3a79-49ce-a984-ffb039e74288)
+
+
+*Extra*
+
+Los hiervan werd ook aan de respondenten gevraagd of ze liever zouden werken met een draad in het stopcontact of een uitneembare batterij die kan worden opgeladen. 
 
 #### Exploratie prototyping strategieën
 
@@ -405,11 +440,40 @@ Er wordt nagedacht over welke mogelijkheden de software en hardware moeten hebbe
 
 #### Usability Testing (n=4)
 
-De meeste respondenten verkozen het Petch logo, hoewel de kleuren van het Doggy Secrets logo ook velen aanstonden. Eén van de respondenten zei dat ze de klassiekere stijl van het Petch logo apprecieert - het geheel mag wel elegant zijn, maar dat ze wel graag wat meer kleur zou hebben. 
+*Mechanisme*
 
-De meningen over het uiterlijk van de dispenser waren verdeeld. Enkelen waren voorstander van het simpelere ontwerp, namelijk de rechthoekige dispenser. Anderen kozen voor de meer stilistisch gedurfde dispenser met de ribben. Dit omdat het meer op een lamp lijkt en daarom mooi in de woonkamer past. Het hout viel minder in de smaak. Enkele respondenten vreesden dat dit zou vloeken met eventuele andere soorten hout in de woonkamer.  
+Voor het uit- en inladen verkoos iedere respondent het druksysteem. Voor sommigen omdat dit het gemakkelijkst was, voor anderen omdat het simpelweg 'leuker' is. Het woord PUSH moet wel nog voorzien worden zodat er geen verwarring is. De manier van uithalen wanneer het in verhoogde positie is, is nog niet helemaal optimaal. Nu kan het op twee manieren: langs onder pakken via de gleuf, wat intuïtief is of met twee handen langs de zijkant vastnemen, wat soms onhandig kan zijn. 
+De volgende dispenser zou een insnijding hebben onder het rad, zodat er genoeg ruimte is om het met één hand te verwijderen. (zie foto) Voorheen zat er nog materiaal in de weg waardoor het onhandig was om het op deze manier eruit te halen.
+Er zouden ook lipjes zijn aan de zijkanten waardoor het makkelijker is om met twee handen te verwijderen.
+![image](https://github.com/user-attachments/assets/bae7182c-ba47-45d6-83de-17b0bc963643)
+Ook leek het hen handig om nummertjes van 1 tot 9 aan te brengen op de doos zodat het duidelijk is welk snoepje eerst gegeven wordt. 
+In het volgende prototype zullen nummertjes worden aangebracht op de bodem van de doos die deze info geeft over de snoepjes en tegelijkertijd ook voor een correcte positionering zorgt van het rad.
+Als laatste bleek opnieuw dat het inbrengen van het reservoir moeizaam ging voor de zeskant die juist gealinieerd moet worden. Daarom is het beter om voor het volgende prototype de zeskant en het rad te voorzien van een draft.
 
-Voor het uit- en inladen verkoos iedere respondent het druksysteem. Voor sommigen omdat dit het gemakkelijkst was, voor anderen omdat het simpelweg 'leuker' is. Niemand van de respondenten zegt de groeven om het rad juist te positioneren in het andere systeem noodzakelijk te vinden. 
+Niemand van de respondenten zegt de groeven om het rad juist te positioneren in het andere systeem noodzakelijk te vinden. 
+
+*Design*
+
+De meningen over het uiterlijk van de dispenser waren verdeeld. Enkelen waren voorstander van het simpelere ontwerp, namelijk de rechthoekige dispenser. Deze probeert eerder de dispenser te camoufleren zoals airconditioners. Anderen kozen voor de meer stilistisch gedurfde dispenser met de ribben. Dit omdat het meer op een lamp lijkt en daarom mooi in de woonkamer past. Deze gaat de dispenser dus niet verbergen, maar zal eerder dienen als een soort decoratie in het huis
+ 
+Het is belangrijk dat de dispenser universeel genoeg is zodat de gebruiker het in hun huis wil zetten. Er moet dus een goed evenwicht gevonden worden zodat de dispenser mooi en stijlvol is, zonder dat het zo uniek is dat het niet in de meeste huizen past.
+Het is ook een goed idee om als bedrijf meerdere designs van dispensers of voorkanten te verkopen zodat de gebruiker zelf zijn ideale dispenser kan uitkiezen. Voor dit prototype zal er gekozen worden om verder te gaan met de stijlvolle derde dispenser met eventueel subtielere bogen om het universeel te houden.
+
+Wat de kleur betreft was iedereen enthousiast over het wit. De eerste dispenser maakt gebruik van houten accenten. Dit kan esthetisch zijn, maar dit maakt het ook moeilijker om te passen in elk huis. Er zijn heel veel verschillende kleuren en afwerkingen van hout. De kans is klein dat het hout van de dispenser zou overeenkomen met het reeds aanwezige houd bij mensen thuis. Daarom is het beter om hout helemaal te vermijden in dit prototype.
+
+Wat ze handig vonden aan de derde dispender is dat het gat waar de snoepjes uitvallen onderaan zit en niet vooraan zoals bij de andere twee. Zo wordt het gat beter verborgen en oogt het netter.
+
+*Logo en naam*
+
+De voorkeur voor de naam ging naar Petch. Doggy Secrets vonden ze net te lang. 
+
+Wat het logo betreft, mocht het eerder aan de luxueuze klassevolle kant, zeker omdat het een high-end product zal worden. Er mag ook zeker wat kleur in zitten. Het kleurgebruik van groen, bruin en geel gaf een warm gevoel.
+
+De respondenten vonden het logo van Petch iets te puntig en niet helemaal representatief voor het product. Het dikkere lettertype vonden ze wel goed.
+Bij het logo van Doggy Secrets vonden ze het hondenpootje niet origineel en herkenbaar genoeg.
+Er zal hieraan worden gewerkt door een nieuw verbeterd logo te ontwerpen en opnieuw te evalueren.
+
+*Extra*
 
 De consensus is dat de dispenser op batterijen moet werken. Dit zodat men de dispenser kan ophangen waar men wilt en niet gebonden is aan een stopcontact. Ook wordt er voorkomen dat de hond op de draad zou bijten of eraan zou trekken.
 
@@ -422,6 +486,33 @@ Deze 'app' zal dan de hardware aansturen. De app krijgt de hartslag en de bewegi
 De Raspberry Pi bediend rechtsreeks de dispenser. Het speelgoedje zal werken via een Arduino die een signaal doorkrijgt van de Pi wanneer de gebruiker op deze bepaalde knop drukt. 
 
 ### Conclusies & implicaties
+Uit de gebruikerstesten zijn enkele goede design implicaties gekomen die worden meegenomen naar de laatste fase van dit project.
+
+Design implicaties voor het mechanisme:
+- Drukmechanisme
+- Lipjes voorzien voor positionering en beter grip
+- Uitsnijding tot onderaan voor ergonomisch uitladen
+- Nummering onderaan de doos voor info over de volgorde en positionering van het rad.
+- Tienhoek met draft voor makkelijkere en correcte inschuiving.
+
+Design implicaties voor de dispenser:
+- Derde dispenser met iets zachtere groeven
+- Wit, geen hout
+
+Design implicaties voor het logo:
+- Petch
+- Kleurgebruik (groen, geel, rood bv)
+- Origineel genoe
+
+Extra:
+- Er wordt gewerkt met uitneembare batterij
+
+Conclusie prototyping strategie:
+- Combinatie Rasberry Pie en Arduino
+- Rasberry Pie in de dispenser en Arduino in het speelgoedje en het rad
+- Webserver op Rasberry Pie, ingericht als app
+- Templates: Flask en Jinja2 + CSS bestanden
+- Hartslag via "Wizard of Oz"-testing
 
 ## Bill of materials
 - Figma
@@ -433,21 +524,6 @@ De Raspberry Pi bediend rechtsreeks de dispenser. Het speelgoedje zal werken via
 - Motortje
 - Hartslagmeter component
 
-
-## Kritische reflectie
-Hoewel het een spannend gegeven was, was het een goede keuze om de pivot te maken. De angst om een hond alleen te laten is een probleem waar veel mensen zich in kunnen vinden en met een grote impact op het leven. Het nieuwe concept kwam met vele nieuwe discussies en uitdagingen. Er moest namelijk een hele nieuwe probleemruimte onderzocht worden. 
-
-Via benchmarking, desk research en een enquête werd onderzocht wat er al op de markt is en vooral wat nog niet. We zagen dat veel van de technologieën die we graag zouden opnemen in ons concept al bestonden. De combinatie ervan echter nog niet. Dit maakte de benchmarking cruciaal.
-
-De enquête had vooral het doel om te onderzoeken of er vraag naar het concept zou zijn en om de noden van de potentiële gebruikers te identificeren. Daarnaast vroegen we op het einde of we hen mochten contacteren voor verdere testen. Hoewel we samen genoeg hondenbaasjes kenden via familie of vrienden kozen we ervoor om het op deze manier te doen om uit onze comfortzone te gaan en te werken met mensen die we niet kennen.
-
-In de definition fase gingen we met deze mensen aan de slag. Hoewel 40% van de respondenten zei dat we hen mochten contacteren was het toch extreem moeilijk om effectieve afspraken te maken. Eerst moesten de mensen gefilterd worden: mensen die geen problemen ervaren met hun hond alleen thuis laten of die heel erg ver wonen waren natuurlijk niet interessant. Uiteindelijk zijn er een 20-tal mensen gecontacteerd, waarvan slechts 2 wilden deelnemen. 
-
-Bij de tweede test (vanop afstand) konden we de locatiefactor ook achterwege laten en een grotere groep mensen contacteren. Toch hebben uiteindelijk slechts 3 mensen deelgenomen.
-
-Dit was de grootste uitdagen voor ons: de combinatie van het managen van een design proces en het rekruteren van respondenten. Natuurlijk wel een zeer leerrijk gegeven. 
-
-Het uiteindelijke concept voeldoet aan de eisen. We merkten dat de combinatie van interface, wearable, dispenser en speeltje ervoor zorgde dat de wearable zelf niet meer de hoofdzaak is van het concept, hoewel nog steeds erg belangrijk. De hoofdzaak ligt vooral bij de interface en hoe we hondenbaasjes hiermee gerust zullen stellen. Hoewel de lay-out nog niet definitief is, weten we al wel duidelijk welke functies de interface moet bedienen. Ook hebben we de vormgeving van de dispenser al kunnen bepalen en hebben we een doel waarnaar we willen streven voor de wearable: een add-on die zowel op een harnas als halsband aangebracht kan worden.
 
 ## Bronnen
 Edwards, P. T., Smith, B. P., McArthur, M. L., & Hazel, S. J. (2022). At the heart of a dog’s veterinary experience: Heart rate responses in dogs vary across a standard physical examination. Journal Of Veterinary Behavior, 51, 23–34. https://doi.org/10.1016/j.jveb.2022.03.003
