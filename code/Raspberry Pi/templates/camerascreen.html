@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camerascreen</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='stylefour.css')}}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-box">
+        <img src="{{url_for('static', filename='page4/stripes4.png')}}"class="component"style="width: 100%; height: 100%; top: 0; left: 0;"> 
+        <img src="{{url_for('static', filename='page4/camera.png')}}"class="component"style="height: 100%; top: 0; left: 2%;">
+        <a href="{{ url_for('homescreen') }}">
+            <img src="{{url_for('static', filename='page4/back.png')}}"class="component"style="top: 3%; left: 3.21%; width: 39px; height: 45px; transform: rotate(-90deg); transform-origin: center;">
+        </a>
+
+        <!--Speeltje-->
+        <div id="speeltjeButton" class="component"style="width: 154px; height: 152px; top: 20%; left: 78.7%;">
+            <img src="{{url_for('static', filename='page4/speeltje.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 86.3%; left: 50%; font-size: 20px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">Speeltje aan</p>
+        </div>
+        
+        <!--Snoepje-->
+        <div class="component" id="rotateButton" style="width: 154px; height: 152px; top: 60%; left: 78.7%;"> 
+            <img src="{{url_for('static', filename='page4/snoepje.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 87.8%; left: 50%; font-size: 20px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">Geef snoepje</p>
+        </div>
+
+        <!--Snoepjesmenu-->
+        <div id="snoepjeMenu" class="component"style="width: 154px; height: 312px; top: 20%; left: 78.7%; display: none;"> 
+            <img src="{{url_for('static', filename='page4/snoepjemenu.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 21.8%; left: 50%; font-size: 20px; margin: 0; transform: translate(-50%, -80%); width: 80%; text-align: center;">Geef 5de snoepje van de dag</p>
+            <img id="cancelButton" src="{{url_for('static', filename='page4/annuleer.png')}}" style="position: absolute; top: 82%; left: 50%; width: 116px; height: 35px; transform: translate(-50%, -55%);">
+        </div>
+
+        <!--Speeltjesmenu-->
+        <div id="speeltjeMenu" class="component"style="width: 166px; height: 312px; top: 20%; left: 78.2%; display: none;"> 
+            <img src="{{url_for('static', filename='page4/speeltjemenu.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 14.8%; left: 50%; font-size: 20px; margin: 0; transform: translate(-50%, -80%); width: 80%; text-align: center;">Speeltje geactiveerd</p>
+            <img id="stopButton" src="{{url_for('static', filename='page4/stopnow.png')}}" style="position: absolute; top: 66%; left: 48%; width: 116px; height: 35px; transform: translate(-50%, -55%);">
+            <div id="stoplaterButton" style="position: absolute; top: 85%; left: 48%; width: 116px; height: 61px; transform: translate(-50%, -55%);">
+                <img src="{{url_for('static', filename='page4/stoplater.png')}}" style="width: 100%; height: 100%; display: block;">
+                <img id="stopButton" src="{{url_for('static', filename='page4/input.png')}}" style="position: absolute; top: 76%; left: 29%; width: 25px; height: 20px; transform: translate(-50%, -55%);">
+            </div>
+        </div>
+        
+        <!--Geluid-->
+        <div class="component"style="top: 5%; left: 78.7%; width: 154px; height: 48px;">
+            <img src="{{url_for('static', filename='page4/soundmenu.png')}}" style="width: 100%; height: 100%; display: block;">
+            <img src="{{url_for('static', filename='page4/mic.png')}}" class="component"style="height: 33px; width: 36px; top: 12.1%; left: 16%;">
+            <img src="{{url_for('static', filename='page4/volume.png')}}" class="component"style="height: 40px; width: 38px; top: 6%; left: 59.62%;">
+        </div>
+    </div>
+</body>

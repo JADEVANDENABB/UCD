@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulsescreen</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='stylethree.css')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            function updateHeartrate() {
+                $.get("/get_heartrate", function(data) {
+                    if (data.heartrate !== undefined) {
+                        $("#heartrateMain").text(data.heartrate);
+                        $("#heartrateMini").text(data.heartrate);
+                        updateArrowPosition(data.heartrate);
+                    }
+                });
+            }
+
+            setInterval(updateHeartrate, 1000);
+
+            updateHeartrate();
+
+            function updateArrowPosition(heartrate) {
+                const arrow = document.getElementById("upArrow");
+
+                const vrMin = 70;
+                const vrMax = 110;
+                const topMin = 49;
+                const topMax = 31;
+
+                let topPercent = (heartrate - vrMin) * (topMax - topMin) / (vrMax - vrMin) + topMin;
+
+                topPercent = Math.max(22, Math.min(58, topPercent));
+
+                arrow.style.top = topPercent + "%";
+            } 
+        });
+    </script>
+</head>
+
+<body>
+    <div class="app-box">
+        <img src="{{url_for('static', filename='page3/stripes3.png')}}" class="component" style="top: 0%; left: 0%; width: 100%; height: 100%;">
+        <a href="{{ url_for('homescreen') }}">
+            <img src="{{url_for('static', filename='page5/slider.png')}}" class="component" style="top: 92.89%; left: 50%; width: 160px; height: 42px; transform: translateX(-50%);">
+        </a>
+        <img src="{{url_for('static', filename='page5/pop4.png')}}" class="component" style="top: 5.92%; left: 50%; width: 365px; height: 722px; transform: translateX(-50%);">
+        <img src="{{url_for('static', filename='page5/pulse.png')}}" class="component" style="top: 10.07%; left: 69%; width: 82px; height: 90px;">
+        <img src="{{url_for('static', filename='page5/graph.png')}}" class="component" style="top: 21%; left: 35.13%; width: 131px; height: 403px;">
+        
+        <!--Tellers-->
+        <div class="component" style="top: 70%; left: 50%; transform: translateX(-50%); width: 344px; height: 174.74px;">
+            <img src="{{url_for('static', filename='page5/data.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 38.8%; left: 25%; font-size: 16px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">Max kreeg</p>
+            <p class="redditblackish" style="position: absolute; top: 47.8%; left: 10%; font-size: 36px; margin: 0; white-space: nowrap;">4</p>
+            <p class="redditblackish" style="position: absolute; top: 54%; left: 17%; font-size: 24px; margin: 0; white-space: nowrap;">snoepjes</p>
+
+            <p class="redditblackish" style="position: absolute; top: 40.5%; left: 75%; font-size: 16px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">Max speelde</p>
+            <p class="redditblackish" style="position: absolute; top: 48.7%; left: 64.5%; font-size: 36px; margin: 0; white-space: nowrap;">6</p>
+            <p class="redditblackish" style="position: absolute; top: 54.7%; left: 71.5%; font-size: 24px; margin: 0; white-space: nowrap;">min</p>
+        </div>
+
+        <!--Pijltje-->
+        <div id="upArrow" class="component" style="top: 58%; left: 62%; width: 100px; height: 50px;">
+            <img src="{{url_for('static', filename='page5/arrow.png')}}" class="component" style="top: 68%; left: 0%; width: 100%; height: 16px;">
+            <p id="heartrateMini" class="redditblackish" style="position: absolute; top: 23%; left: 14%; font-size: 24px; margin: 0; white-space: nowrap;">---</p>
+            <p class="redditblackish" style="position: absolute; top: 23%; left: 55%; font-size: 24px; margin: 0; white-space: nowrap;">bpm</p>
+        </div>
+
+        <p class="redditblackish" style="position: absolute; top: 13%; left: 27%; font-size: 36px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">Hartslag</p>
+        <p id="heartrateMain" class="redditblackish" style="position: absolute; top: 20%; left: 16.5%; font-size: 48px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">--</p>
+        <p class="redditblackish" style="position: absolute; top: 20%; left: 34%; font-size: 26px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">bpm</p>
+
+    </div>
+</body>

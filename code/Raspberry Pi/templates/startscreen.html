@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startscreen</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styleone.css')}}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-box">
+        <img src="{{url_for('static', filename='page1/stripes.png')}}" class="component" style="top: 0%; left: 0%; width: 100%; height: 100%;">
+        <img src="{{url_for('static', filename='page1/druppel.png')}}" class="component" style="top: 17.05%; left: 15.4%; width: 279.78px; height: 340px;">
+        <img src="{{url_for('static', filename='page1/dog.png')}}" class="component" style="top: 24.05%; left: 17.44%; width: 270px; height: 270px;">
+        <img src="{{url_for('static', filename='page1/pop1.png')}}" class="component" style="top: 65.73%; left: 0%; width: 100%; height: 34.24%;">
+        <img src="{{url_for('static', filename='page1/pop2.png')}}" class="component" style="top: 62.90%; left: 0%; width: 100%; height: 37.08%;">
+        <img src="{{url_for('static', filename='page1/settings.png')}}" class="component" style="top: 91.94%; left: 29.13%; width: 33px; height: 31px;">
+        <img src="{{url_for('static', filename='page3/logo.png')}}" class="component" style="top: 2%; left: 50%; ; width: 179px; height: 104px; transform: translateX(-50%);">
+        
+        <a href="{{ url_for('leavingscreen') }}">
+            <div class="component" style="top:78.91%; left: 19.23%; width: 62.05%; height: 11.14%;">
+                <img src="{{url_for('static', filename='page1/leavingbutton.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditwhite" style="position: absolute; top: 50%; left: 50%; font-size: 40px; margin: 0; transform: translate(-50%, -55%); white-space: nowrap;">Ik vertrek</p>
+            </div>
+        </a>
+        
+        <a href="{{ url_for('set_direction', value=0) }}">
+            <p class="redditblack" style="position: absolute; top: 91.94%; left: 39%; font-size: 24px; margin: 0;">Instellingen</p>
+        </a>
+        <p class="redditblackish" style="position: absolute; top: 69.1%; left: 50%; font-size: 38px; margin: 0; transform: translateX(-50%); white-space: nowrap;">Welkom terug!</p>
+    </div>
+</body>
+
+</html>

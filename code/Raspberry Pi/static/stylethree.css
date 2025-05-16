@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-box {
+    background-color: #F5F4F0;
+    width: 390px;
+    height: 844px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+    position: relative;
+    overflow: hidden;
+}
+
+.component {
+    position: absolute;
+}
+
+@media (max-width: 400px) {
+    .app-box {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+}
+
+.redditblackish {
+    font-family: 'Reddit Sans', sans-serif;
+    font-weight: 400;
+    color: #3A3A20;
+}
+
+.redditaccent {
+    font-family: 'Reddit Sans', sans-serif;
+    font-weight: 400;
+    color: #25412D;
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homescreen</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='stylethree.css')}}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+
+    <script>
+        $(document).ready(function(){
+
+            function updateHeartrate() {
+                $.get("/get_heartrate", function(data) {
+                    if (data.heartrate !== undefined) {
+                        $("#heartrateValue").text(data.heartrate);
+                        updateArrowPosition(data.heartrate);
+                    }
+                    if (data.status !== undefined) {
+                        $("#statusText").text(data.status);
+                    }
+                });
+            }
+
+            setInterval(updateHeartrate, 1000);
+
+            updateHeartrate();
+
+            let motorTimeout = null;
+
+            let ledTimeout = null;
+
+            function updateArrowPosition(heartrate) {
+                const arrow = document.getElementById("arrow");
+
+                const hrMin = 70;
+                const hrMax = 110;
+                const leftMin = 23;
+                const leftMax = 65;
+
+                let leftPercent = (heartrate - hrMin) * (leftMax - leftMin) / (hrMax - hrMin) + leftMin;
+
+                leftPercent = Math.max(1, Math.min(92, leftPercent));
+
+                arrow.style.left = leftPercent + "%";
+            }
+
+            $("#speeltjeButton").click(function(e){
+                e.preventDefault();
+
+                $("#speeltjeMenu").show();
+
+                
+                $.ajax({
+                    type: "GET",
+                    url: "/toy_on",  
+                    success: function(response) {
+                        
+                        ledTimeout = setTimeout(function() {
+                            $("#speeltjeMenu").hide();
+                        }, 60000); 
+                    },
+                    error: function() {
+                        alert("Er was een probleem bij het activeren van het speeltje.");
+                    }
+                });
+            });
+
+            $("#stopButton").click(function() {
+                $.ajax({
+                    type: "GET",
+                    url: "/toy_off", 
+                    success: function(response) {
+                        clearTimeout(ledTimeout);  
+                        $("#speeltjeMenu").hide();
+                    },
+                    error: function() {
+                        alert("Er was een probleem bij het stoppen van het speeltje.");
+                    }
+                });
+            });
+
+            $("#stoplaterButton").click(function(e) {
+                e.preventDefault();
+
+                const minutes = parseInt($("#Input").val());
+                if (isNaN(minutes) || minutes <= 0) {
+                    alert("Geef een geldig aantal minuten op.");
+                    return;
+                }
+
+                const durationMs = minutes * 60000;
+
+                $.ajax({
+                    type: "POST",
+                    url: "/toy_extend",
+                    contentType: "application/json",
+                    data: JSON.stringify({ duration: durationMs }),
+                    success: function(response) {
+                        $("#speeltjeMenu").hide(); 
+                    },
+                    error: function() {
+                        alert("Er was een fout bij het verlengen van het speeltje.");
+                    }
+                });
+            });
+    
+            $("#rotateButton").click(function(e){
+                e.preventDefault();
+
+                $("#snoepjeMenu").show();
+
+                motorTimeout = setTimeout(function() {
+                    $.ajax({
+                        type: "POST",
+                        url: "/rotate_motor",
+                        success: function(response) {
+                            $("#confirmation").css({
+                                "transform": "translate(-50%, 0%)",
+                                "opacity": "1"
+                            });
+    
+                            setTimeout(function() {
+                                $("#confirmation").css({
+                                    "transform": "translate(-50%, -150%)",
+                                    "opacity": "0"
+                                });
+                            }, 3000);
+                        },
+                        error: function() {
+                            alert("There was an error rotating the motor.");
+                        }
+                    });
+
+                    $("#snoepjeMenu").hide();
+                }, 3000);
+            });
+
+            $("#cancelButton").click(function() {
+                clearTimeout(motorTimeout); 
+                $("#snoepjeMenu").hide();  
+            });
+    
+            
+        });
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-box">
+        <img src="{{url_for('static', filename='page3/stripes3.png')}}" class="component" style="top: 0%; left: 0%; width: 100%; height: 100%;">
+        <a href="{{ url_for('set_direction', value=1) }}">
+            <img src="{{url_for('static', filename='page3/menu.png')}}" class="component" style="top: 3.79%; left: 7.18%; width: 8.97%; height: 3.2%;">
+        </a>
+        <div class="component" style="top: 51.7%; left: 50%; width: 338px; height: 45px; transform: translateX(-50%);">
+            <img src="{{url_for('static', filename='page3/scale.png')}}" style="position: absolute; top: 80%; width: 100%; height: 20%; display: block;">
+            <img id="arrow" src="{{url_for('static', filename='page3/arrow.png')}}" class="component" style="top: 3%; left: 25%; width: 37px; height: 43px;">
+        </div>
+
+        <img src="{{url_for('static', filename='page3/logo.png')}}" class="component" style="top: 0%; left: 50%; ; width: 179px; height: 104px; transform: translateX(-50%);">
+
+        <a href="{{ url_for('pulsescreen') }}">
+            <img src="{{url_for('static', filename='page3/slider.png')}}" class="component" style="top: 92.89%; left: 50%; width: 160px; height: 42px; transform: translateX(-50%);">
+        </a>
+        <a href="{{ url_for('camerascreen') }}">
+            <img src="{{ url_for('video_feed') }}" class="component" style="top: 19.55%; left: 50%; width: 336px; height: 251px; transform: translateX(-50%); border-radius: 20px; border: 3px solid #5F5F33;">
+        </a>
+
+        <div  class="component" style="top: 19.965%; left: 68.22%; width: 96px; height: 50px;">
+            <img src="{{url_for('static', filename='page3/heartrate.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p id="heartrateValue" class="redditblackish" style="position: absolute; top: 52%; left: 32%; font-size: 32px; margin: 0; transform: translate(-50%, -55%); white-space: nowrap;">--</p>
+        </div>
+
+        <!--Status-->
+        <div class="component" style="top: 61.26%; left: 50%; width: 342px; height: 58px; transform: translateX(-50%);">
+            <img src="{{url_for('static', filename='page3/status.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p id="statusText" class="redditblackish" style="position: absolute; top: 50%; left: 50%; font-size: 22px; margin: 0; transform: translate(-50%, -55%); white-space: nowrap;">Max voelt zich wat gespannen</p>
+        </div>
+
+        <!--Speeltje-->
+        <div id="speeltjeButton" class="component" style="top: 70.87%; left: calc(50% + 16px); width: 155px; height: 162px;">
+            <img src="{{url_for('static', filename='page3/speeltje.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 87.8%; left: 50%; font-size: 20px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">Speeltje aan</p>
+        </div>        
+
+        <!--Snoepje-->
+        <div class="component" id="rotateButton" style="top: 70.87%; left: calc(50% - 171px); width: 155px; height: 162px;">
+            <img src="{{url_for('static', filename='page3/snoepje.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 87.8%; left: 50%; font-size: 20px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">Geef snoepje</p>
+        </div>
+
+        <!--Snoepjemenu-->
+        <div id="snoepjeMenu" class="component" style="top: 70.87%; left: 50%; width: 342px; height: 162px; transform: translateX(-50%); display: none;">
+            <img src="{{url_for('static', filename='page3/snoepjemenu.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 12%; left: 50%; font-size: 20px; margin: 0; transform: translate(-50%, -55%); white-space: nowrap;">Geef 5de snoepje van de dag</p>
+            <img id="cancelButton" src="{{url_for('static', filename='page3/annuleer.png')}}" style="position: absolute; top: 82%; left: 50%; width: 116px; height: 35px; transform: translate(-50%, -55%);">
+        </div>
+
+        <!--Speeltjemenu-->
+        <div id="speeltjeMenu" class="component" style="top: 70.87%; left: 50%; width: 342px; height: 162px; transform: translateX(-50%); display: none;">
+            <img src="{{url_for('static', filename='page3/speeltjemenu.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 12%; left: 50%; font-size: 20px; margin: 0; transform: translate(-50%, -55%); white-space: nowrap;">Speeltje geactiveerd</p>
+            <img id="stopButton" src="{{url_for('static', filename='page3/stopnow.png')}}" style="position: absolute; top: 36%; left: 75%; width: 116px; height: 35px; transform: translate(-50%, -55%);">
+            <div style="position: absolute; top: 70%; left: 75%; width: 116px; height: 61px; transform: translate(-50%, -55%);">
+                <img src="{{url_for('static', filename='page3/stoplater.png')}}" id="stoplaterButton" style="width: 100%; height: 100%; display: block;">
+                <input type="number" id="Input" min="1" max="999" placeholder="3" style="position: absolute; top: 76%; left: 29%; width: 30px; height: 25px; transform: translate(-50%, -55%); background: white; border: none; text-align: center; font-size: 14px; border-radius: 4px;">
+            </div>
+        </div>
+
+        <!--Thuisknop-->
+        <a href="{{ url_for('endscreen') }}">
+            <div class="component" style="top: 11.38%; left: 50%; width: 346px; height: 51px; transform: translateX(-50%);">
+                <img src="{{url_for('static', filename='page3/backbutton.png')}}" style="width: 100%; height: 100%; display: block;">
+                <p class="redditaccent" style="position: absolute; top: 49%; left: 50%; font-size: 30px; margin: 0; transform: translate(-50%, -55%); white-space: nowrap;">Ik ben thuis</p>
+            </div>
+        </a>
+
+        <!--Bevestiging-->
+        <div id="confirmation" class="component" style="top: 11.38%; left: 50%; width: 346px; height: 51px; transform: translate(-50%, -150%); opacity: 0; transition: transform 0.5s ease, opacity 0.5s;">
+            <img src="{{url_for('static', filename='page3/status.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 50%; left: 50%; font-size: 22px; margin: 0; transform: translate(-50%, -60%); white-space: nowrap;">Max kreeg een snoepje</p>
+        </div>
+
+        <!--Text stress-schaal-->
+        <p class="redditblackish" style="position: absolute; top: 57.3%; left: calc(50% - 171px); font-size: 18px; margin: 0;">Slapend</p>
+        <p class="redditblackish" style="position: absolute; top: 57.3%; left: calc(50% + 98px); font-size: 18px; margin: 0;">Onrustig</p>
+        <p class="redditblackish" style="position: absolute; top: 57.3%; left: 50%; transform: translateX(-50%); font-size: 18px; margin: 0;">Kalm</p>
+    </div>
+</body>

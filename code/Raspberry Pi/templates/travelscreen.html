@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelscreen</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styletwo.css')}}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans&display=swap" rel="stylesheet">
+
+    <script>
+        setTimeout(function() 
+        {
+          window.location.href = "{{ url_for('homescreen') }}";
+        }, 3000); 
+      </script>
+</head>
+
+<body>
+    <div class="app-box">
+        <img src="{{url_for('static', filename='page2/stripeslight.png')}}" class="component" style="top: 0%; left: 0%; width: 100%; height: 100%;">
+        <img src="{{url_for('static', filename='page2/pop3.png')}}" class="component" style="top: 65.73%; left: 0%; width: 100%; height: 34.24%;">
+        <div class="component" style="top: 24.91%; left: 13.59%; width: 72.82%; height: 17.44%;">
+            <img src="{{url_for('static', filename='page2/messagebox.png')}}" style="width: 100%; height: 100%; display: block;">
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -52%); width: 90%; text-align: center;">
+                {% if number == 1 %}
+                <p class="redditblackish" style="font-size: 32px; margin: 0;">Denk eraan je hond niet te lang alleen te laten.</p>
+                {% elif number == 2 %}
+                <p class="redditblackish" style="font-size: 32px; margin: 0;">Je hondje is in goede handen.</p>
+                {% endif %}
+            </div>
+        </div>
+        <img src="{{url_for('static', filename='page2/street.png')}}" class="component" style="top: 78.91%; left: 0%; width: 100%; height: 11.14%;">
+        <img src="{{url_for('static', filename='page2/stripes.png')}}" class="component" style="top: 83.76%; left: 0%; width: 97.95%; height: 1.18%;">
+        <p class="redditblackish" style="position: absolute; top: 69.55%; left: 50%; font-size: 36px; margin: 0; transform: translateX(-50%); white-space: nowrap;">Let's go!</p>
+    </div>
+
+</body>
