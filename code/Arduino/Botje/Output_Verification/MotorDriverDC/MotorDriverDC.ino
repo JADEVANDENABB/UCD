@@ -1,10 +1,10 @@
-int motor2Pin1 = 7;
-int motor2Pin2 = 8;
-int speedPin2 = 10;
+int motor1Pin1 = 3;
+int motor1Pin2 = 4;
+int speedPin1 = 2;
 
-int motor1Pin1 = 5;
-int motor1Pin2 = 6;
-int speedPin1 = 9;
+int motor2Pin1 = 5;
+int motor2Pin2 = 6;
+int speedPin2 = 7;
 
 void setup() {
   // put your setup code here, to run once:
