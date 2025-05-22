@@ -246,7 +246,8 @@ Het belangrijkste is dat de gebruikers meldingen krijgen op hun gsm wanneer hun 
 
 De meldingen die het baasje zal ontvangen moeten personaliseerbaar zijn en tactisch gebracht worden om geen negatieve gevoelens op te wekken bij het baasje. Ook moet het baasje de optie hebben om (deels) automatische beloningen of speeltjes in te schakelen indien ze geen tijd hebben om dit manueel te doen.
 
-> [!Design Requirements:]
+> [!IMPORTANT]
+> Design Requirements:
 > - D1.1 Het systeem moet een camerafunctie hebben
 > - D1.2 Er moeten beloningen kunnen worden gegeven
 > - D1.3 Er moet een speeltje geactiveerd kunnen worden, d.w.z dat het automatisch begint te bewegen
