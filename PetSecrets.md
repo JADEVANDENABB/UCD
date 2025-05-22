@@ -527,7 +527,11 @@ Conclusie prototyping strategie:
 
 ### Materiaal & methoden
 
-#### Usability testing (n=4)
+#### Onderzoek hartslag
+
+...
+
+#### Usability testing (n=6)
 
 Er wordt deur aan deur gegaan bij mensen thuis. Er wordt hen gevraagd of ze een hond hebben en zo ja, of ze deel willen nemen aan de test. 
 
@@ -535,7 +539,7 @@ Er werd gekozen om zo high fidelity mogelijk te prototypen. Dit om een zo realis
 
 1. **De dispenser**
 
-De dispenser wordt gematerialiseerd met een combinatie van witgeschilderde houten platen en 3D-prints. Hierin bevindt zich de camera en een stappenmotor die het rad doet draaien om de snoepjes te geven. Dit alles is rechtstreeks aangesloten en bediend met een Raspberry Pi, waarop ook de interface gebouwd wordt. 
+De dispenser wordt gematerialiseerd met een combinatie van witgeschilderde houten platen en 3D-prints. Er werd uit de vorige test gekozen voor een drukmechanisme om het vulbakje eruit te halen. Het systeem om het rad juist te positioneren bleek eerder overbodig, waardoor dit niet in het nieuwe prototype werd opgenomen. In de dispenser bevindt zich de camera en een stappenmotor die het rad doet draaien om de snoepjes te geven. Dit alles is rechtstreeks aangesloten en bediend met een Raspberry Pi, waarop ook de interface gebouwd wordt. 
 
 2. **Het speelgoedje**
 
@@ -547,15 +551,37 @@ Een arduino stuurt de motoren aan met behulp van een L298N motor driver. Op de a
 
 De interface bediend alle componenten. Deze wordt opnieuw herontworpen met alle eerdere opgedane kennis in het achterhoofd. De bedoeling hierbij is vooral om de User Experience te verbeteren en de hondeneigenaren een zo goed mogelijk gevoel te geven. Er werd gekozen om met een Flask webserver te werken. Dit omwille van de vele mogelijkheden om verschillende hardwarecomponenten te bedienen en vrijwel geen limieten op vlak van software en lay-out. 
 
+In de interface werd ook de optie voorzien om de naam van de hond in te stellen en om te kiezen tussen (deels) automatische of manuele bediening.
+
 4. **De hartslagcomponent**
 
 De hartslagcomponent wordt puur vormelijk uitgewerkt, aangezien we binnen onze mogelijkheden niet de technologie hebben om de hartslag van dieren te kunnen meten. Uit eerdere testen bleek dat de meningen van gebruikers sterk verdeeld waren wanneer het ging over harnas vs halsband. Er werd toen de beslissing genomen om te werken met een hartslagcomponent die op de hondenwearable bestigd kan worden in plaats van met een een volledige halsband of harnas. 
 
+5. **De Rotary Encoder**
+
+Om de hartslag toch na te kunnen bootsen werd er gewerkt met een Rotary Encoder Module waaraan de interviewer achter de schermen draait om de hartslag te veranderderen op de interface. De encoder werkt met een arduino en een HC-05 Bluetooth module om de hartslag naar de Raspberry Pi te sturen. Zo kan de hartslag live geupdate worden op de interface. Op basis hiervan bewegen er pijlen of verandert er tekst.
+
 ### Resultaten
 
-#### Usability Testing (n=4)
+#### Onderzoek Hartslag
 
+...
 
+#### Usability Testing (n=6)
+
+De vormegeving van de dispenser viel bij iedereen in de smaak, alleen kwam vaak terug dat het nogal aan de grote kant is. Volgens één van de respondenten ligt het probleem vooral in de diepte. Het drukmechanisme om de snoepjes bij te vullen bleek moeizaam te gaan. Enkele van de respondenten begrepen niet meteen dat ze moesten duwen (ondanks de "push" boodschap op het rad) en wanneer ze toch duwden kwam het bakje er moeizaam uit. 
+
+Eén van de respondenten bracht het idee aan om een klepje tussen het rad en het gangetje te voorzien zodat de gebruiker eventueel snoepjes kan overslaan.
+
+De hartslagcomponent werd door één van de respondenten ervaren als lastig te monteren. Het bestaat uit twee schroeven. Volgens de respondent zou een systeem met één schroef of zelfs zonder schroeven beter zijn. 
+
+De interface werd als zeer inuïtief ervaren. Alleen met het wegklikken van het menu hadden veel van de respondenten moeite. Ook kwamen de vragen of er bijgehouden kan worden hoeveel de hond geblaft heeft en hoe lang de hond stress heeft gehad die dag.
+
+Eén van de respondenten haalde het idee van aangeleerd gedrag aan: de hond met bepaalde seintjes naar de dispenser roepen en eerst leren zitten of ander goed gedrag te vertonen, alvorens hem te belonen. Dit zodat het systeem bijna als een soort hondenoppas kan dienen die de hond leert zich goed te gedragen wanneer alleen. De respondent zag het systeem sowieso meer als een soort trainingsysteem voor puppy's om hen te leren alleen thuis te zijn.
+
+Over de praatfunctie van de interface waren de meningen sterkt verdeeld. Sommigen waren ervan overtuigd dat het hun hond volledig van de kaart zou brengen moest hij plots uit het niets de stem van zijn baasje horen. Anderen vonden dit juist één van de beste features. 
+
+De optie om automatische, deels automatische of manuele bediening te kiezen vonden alle respondenten een meerwaarde. Wel kwam hierbij opnieuw het probleem van negatief aangeleerd gedrag naar boven. Bij automatische beloningen zou de dispenser eigenlijk vooraleer de hond effectief stress heeft al een snoepje moeten geven. 
 
 ### Conclusies & implicaties
 
