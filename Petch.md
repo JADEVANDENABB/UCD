@@ -1,4 +1,4 @@
-# Pet Secrets
+# Petch
 *Een slim systeem dat verlatingsangst bij honden en baasjes tegengaat.* 
 
 *Projectteam: Jade van den Abbeele, Hailey Ledain*
@@ -586,7 +586,42 @@ De optie om automatische, deels automatische of manuele bediening te kiezen vond
 ### Conclusies & implicaties
 
 
+## Design Requirements
 
+| **Groep 1** | **Algemeen** |          |         |
+| 1.1 | Het systeem moet een camerafunctie hebben | Concept Testing | 14/12/2024 |
+| 1.2 | Er moeten beloningen kunnen worden gegeven | Concept Testing | 14/12/2024 |
+| 1.3 | Er moet een speeltje geactiveerd kunnen worden, d.w.z dat het automatisch begint te bewegen | Concept Testing | 14/12/2024 |
+| 1.4 | Het stresslevel van de hond moet gemeten kunnen worden | Enquête | 15/11/2024 |
+| 1.5 | Het stresslevel van de hond moet live te raadplegen zijn | Concept Testing | 14/12/2024 |
+|   |   |   |   |
+| **Groep 2** | **Hartslagcomponent** |          |         |
+| 2.1 | De wearable moet de hartslag van de hond meten | Enquête | 15/11/2024 |
+| 2.2 | De wearable moet de beweging van de hond meten | Enquête | 15/11/2024 |
+| 2.3 | De wearable moet de gemeten variabele(n) doorgeven naar de interface | Enquête | 15/11/2024 |
+| 2.4 | De wearable moet een harnas en/of halsband zijn | Concept Testing | 14/12/2024 |
+|   |   |   |   |
+| **Groep 3** | **Interface** |          |         |
+| 3.1 | De interface moet de aanwezige componenten bedienen | Enquête | 15/11/2024 |
+| 3.2 | De interface moet meldingen kunnen sturen naar de gebruiker | Concept Testing | 14/12/2024 |
+| 3.3 | De interface moet de optie geven om meerdere honden toe te voegen | Concept Testing | 14/12/2024 |
+| 3.4 | De gebruiker moet zelf kunnen kiezen welke meldingen hij wilt ontvangen | ESM-Testing | 08/01/2025 |
+| 3.5 | De gebruiker moet zelf kunnen kiezen of de dispenser automatisch beloningen mag geven of niet | ESM-Testing | 08/01/2025 |
+| 3.6 | De gebruiker moet een bepaalde tijdspanne tussen automatische beloningen kunnen instellen | ESM-Testing | 08/01/2025 |
+| 3.6 | De gebruiker moet via een simpele knop op de interface het product kunnen activeren | ESM-Testing | 08/01/2025 |
+|   |   |   |   |
+| **Groep 4** | **Dispenser** |          |         |
+| 4.1 | De dispenser moet beloningen kunnen geven | Concept Testing | 14/12/2024 |
+| 4.2 | De dispenser moet met verschillende beloningen gevuld kunnen worden, waaronder iets gezond | Concept Testing | 14/12/2024 |
+| 4.3 | De dispenser moet esthetisch zijn | Concept Testing | 14/12/2024 |
+| 4.4 | De dispenser moet snel bij te vullen zijn | Concept Testing | 14/12/2024 |
+| 4.5 | De dispenser moet een geluidje kunnen maken wanneer het een beloning geeft | Concept Testing | 14/12/2024 |
+| 4.5 | De dispenser moet uitgerust zijn met een camera | Concept Testing | 14/12/2024 |
+| 4.5 | De dispenser moet uitwasbaar zijn | Concept Testing | 14/12/2024 |
+| 4.5 | De dispenser moet weersbestendig zijn voor buitengebruik | ESM-Testing | 08/01/2025 |
+|   |   |   |   |
+| **Groep 5** | **Speeltje** |          |         |
+| 5.1 | Het speeltje moet taai genoeg zijn  | Concept Testing | 14/12/2024 |
 
 ## Bill of materials
 - Figma
