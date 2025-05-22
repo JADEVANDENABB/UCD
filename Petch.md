@@ -6,46 +6,49 @@
 08/01/2025
 
 ## Samenvatting
-Veel hondenbaasjes hebben problemen met het achterlaten van hun hond. Of ze nu naar het werk gaan, naar een feestje, of simpelweg iets gaan drinken, ze blijven zich zorgen maken om hun hondje. Veel honden hebben ook last van verlatingsangst. Uit een enquête onder ongeveer 200 respondenten blijkt dat ruim 75% zich hierin herkent.
-Onze oplossing is een wearable voor honden die op een halsband of harnas aangebracht kan worden. Deze meet het stresslevel van de hond wanneer het baasje van huis gaat. Wanneer de hond gestrest is, zal het baasje via een app een melding krijgen dat hun viervoeter zich wat ongemakkelijk voelt. Op de interface heeft het baasje dan onder andere de mogelijkheid om het hondje te controleren via een camera, met hen te praten vanop afstand, zijn stressniveau te bekijken, een speeltje te doen bewegen of een snoepje te geven.
+Veel hondeneigenaars vinden het moeilijk om hun hond alleen thuis te laten. Of ze nu naar het werk gaan, naar een feestje, of simpelweg iets gaan drinken, ze blijven zich zorgen maken om hun hondje. Veel honden hebben ook last van verlatingsangst. Uit een enquête onder ongeveer 200 respondenten blijkt dat ruim 75% zich hierin herkent.
+Onze oplossing is een wearable voor honden die op een halsband of harnas aangebracht kan worden. Deze meet het stresslevel van de hond wanneer het baasje van huis gaat. Wanneer de hond tekenen van stress vertoont, krijgt het baasje via een app een melding dat zijn of haar viervoeter zich ongemakkelijk voelt. Op de interface heeft het baasje dan onder andere de mogelijkheid om het hondje te controleren via een camera, met hen te praten vanop afstand, zijn stressniveau te bekijken, een speeltje te doen bewegen of een snoepje te geven.
 
 Dit snoepje wordt gegeven met een dispenser die in de huiskamer bij de hond staat en met de app bediend kan worden (of automatisch werkt indien de gebruiker dit wenst). Ook de camera is op de dispenser aangebracht zodat het baasje meteen ziet hoe het met zijn viervoeter gaat.
 
-
-
-Doordat baasjes met hun hond kunnen interageren op afstand en hen beloningen kunnen geven, hebben ze minder het gevoel dat ze hun hond “in de steek” laten. Ook krijgen ze met de live stressmeter een gevoel van controle over de situatie. Deze combinatie gaat schuldgevoel en verlatingsangst bij baasjes tegen. Daarnaast heeft het ook een kalmerend en positief effect op honden en helpt het ook bij hun verlatingsangst.
+Doordat baasjes met hun hond kunnen interageren op afstand en hen beloningen kunnen geven, hebben ze minder het gevoel dat ze hun hond “in de steek” laten. Ook krijgen ze met de live stressmeter een gevoel van controle over de situatie. Deze combinatie gaat schuldgevoel en verlatingsangst bij baasjes tegen. Daarnaast heeft het een kalmerend en positief effect op honden en helpt het ook bij hun verlatingsangst.
 
 ![Hero Schets](https://github.com/user-attachments/assets/aa6882d1-d53e-430d-b6bf-dd8766a94dfd)
 
 
 ## Introductie
-Veel hondeneigenaars vinden het moeilijk om hun hond alleen thuis te laten. Dit is vooral het geval als de hond verlatingsangst heeft of destructief gedrag vertoont.  Dit kan bij het baasje leiden tot een constante bezorgdheid en een gevoel van machteloosheid, wat hun dagelijks leven beïnvloedt. Ze vermijden bepaalde activiteiten of haasten zich naar huis om hun hond gerust te stellen.
-Het doel van ons project is om een slim product te ontwerpen dat hondeneigenaars een gerust gevoel geeft wanneer hun hond alleen thuis is. Zo wordt een systeem te ontwerpen dat de hond zal kalmeren en een aangenamere tijd zal bieden, wanneer hun baasje van huis is. De baasjes hebben ook de optie om zelf vanop afstand te kunnen interageren met hun hond. Uit onderzoek, zoals beschreven in Stressed Out Dog: 10 Ways to Ease Their Stress - Diggs, 2021, blijkt dat fysieke en mentale stimulatie stress vermindert bij honden. Dit zal worden toegepast in het uiteindelijke product dat uit 3 onderdelen bestaat:
+Veel hondeneigenaars vinden het moeilijk om hun hond alleen thuis te laten. Vooral wanneer de hond last heeft van verlatingsangst of destructief gedrag vertoont, wordt dit een uitdaging. Dit kan bij het baasje leiden tot een constante bezorgdheid en een gevoel van machteloosheid, wat hun dagelijks leven beïnvloedt. Ze vermijden bepaalde activiteiten of haasten zich naar huis om hun hond gerust te stellen.
+Het doel van het project is om een slim product te ontwerpen dat hondeneigenaars een gerust gevoel geeft wanneer hun hond alleen thuis is. Er wordt een systeem ontworpen dat de hond zal kalmeren en een aangenamere tijd zal bieden, wanneer hun baasje van huis is. De baasjes hebben de optie om vanop afstand te kunnen interageren met hun hond. Uit onderzoek, zoals beschreven in Stressed Out Dog: 10 Ways to Ease Their Stress - Diggs, 2021, blijkt dat fysieke en mentale stimulatie stress vermindert bij honden. Dit zal worden toegepast in het uiteindelijke product dat uit 4 onderdelen bestaat:
 
 1. Een halsband die de stressniveaus van de hond meet.
 2. Een dispenser met een camera, die het baasje op afstand via een app kan besturen. Ze kunnen snoepjes geven en kijken hoe het met hun hond gaat.
 3. Een interactief speeltje dat beweging en prikkels biedt en op afstand geactiveerd kan worden.
-4. Een app waarmee alles van op afstand bestuurd kan worden. Hier kan je ook je voorkeuren instellen wat betreft de notificaties en automatisering.
-
-Het doel is om aan het eind van het schooljaar een werkend prototype van het product te presenteren. Door beperkte tijd, middelen en budget zal de technologie achter het meten van stress en de precieze werking nog niet volledig zijn uitgewerkt. Echter, het prototype zal het concept duidelijk maken en aantonen hoe het product waarde kan toevoegen aan het leven van zowel hond als baasje.
+4. Een app waarmee alles van op afstand bestuurd kan worden. Hier kan de gebruiker zijn voorkeuren instellen wat betreft de notificaties en automatisering.
 
 
 ## Methodologie
-De productontwikkeling startte met de discovery fase, waarin werd gezocht naar een probleem dat aansloot bij de design challenge. Aanvankelijk ging het project over hondenagressie en hondenfobie in het algemeen. Na de eerste conceptpitch bleek echter dat dit product veel vertrouwen van de gebruiker vereiste. Hondenangst en hondenagressie is namelijk een zeer grote uitdaging om op te lossen. Daarnaast is hondenagressie ook moeilijk om correct te meten. Zo bleek een andere een andere problematiek binnen dezelfde doelgroep die meer potentie had: hondenbaasjes die moeite hebben met het alleen thuislaten van hun hond. Het zal in dit dossier dus ook enkel over deze specifieke doelgroep gaan.
-
+De productontwikkeling startte met de discovery fase, waarin werd gezocht naar een probleem dat aansloot bij de design challenge. Aanvankelijk ging het project over hondenagressie en hondenfobie in het algemeen. Na de eerste conceptpitch bleek echter dat dit product veel vertrouwen van de gebruiker vereiste. Hondenangst en hondenagressie is namelijk een zeer grote uitdaging om op te lossen. Daarnaast is hondenagressie ook moeilijk om correct te meten. Zo bleek dat een andere problematiek binnen dezelfde doelgroep meer potentieel heeft: hondenbaasjes die moeite hebben met het alleen thuislaten van hun hond. Het zal in dit dossier dus ook enkel over deze specifieke doelgroep gaan.
 
 Er werd gebrainstormd over mogelijke oplossingen voor dit probleem, wat leidde tot het idee van een halsband die via hartslag en beweging de stressniveaus van de hond monitort. De verzamelde gegevens worden gebruikt om het gedrag van de hond beter te begrijpen en gerichter in te spelen op zijn behoeften.
 Na onderzoek, een enquête, benchmarking en brainstormsessies werd een eerste concept ontwikkeld. Dit omvatte een interactieve oplossing om honden thuis te vermaken.
+
 In de definitiefase werd onderzocht hoe het product vorm kon krijgen. Het concept bestond uit een app waarmee baasjes op afstand hun hond kunnen observeren, snoepjes kunnen geven, speelgoed kunnen activeren, enzovoort. De interface werd uitgewerkt in Figma en ProtoPie om testpersonen een zo realistisch mogelijk beeld te geven van de werking. Tegelijkertijd werden quick-and-dirty prototypes van een dispenser gemaakt om verschillende ideeën te testen.
 
 Deze prototypes en interfaces werden getest via de eerder aan bod gekomen techniek: Concept Testing in een gecontroleerde omgeving. Hiermee werd een optimaal concept van de dispenser gerealiseerd, werd inzicht verworven in het soort wearable en een goed beeld verkregen van de functies die de app moet kunnen besturen.
- 
-Wat het interactieve speeltje betreft werd besloten om deze enkel conceptueel uit te werken door gebrek aan middelen om dit fysiek te ontwerpen, aangezien het helemaal draait rond de automatisch bewegingen en prikkels die het maakt. 
 
-In de tweede wave werden de meldingen die de app zal geven geoptimaliseerd. Het belangrijkste doel was dat baasjes zich gerustgesteld voelen terwijl ze van huis zijn. Dit werd getest met een variant op ESM-testing, waarbij de baasjes op hun werk meldingen kregen over hun hond (zoals het uiteindelijke product dit ook zal doen) en deze samen met hen te evalueren.
+Het speeltje werd enkel conceptueel uitgewerkt in deze fase, aangezien de technieken om dit te prototypen nog niet gekend waren.
 
-Aan het einde van het semester werd een verslag opgesteld waarin de voortgang en bevindingen tot dan toe zijn gedocumenteerd. Dit verslag geeft een overzicht van de stappen die zijn genomen en de ontwikkeling van ons project.
+In de tweede wave werden de meldingen die de app zal geven geoptimaliseerd. Het belangrijkste doel was dat baasjes zich gerustgesteld voelen terwijl ze van huis zijn. Dit werd getest met een variant op ESM-testing, waarbij de baasjes op hun werk meldingen kregen over hun hond (zoals het uiteindelijke product dit ook zal doen) en deze meldingen samen met hen geëvalueerd werden.
 
+Er volgde een eerste Develop fase. De focus lag hier op het concretiseren van de stijl en lay-out van de interface, het mechanisme van de dispenser uitwerken en de methoden om de hartslag van honden te meten bepalen. Dankzij de lessen in Arduino werd het mogelijk een effectief werkend prototype te maken van de dispenser met behulp van een Protopie programma dat met de Arduino geconnecteerd is en een motortje doet draaien. Met dit prototype en de nieuwe dispenser werd aan Usability Testing (n=4) gedaan om nieuwe inzichten te krijgen. Hiernaast werden ook de methode om de hartslag van honden te meten onderzocht.
+
+In de tweede Develop fase werd eerder op vormgeving gefocust. Zowel van de dispenser als het logo. Ook werd het inlaad- en uitlaadmechanisme van het bakje met de snoepjes in de dispenser geoptimaliseerd. Dit alles werd opnieuw gestest met Usability Testing (n=4).
+
+In de laatste Develop fase werd Usability testing (n=6) gebruikt om de User Experience te optimaliseren. Er werden high-fidelity prototypes gemaakt van vrijwel alle componenten om zo nieuwe pijnpunten te kunnen identificeren. In deze prototypes werd alle eerder opgedane kennnis gecombineerd om tot een zo goed mogelijk resultaat te komen.
+
+In deze fase werd ook getracht het botje te doen werken om de respondenten een zo goed mogelijk beeld van het systeem te kunnen geven.
+
+Tot slot wordt met behulp van de feedback van de respondenten in de laatste wave het finaal prototype gerealiseerd voor dit project.
 
 ![image](https://github.com/user-attachments/assets/91ec4d0c-99f9-41ee-86b4-430e1830f22e)
 
