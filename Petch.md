@@ -588,6 +588,8 @@ De optie om automatische, deels automatische of manuele bediening te kiezen vond
 
 ## Design Requirements
 
+| ID | Design Requirement | Source | Date |
+| :---: | :--- | :---: | :---: |
 | **Groep 1** | **Algemeen** |          |         |
 | 1.1 | Het systeem moet een camerafunctie hebben | Concept Testing | 14/12/2024 |
 | 1.2 | Er moeten beloningen kunnen worden gegeven | Concept Testing | 14/12/2024 |
