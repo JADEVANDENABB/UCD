@@ -59,6 +59,7 @@ Tot slot wordt met behulp van de feedback van de respondenten in de laatste wave
 - Onderzoeken welke middelen helpen tegen stress bij honden.
 - Bestaande producten en diensten, die deze problematiek al (deels) oplossen, exploreren en hiervan leren.
 - Verworven informatie gaan combineren tot een nieuw concept.
+
 ### Materiaal & methoden
 #### Enquête
 Er is een enquête opgesteld en verspreid in diverse Facebookgroepen om meer inzicht te krijgen in de problematiek. Deze enquête werd door 221 mensen ingevuld. De vragen waren gericht op hoe vaak mensen moeite hadden met het alleen thuis laten van hun hond en wat de belangrijkste redenen hiervoor waren.
@@ -349,9 +350,10 @@ Er was bij de tweede interface een activiteitenpagina, waarbij informatie over d
 Dit vonden vele respondenten zeker een meerwaarde. Een ander positief aspect in de eerste interface was er een soort hartslagschaal wat duidelijk aantoont hoe de hond zich voelt op het moment. Deze varieert van slapend tot onrustig. 
 
 De resultaten van de BERT-testing formulieren zijn als volgt:
-![N=1 BERT](https://github.com/user-attachments/assets/91b6b1b5-5470-4aa7-98c8-02a81150cecb) ![N=2 BERT](https://github.com/user-attachments/assets/ad0cca02-4550-4d12-8c11-874cdefe5c5b)
-![N=3 BERT](https://github.com/user-attachments/assets/bf897453-a86a-4a55-9df6-2f270f54823a) ![N=4 BERT](https://github.com/user-attachments/assets/ed7032e1-ba6d-40a7-b669-a62fff7e494b)
-
+![N=1 BERT](https://github.com/user-attachments/assets/91b6b1b5-5470-4aa7-98c8-02a81150cecb){: style="width:40%"} 
+![N=2 BERT](https://github.com/user-attachments/assets/ad0cca02-4550-4d12-8c11-874cdefe5c5b){: style="width:40%"}
+![N=3 BERT](https://github.com/user-attachments/assets/bf897453-a86a-4a55-9df6-2f270f54823a){: style="width:40%"}
+![N=4 BERT](https://github.com/user-attachments/assets/ed7032e1-ba6d-40a7-b669-a62fff7e494b){: style="width:40%"}
 
 
 De meningen over de twee interfaces waren soms verdeeld in het formulier. Toch liggen de beoordelingen dicht bij de ideale verwachtingen van de gebruiker. 
