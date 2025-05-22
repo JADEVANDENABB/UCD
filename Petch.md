@@ -570,17 +570,29 @@ Conclusie prototyping strategie:
 
 #### Onderzoek hartslag
 
-...
+Door middel van een desk research werd een beter beeld gecreëerd over hoe stress kan gemeten worden bij honden. Een uitgebreid protocol is te vinden in bijlage. 
+
+Hier de onderzoeksvragen die als kapstok werden gebruikt:
+- Hoe kan de hartslag van een hond gemeten worden?
+- Hoe wordt stress gedetecteerd door hartslagmeting?
+- Welke rol speelt beweging om tot een accuraat resultaat te komen?
+- Hoe verandert de hartslag tussen honden onderling?
+- Hoe kan gedetecteerd worden wanneer de hond slaapt?
 
 #### Usability testing (n=6)
 
 Er wordt deur aan deur gegaan bij mensen thuis. Er wordt hen gevraagd of ze een hond hebben en zo ja, of ze deel willen nemen aan de test. 
 
+![image](https://github.com/user-attachments/assets/1088fa75-01a6-4e06-aeec-d192398f39bc)
+
 Er werd gekozen om zo high fidelity mogelijk te prototypen. Dit om een zo realistisch mogelijk beeld van het concept te kunnen geven aan de respondenten en nieuwe pijnpunten te kunnen identificeren. Er werden verschillende componenten getest:
+
+![image](https://github.com/user-attachments/assets/b6e88f04-1909-49d3-aec3-41f8d6098848)
+
 
 1. **De dispenser**
 
-De dispenser wordt gematerialiseerd met een combinatie van witgeschilderde houten platen en 3D-prints. Er werd uit de vorige test gekozen voor een drukmechanisme om het vulbakje eruit te halen. Het systeem om het rad juist te positioneren bleek eerder overbodig, waardoor dit niet in het nieuwe prototype werd opgenomen. In de dispenser bevindt zich de camera en een stappenmotor die het rad doet draaien om de snoepjes te geven. Dit alles is rechtstreeks aangesloten en bediend met een Raspberry Pi, waarop ook de interface gebouwd wordt. 
+De dispenser wordt gematerialiseerd met een combinatie van witgeschilderde houten platen en 3D-prints. Er werd uit de vorige test gekozen voor een drukmechanisme om het vulbakje eruit te halen. Het systeem om het rad juist te positioneren bleek eerder overbodig, waardoor dit niet in het nieuwe prototype werd opgenomen. In de dispenser bevindt zich de camera en een stappenmotor die het rad doet draaien om de snoepjes te geven. Dit alles is rechtstreeks aangesloten en bediend met een Raspberry Pi, waarop ook de interface gebouwd wordt. Dispenser
 
 2. **Het speelgoedje**
 
@@ -606,26 +618,117 @@ Om de hartslag toch na te kunnen bootsen werd er gewerkt met een Rotary Encoder 
 
 #### Onderzoek Hartslag
 
-...
+In bijlage is een uitgebreid rapport te vinden. Hier de belangrijkste elementen.
+
+- Hoe kan de hartslag van een hond gemeten worden?
+Er zijn verschillende halsbanden op de markt die succesvol de hartslag van honden meten. Een allesomvattend voorbeeld is de PetPace. Deze meet de hartslag van de hond door middel van akoestische sensoren. 
+
+- Hoe wordt stress gedetecteerd door hartslagmeting?
+Stress in honden is niet enkel te bepalen door middel van hartslagmeting. Het is belangrijk om ook andere vitale gegevens en gedrag te meten zodat een nauwkeurig beeld kan gevormd worden. Andere tekenen van stress zijn hartslagvariabilieit (HRV), transpiratie en lichaamshouding. Ook leeftijd, grootte, gewicht, geslacht en medische aandoeningen hebben een impact op de stressniveaus van honden.
+
+- Welke rol speelt beweging om tot een accuraat resultaat te komen?
+Een verhoogde hartslag kan te wijten zijn aan aan lichamelijke activiteit, opwinding, ziekte en medicatie. Een verhoogde hartslag betekent dus niet meteen dat de hond gestresseerd is. Naast het meten van hartslag is het dus ook aangeraden om beweging te meten om fysieke activiteit uit te sluiten bij een verhoogde hartslag.
+
+- Hoe verandert de hartslag tussen honden onderling?
+De hartslag van een hond verschilt per ras en grootte van een hond. Kleine rassen: 100-140 BPM, Middelgrote tot grote rassen: 60-100.
+
+- Hoe kan gedetecteerd worden wanneer de hond slaapt?
+De hartslag van een hond kan bij het slapen dalen tot zelfs 30-40 BPM.
+
+Het is dus belangrijk om alle honden niet over dezelfde kam te scheren en hond per hond te gaan bepalen welke factoren kunnen bijdragen tot verhoogde tekenen van stress.
 
 #### Usability Testing (n=6)
 
-De vormegeving van de dispenser viel bij iedereen in de smaak, alleen kwam vaak terug dat het nogal aan de grote kant is. Volgens één van de respondenten ligt het probleem vooral in de diepte. Het drukmechanisme om de snoepjes bij te vullen bleek moeizaam te gaan. Enkele van de respondenten begrepen niet meteen dat ze moesten duwen (ondanks de "push" boodschap op het rad) en wanneer ze toch duwden kwam het bakje er moeizaam uit. 
+**Dispenser**
 
-Eén van de respondenten bracht het idee aan om een klepje tussen het rad en het gangetje te voorzien zodat de gebruiker eventueel snoepjes kan overslaan.
+![image](https://github.com/user-attachments/assets/0a4f91db-b643-4db1-94a5-c270dd1de5e1)
 
-De hartslagcomponent werd door één van de respondenten ervaren als lastig te monteren. Het bestaat uit twee schroeven. Volgens de respondent zou een systeem met één schroef of zelfs zonder schroeven beter zijn. 
+Alle testpersonen vonden de vormgeving van de dispenser neutraal en stijlvol. Het past in zowat elk huishouden. Een puntje van kritiek was wel dat hij te groot is voor het eerder kleine reservoir dat erin gaat. Volgens één van de respondenten ligt het probleem vooral in de diepte.
+Er werden manieren uitgewerkt om de dispenser compacter te maken:
+- De reden dat de dispenser iets dikker is, is omdat er aan de achterkant van het reservoir een stappenmotor zit die de tienhoekige cilinder aandrijft om zo het rad te doen draaien. Deze 
+overbodige ruimte kan bespaard worden door met tandwielen te werken en de motor naast het reservoir te plaatsen. Zo wordt het vulbakje aangedreven door een motor die aan de zijkant zit, waardoor de ruimte in de dispenser optimaal benut wordt.
 
-De interface werd als zeer inuïtief ervaren. Alleen met het wegklikken van het menu hadden veel van de respondenten moeite. Ook kwamen de vragen of er bijgehouden kan worden hoeveel de hond geblaft heeft en hoe lang de hond stress heeft gehad die dag.
+![image](https://github.com/user-attachments/assets/3fe845e3-9e03-44bb-a59e-51db27743460)
 
-Eén van de respondenten haalde het idee van aangeleerd gedrag aan: de hond met bepaalde seintjes naar de dispenser roepen en eerst leren zitten of ander goed gedrag te vertonen, alvorens hem te belonen. Dit zodat het systeem bijna als een soort hondenoppas kan dienen die de hond leert zich goed te gedragen wanneer alleen. De respondent zag het systeem sowieso meer als een soort trainingsysteem voor puppy's om hen te leren alleen thuis te zijn.
+- Iemand had ook het interessante idee om verschillende groottes van dispensers te maken. Kleine honden hebben een kleiner reservoir nodig, zo kan de grootte zo beperkt mogelijk blijven.
 
-Over de praatfunctie van de interface waren de meningen sterkt verdeeld. Sommigen waren ervan overtuigd dat het hun hond volledig van de kaart zou brengen moest hij plots uit het niets de stem van zijn baasje horen. Anderen vonden dit juist één van de beste features. 
+Het drukmechanisme om de snoepjes bij te vullen bleek moeizaam te gaan. Enkele van de respondenten begrepen niet meteen dat ze moesten duwen, ondanks de "push" boodschap op het rad.Wanneer ze toch duwden kwam het bakje er moeizaam uit. Er zijn enkele verklaringen waarom dit zo is: 
+1. Het reservoir is niet helemaal verzonken in de behuizing van de dispenser. De rand van de dispenser steekt net uit boven boven het vlak, waardoor mensen het hier vastnemen en zo verwijderen uit de behuizing. Als deze meer verscholen zou zijn, zou de gebruiker op zoek gaan naar een andere manier en zou het duwmechanisme intuïtiever gebruikt kunnen worden.
+2. Het woord “PUSH” zou duidelijker aanwezig kunnen zijn op de dispenser. Momenteel staat het gegraveerd op het rad, maar het kan duidelijker gemaakt worden door het in een andere kleur te schrijven of groter en zichtbaarder te plaatsen.
+3. Het is van nature intuïtiever om de doos eruit te halen zonder te drukken. Men gaat hier niet meteen aan denken. 
+
+Een andere optie is om het gehele duwmechanisme overboord te gooien en een stap terug te zetten naar de vorige wave. Hier was het duwmechanisme gekozen boven het uithaalbare mechanisme omdat de gebruiker dit leuker en simpeler vond. Nu blijkt dat het duwmechanisme minder intuïtief is. Een combinatie van de huidige vormgeving en het uithaalmechanisme van de vorige wave zou een oplossing kunnen zijn voor het probleem.
+Er zou dan gewerkt worden met een handvat dat centraal op het deksel zit. De doos zou gepositioneerd worden met zijwaartse groeven en door een pin-mechanisme zou ook het rad beter gealigneerd worden. 
+
+**Speelgoed**
+
+Op het speelgoed was vormelijk weinig op aan te merken. Voorlopig is het speeltje ook heel  conceptueel. Het werkte genoeg om een demonstratie te doen, maar het is nog ver van werkend. 
+
+Het is een feit dat dergelijke speeltjes niet alle honden zullen boeien, zoals bleek uit de interviews. Voor de optimale werking van het product is het wel een vereiste dat zowel snoepjes als speelgoed een effect hebben op de gemoedstoestand van een hond. Het is geen goed idee om enkel met snoepjes te werken, want dan wordt de hond steeds beloond wanneer die stress heeft. Het speeltje zorgt voor de nodige onafhankelijke afleiding, die minder als beloning wordt gezien door de hond.
+
+Voorheen werd ook al aangetoond dat bewegen stress vermindert bij honden. Dit maakt interesse in het speelgoed nog belangrijker
+
+In de toekomst kan nagedacht worden over manieren om honden te entertainen, ook al zijn ze niet geboeid door bewegende speeltjes. Dit kan bijvoorbeeld door een ander soort add-on.
+
+Er kunnen ook verschillende soorten speelgoedjes beschikbaar zijn voor mocht de hond het eerst al beu zijn of nood hebben aan verandering.
+
+**Halsband**
+
+Er werd unaniem gekozen om het bakje dat de hartslag en beweging meet afzonderlijk mee te verkopen. Alle honden en baasjes verschillen, ook hun smaak van halsband of harnas. Door het bakje apart te verkopen kan het baasje deze zelf vastmaken aan hun halsband en is de drempel ook minder groot om het product te gebruiken. 
+
+Daar komt opnieuw een design challenge bij kijken, namelijk het ontwerpen van een bakje dat stevig vastzit op eender welke halsband. 
+De hartslagcomponent werd door één van de respondenten ervaren als lastig te monteren. Dit werd nu gedaan door twee schroeven, maar kon op een betere en gebruiksvriendelijkere manier. Volgens de respondent zou een systeem met één schroef of zelfs zonder schroeven beter zijn.
+Dit kan in een volgende fase beter uitgewerkt worden. 
+
+**Interface**
+
+De interface werd als zeer inuïtief en proper ervaren. Alleen met het wegklikken van het menu hadden veel van de respondenten moeite. 
 
 De optie om automatische, deels automatische of manuele bediening te kiezen vonden alle respondenten een meerwaarde. Wel kwam hierbij opnieuw het probleem van negatief aangeleerd gedrag naar boven. Bij automatische beloningen zou de dispenser eigenlijk vooraleer de hond effectief stress heeft al een snoepje moeten geven. 
 
+**Uitbreidingen** 
+
+Er waren enkele suggesties om het product uit te breiden om bijkomende problemen te behandelen:
+
+- Eén van de respondenten haalde het idee van aangeleerd gedrag aan: de hond met bepaalde seintjes naar de dispenser roepen en eerst leren zitten of ander goed gedrag te vertonen. Dit door het analyseren van lichaamstaal van de hond en de juiste timing van het geven van een snoepje. Zo zou het systeem bijna als een soort hondenoppas kunnen dienen die de hond leert zich goed te gedragen wanneer die alleen is. De respondent zag het systeem sowieso meer als een soort trainingsysteem voor puppy's om hen te leren alleen thuis te zijn.
+- Ook kwamen de vragen of er bijgehouden kan worden hoeveel de hond geblaft om zeker te zijn dat het geen last is voor de buren. Er zit al een functie in het product waarbij je meldingen kan ontvangen wanneer de hond blaft. Een overzicht van de hoeveelheid blaffen is nog niet aanwezig.
+- Over de praatfunctie van de interface waren de meningen sterkt verdeeld. Sommigen waren ervan overtuigd dat het hun hond volledig van de kaart zou brengen moest hij plots uit het niets de stem van zijn baasje horen. Anderen vonden dit juist één van de beste features. 
+- Ook zouden ze willen weten hoe lang de hond stress heeft ervaren die dag. Door middel van een grafiek zou dit visueel de gebruiker kunnen informeren over de dag van hun hond
+
+De laatste suggestie zal nu worden toegepast op de app. Het is inderdaad handig om een overzicht te hebben van de stress doorheen de dag.
+De andere suggesties worden meegenomen en kunnen later nog toegevoegd worden als uitbreiding op het product.
+
+
 ### Conclusies & implicaties
 
+Uit de gebruikerstesten zijn enkele goede design implicaties gekomen die worden meegenomen in de toekomst:
+
+Design implicaties voor de dispenser:
+- De dispenser minder diep maken door de motor naast het vulbakje te plaatsen en te werken met tandwielaandrijving om het rad te doen draaien.
+- Verschillende groottes van dispensers maken voor kleinere honden die bijgevolg kleinere snoepjes krijgen.
+  Zo wordt de dispenser niet onnodig groot.
+- Afstappen van het drukmechanisme en kiezen voor het intuïtievere uithaalmechanisme van de vorige wave.
+- Vormelijk wordt de dispenser behouden zoals hij is.
+- Het belonen van gestresseerd gedrag moet vermeden worden, dus het is ook belangrijk om snoepjes te geven wanneer ze rustig zijn.
+
+Design implicaties voor het speeltje:
+- Doordat niet alle honden geïnteresserd zijn in bewegende speelgoedjes moet ofwel de doelgroep beperkt worden of een manier gevonden worden om honden te entertainen die niet reageren op speeltjes.
+- Vooral het speelgoed moet zorgen voor het verminderen van stress.
+- Verschillende soorten speelgoed kunnen beschikbaar zijn voor verandering.
+
+Design implicaties voor de halsband:
+- Het bakje wordt niet verkocht met bijhorende halsband, maar apart.
+- Het bakje moet passen op verschillende soorten halsbanden.
+- Er moet een simpelere en gebruiksvriendelijkere manier zijn om het bakje te bevestigen aan de halsband van de hond.
+
+Design implicaties voor de interface:
+- De interface wordt stillistisch behouden
+- Er wordt een extra functie toegevoegd, namelijk een grafiekje waarop de stressniveau van de hele dag te zien zijn.
+
+Mogelijke uitbreidingen die in de toekomst kunnen worden toegevoegd:
+- Het aanleren van enkele kunstjes door het analyseren van lichaamstaal en de juiste timing van een snoepje
+- Een overzicht van hoe vaak en hoe luit de hond blaft zodat de buren zich niet ergeren.
+- Een praat functie om live te praten met de hond.
 
 ## Design Requirements
 
