@@ -8,7 +8,9 @@
 ## Samenvatting
 Veel hondenbaasjes hebben problemen met het achterlaten van hun hond. Of ze nu naar het werk gaan, naar een feestje, of simpelweg iets gaan drinken, ze blijven zich zorgen maken om hun hondje. Veel honden hebben ook last van verlatingsangst. Uit een enquête onder ongeveer 200 respondenten blijkt dat ruim 75% zich hierin herkent.
 Onze oplossing is een wearable voor honden die op een halsband of harnas aangebracht kan worden. Deze meet het stresslevel van de hond wanneer het baasje van huis gaat. Wanneer de hond gestrest is, zal het baasje via een app een melding krijgen dat hun viervoeter zich wat ongemakkelijk voelt. Op de interface heeft het baasje dan onder andere de mogelijkheid om het hondje te controleren via een camera, met hen te praten vanop afstand, zijn stressniveau te bekijken, een speeltje te doen bewegen of een snoepje te geven.
-Dit snoepje wordt gegeven met een dispenser die in de huiskamer bij de hond staat en met de app bediend kan worden (of automatisch werkt indien de gebruiker dit wenst). Ook de camera is hierop aangebracht, gepaard met een geluidje om het hondje te laten weten dat er een snoepje komt en een DAP feromoon diffuser. Dit feromoon werd door de moeder uitgescheiden en heeft ook op latere leeftijd een kalmerend effect op de hond.
+
+Dit snoepje wordt gegeven met een dispenser die in de huiskamer bij de hond staat en met de app bediend kan worden (of automatisch werkt indien de gebruiker dit wenst). Ook de camera is op de dispenser aangebracht zodat het baasje meteen ziet hoe het met zijn viervoeter gaat.
+
 
 
 Doordat baasjes met hun hond kunnen interageren op afstand en hen beloningen kunnen geven, hebben ze minder het gevoel dat ze hun hond “in de steek” laten. Ook krijgen ze met de live stressmeter een gevoel van controle over de situatie. Deze combinatie gaat schuldgevoel en verlatingsangst bij baasjes tegen. Daarnaast heeft het ook een kalmerend en positief effect op honden en helpt het ook bij hun verlatingsangst.
@@ -123,7 +125,7 @@ en dat een groot deel van de baasjes zich erin herkent.
 
 #### Desk Research
 Allereerst kan worden besloten dat de halsband de hartslag en beweging zal meten. Door inspanning gaat de hartslag omhoog, wat een vertekend beeld van stress kan geven. Door ook de beweging te meten, kan dit uitgesloten worden.
-Daarnaast kan blaffen ook op stress wijzen. Dit zal ook worden gemeten. 
+Daarnaast kan blaffen ook op stress wijzen. Dit zou ook gemeten kunnen worden. 
 
 Fysieke en mentale stimulatie is een belangrijke factor wanneer stress verminderd moet worden bij honden. Interactieve speeltjes zijn een goede manier om dit te bekomen.
 
@@ -239,15 +241,29 @@ Iets waar het merendeel van de respondenten zich zorgen over maakten is negatief
 
 
 ### Conclusies & implicaties
-Het belangrijkste is dat de gebruikers meldingen krijgen op hun gsm wanneer hun hond gestrest is. Dit zal gemeten worden met een add-on die op een harnas of halsband aangebracht kan worden. De eerste reactie van de gebruiker is sowieso om op de camera te kijken hoe het met hun hond gesteld is. Daarna moeten ze de mogelijkheid hebben om een beloning te geven, een speeltje te doen bewegen of met hun hond te praten. 
+Het belangrijkste is dat de gebruikers meldingen krijgen op hun gsm wanneer hun hond gestrest is. Dit zal gemeten worden met een add-on die op een harnas of halsband aangebracht kan worden. De eerste reactie van de gebruiker is sowieso om op de camera te kijken hoe het met hun hond gesteld is. Daarna moeten ze de mogelijkheid hebben om een beloning te geven, een speeltje te doen bewegen of eventueel met hun hond te praten. 
 
 
 De meldingen die het baasje zal ontvangen moeten personaliseerbaar zijn en tactisch gebracht worden om geen negatieve gevoelens op te wekken bij het baasje. Ook moet het baasje de optie hebben om (deels) automatische beloningen of speeltjes in te schakelen indien ze geen tijd hebben om dit manueel te doen.
 
+> [!Design Requirements:]
+> - D1.1 Het systeem moet een camerafunctie hebben
+> - D1.2 Er moeten beloningen kunnen worden gegeven
+> - D1.3 Er moet een speeltje geactiveerd kunnen worden, d.w.z dat het automatisch begint te bewegen
+> - D1.5 Het stresslevel van de hond moet live te raadplegen zijn
+> - D2.4 De wearable moet een harnas en/of halsband zijn
+> - D3.2 De interface moet meldingen kunnen sturen naar de gebruiker
+> - D3.3 De interface moet de optie geven om meerdere honden toe te voegen
+> - D4.1 De dispenser moet beloningen kunnen geven
+> - D4.2 De dispenser moet met verschillende beloningen gevuld kunnen worden, waaronder iets gezond
+> - D4.3 De dispenser moet esthetisch zijn
+> - D4.4 De dispenser moet snel bij te vullen zijn
+> - D4.5 De dispenser moet een geluidje kunnen maken wanneer het een beloning geeft
+> - D4.6 De dispenser moet uitgerust zijn met een camera
+> - D4.7 De dispenser moet uitwasbaar zijn
+> - D5.1 Het speeltje moet taai genoeg zijn
 
-De inzichten werden opgenomen in het eerste PRD, zie bijlage.
-
-## Kritische reflectie
+## Kritische reflectie semester 1
 Hoewel het een spannend gegeven was, was het een goede keuze om de pivot te maken. De angst om een hond alleen te laten is een probleem waar veel mensen zich in kunnen vinden en met een grote impact op het leven. Het nieuwe concept kwam met vele nieuwe discussies en uitdagingen. Er moest namelijk een hele nieuwe probleemruimte onderzocht worden. 
 
 Via benchmarking, desk research en een enquête werd onderzocht wat er al op de markt is en vooral wat nog niet. We zagen dat veel van de technologieën die we graag zouden opnemen in ons concept al bestonden. De combinatie ervan echter nog niet. Dit maakte de benchmarking cruciaal.
@@ -598,8 +614,8 @@ De optie om automatische, deels automatische of manuele bediening te kiezen vond
 | 1.5 | Het stresslevel van de hond moet live te raadplegen zijn | Concept Testing | 14/12/2024 |
 |   |   |   |   |
 | **Groep 2** | **Hartslagcomponent** |          |         |
-| 2.1 | De wearable moet de hartslag van de hond meten | Enquête | 15/11/2024 |
-| 2.2 | De wearable moet de beweging van de hond meten | Enquête | 15/11/2024 |
+| 2.1 | De wearable moet de hartslag van de hond meten | Desk Research | 15/11/2024 |
+| 2.2 | De wearable moet de beweging van de hond meten | Desk Research | 15/11/2024 |
 | 2.3 | De wearable moet de gemeten variabele(n) doorgeven naar de interface | Enquête | 15/11/2024 |
 | 2.4 | De wearable moet een harnas en/of halsband zijn | Concept Testing | 14/12/2024 |
 |   |   |   |   |
@@ -618,9 +634,9 @@ De optie om automatische, deels automatische of manuele bediening te kiezen vond
 | 4.3 | De dispenser moet esthetisch zijn | Concept Testing | 14/12/2024 |
 | 4.4 | De dispenser moet snel bij te vullen zijn | Concept Testing | 14/12/2024 |
 | 4.5 | De dispenser moet een geluidje kunnen maken wanneer het een beloning geeft | Concept Testing | 14/12/2024 |
-| 4.5 | De dispenser moet uitgerust zijn met een camera | Concept Testing | 14/12/2024 |
-| 4.5 | De dispenser moet uitwasbaar zijn | Concept Testing | 14/12/2024 |
-| 4.5 | De dispenser moet weersbestendig zijn voor buitengebruik | ESM-Testing | 08/01/2025 |
+| 4.6 | De dispenser moet uitgerust zijn met een camera | Concept Testing | 14/12/2024 |
+| 4.7 | De dispenser moet uitwasbaar zijn | Concept Testing | 14/12/2024 |
+| 4.8 | De dispenser moet weersbestendig zijn voor buitengebruik | ESM-Testing | 08/01/2025 |
 |   |   |   |   |
 | **Groep 5** | **Speeltje** |          |         |
 | 5.1 | Het speeltje moet taai genoeg zijn  | Concept Testing | 14/12/2024 |
