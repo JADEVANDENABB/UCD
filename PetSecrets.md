@@ -514,6 +514,54 @@ Conclusie prototyping strategie:
 - Templates: Flask en Jinja2 + CSS bestanden
 - Hartslag via "Wizard of Oz"-testing
 
+## Develop 2
+
+### Doestellingen
+- De verschillen tussen de hartslagen van kleine en grote honden onderzoeken
+- De vormgeving van de hartslagcomponent uitwerken
+- De interface zo intuïtief mogelijk maken
+- De UX optimaliseren
+- Nagaan of er nog extra features aan het systeem toegevoegd moeten worden
+- De vormgeving van de dispenser optimaliseren
+
+
+### Materiaal & methoden
+
+#### Usability testing (n=4)
+
+Er wordt deur aan deur gegaan bij mensen thuis. Er wordt hen gevraagd of ze een hond hebben en zo ja, of ze deel willen nemen aan de test. 
+
+Er werd gekozen om zo high fidelity mogelijk te prototypen. Dit om een zo realistisch mogelijk beeld van het concept te kunnen geven aan de respondenten en nieuwe pijnpunten te kunnen identificeren. Er werden verschillende componenten getest:
+
+1. **De dispenser**
+
+De dispenser wordt gematerialiseerd met een combinatie van witgeschilderde houten platen en 3D-prints. Hierin bevindt zich de camera en een stappenmotor die het rad doet draaien om de snoepjes te geven. Dit alles is rechtstreeks aangesloten en bediend met een Raspberry Pi, waarop ook de interface gebouwd wordt. 
+
+2. **Het speelgoedje**
+
+Het botje bestaat uit drie 3D-geprinte componenten. In het midden een behuizing waar alle elektronica in zou moeten komen, aan de uiteinden twee ronde componenten die met behulp van twee DC motoren draaien en het botje doen bewegen. 
+
+Een arduino stuurt de motoren aan met behulp van een L298N motor driver. Op de arduino is een HC-05 bluetooth module aangesloten die signaal opvangt van de Raspberry Pi wanneer de gebruiker op de juiste knop duwt en het botje doet bewegen. 
+
+3. **De interface**
+
+De interface bediend alle componenten. Deze wordt opnieuw herontworpen met alle eerdere opgedane kennis in het achterhoofd. De bedoeling hierbij is vooral om de User Experience te verbeteren en de hondeneigenaren een zo goed mogelijk gevoel te geven. Er werd gekozen om met een Flask webserver te werken. Dit omwille van de vele mogelijkheden om verschillende hardwarecomponenten te bedienen en vrijwel geen limieten op vlak van software en lay-out. 
+
+4. **De hartslagcomponent**
+
+De hartslagcomponent wordt puur vormelijk uitgewerkt, aangezien we binnen onze mogelijkheden niet de technologie hebben om de hartslag van dieren te kunnen meten. Uit eerdere testen bleek dat de meningen van gebruikers sterk verdeeld waren wanneer het ging over harnas vs halsband. Er werd toen de beslissing genomen om te werken met een hartslagcomponent die op de hondenwearable bestigd kan worden in plaats van met een een volledige halsband of harnas. 
+
+### Resultaten
+
+#### Usability Testing (n=4)
+
+
+
+### Conclusies & implicaties
+
+
+
+
 ## Bill of materials
 - Figma
 - Karton
