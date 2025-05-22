@@ -147,6 +147,12 @@ Er wordt een oplijsting gemaakt van alle aspecten die worden meegenomen in de ve
 - Speeltje dat via de app te besturen is. 
 - Speeltje dat werkt met snoepjes
 
+> [!IMPORTANT]
+> Design Requirements:
+> - D1.4 Het stresslevel van de hond moet gemeten kunnen worden
+> - D2.1 De wearable moet de hartslag van de hond meten
+> - D2.2 De wearable moet de beweging van de hond meten
+> - D2.3 De wearable moet de gemeten variabele(n) doorgeven naar de interface
 
 ## Definition
 
@@ -386,6 +392,15 @@ Elementen die moeten verbeterd worden:
 - De slimme overgangen tussen de pagina’s
 - Een kleurencode koppelen aan de gevoelens van de hond
 
+> [!IMPORTANT]
+> Design Requirements:
+> - D3.7 Op de interface moeten enkele eenvoudige statistieken te zien zijn
+> - D3.8 Op de interface moeten belangrijkste functies moeten meteen vanop het beginscherm te bedienen zijn wanneer het baasje van huis is
+> - D3.9 Er moet een duidelijk vormelijk verschil zijn op de interface nadat het baasje op de vertrekknop drukt
+> - D4.9 Het bijvullen van de dispenser moet op een intuïtieve, ergonomische manier kunnen gebeuren
+> - D4.10 Er moeten genoeg constraints op de dispenser aanwezig zijn om foutief gebruik te vermijden
+> - D4.11 De vormgeving van de dispenser moet zijn werking duidelijk maken
+
 ## Develop 2
 
 ### Doestellingen
@@ -507,7 +522,7 @@ Uit de gebruikerstesten zijn enkele goede design implicaties gekomen die worden 
 
 Design implicaties voor het mechanisme:
 - Drukmechanisme
-- Lipjes voorzien voor positionering en beter grip
+- Lipjes voorzien voor positionering en betere grip
 - Uitsnijding tot onderaan voor ergonomisch uitladen
 - Nummering onderaan de doos voor info over de volgorde en positionering van het rad.
 - Tienhoek met draft voor makkelijkere en correcte inschuiving.
@@ -519,7 +534,7 @@ Design implicaties voor de dispenser:
 Design implicaties voor het logo:
 - Petch
 - Kleurgebruik (groen, geel, rood bv)
-- Origineel genoe
+- Origineel genoeg
 
 Extra:
 - Er wordt gewerkt met uitneembare batterij
@@ -531,7 +546,13 @@ Conclusie prototyping strategie:
 - Templates: Flask en Jinja2 + CSS bestanden
 - Hartslag via "Wizard of Oz"-testing
 
-## Develop 2
+> [!IMPORTANT]
+> Design Requirements:
+> - D1.6 Het logo moet zowel klasse als warmte uistralen
+> - D4.12 De dispenser moet neutraal genoeg zijn om in vrijwel elk woonkamerinterieur op te gaan
+> - D4.13 De dispenser moet op batterijen werken
+
+## Develop 3
 
 ### Doestellingen
 - De verschillen tussen de hartslagen van kleine en grote honden onderzoeken
@@ -613,6 +634,7 @@ De optie om automatische, deels automatische of manuele bediening te kiezen vond
 | 1.3 | Er moet een speeltje geactiveerd kunnen worden, d.w.z dat het automatisch begint te bewegen | Concept Testing | 14/12/2024 |
 | 1.4 | Het stresslevel van de hond moet gemeten kunnen worden | Enquête | 15/11/2024 |
 | 1.5 | Het stresslevel van de hond moet live te raadplegen zijn | Concept Testing | 14/12/2024 |
+| 1.6 | Het logo moet zowel klasse als warmte uitstralen | Usability Testing | 24/04/2025 |
 |   |   |   |   |
 | **Groep 2** | **Hartslagcomponent** |          |         |
 | 2.1 | De wearable moet de hartslag van de hond meten | Desk Research | 15/11/2024 |
@@ -628,6 +650,9 @@ De optie om automatische, deels automatische of manuele bediening te kiezen vond
 | 3.5 | De gebruiker moet zelf kunnen kiezen of de dispenser automatisch beloningen mag geven of niet | ESM-Testing | 08/01/2025 |
 | 3.6 | De gebruiker moet een bepaalde tijdspanne tussen automatische beloningen kunnen instellen | ESM-Testing | 08/01/2025 |
 | 3.6 | De gebruiker moet via een simpele knop op de interface het product kunnen activeren | ESM-Testing | 08/01/2025 |
+| 3.7 | Op de interface moeten enkele eenvoudige statistieken te zien zijn | Usability Testing | 13/03/2025 |
+| 3.8 | Op de interface moeten belangrijkste functies meteen vanop het beginscherm te bedienen zijn wanneer het baasje van huis is | Usability Testing | 13/03/2025 |
+| 3.9 | Er moet een duidelijk vormelijk verschil zijn op de interface nadat het baasje op de vertrekknop drukt | Usability Testing | 13/03/2025 |
 |   |   |   |   |
 | **Groep 4** | **Dispenser** |          |         |
 | 4.1 | De dispenser moet beloningen kunnen geven | Concept Testing | 14/12/2024 |
@@ -638,9 +663,16 @@ De optie om automatische, deels automatische of manuele bediening te kiezen vond
 | 4.6 | De dispenser moet uitgerust zijn met een camera | Concept Testing | 14/12/2024 |
 | 4.7 | De dispenser moet uitwasbaar zijn | Concept Testing | 14/12/2024 |
 | 4.8 | De dispenser moet weersbestendig zijn voor buitengebruik | ESM-Testing | 08/01/2025 |
+| 4.9 | Het bijvullen van de dispenser moet op een intuïtieve, ergonomische manier kunnen gebeuren | Usability Testing | 13/03/2025 |
+| 4.10 | Er moeten genoeg constraints op de dispenser aanwezig zijn om foutief gebruik te vermijden | Usability Testing | 13/03/2025 |
+| 4.11 | De vormgeving van de dispenser moet zijn werking duidelijk maken | Usability Testing | 13/03/2025 |
+| 4.12 | De dispenser moet neutraal genoeg zijn om in vrijwel elk woonkamerinterieur op te gaan | Usability Testing | 24/04/2025 |
+| 4.13 | De dispenser moet op batterijen werken | Usability Testing | 24/04/2025 |
 |   |   |   |   |
 | **Groep 5** | **Speeltje** |          |         |
 | 5.1 | Het speeltje moet taai genoeg zijn  | Concept Testing | 14/12/2024 |
+| 5.2 | Het speeltje moet in verschillende groottes komen naargelang de hond  | Concept Testing | 14/12/2024 |
+
 
 ## Bill of materials
 - Figma
