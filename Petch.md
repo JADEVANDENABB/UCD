@@ -822,7 +822,7 @@ In de definition fase gingen we met deze mensen aan de slag. Hoewel 40% van de r
 
 Bij de tweede test (vanop afstand) konden we de locatiefactor ook achterwege laten en een grotere groep mensen contacteren. Toch hebben uiteindelijk slechts 3 mensen deelgenomen. Dit was tijdens het eerste semester de grootste uitdaging voor ons: de combinatie van het managen van een designproces en het rekruteren van respondenten. Natuurlijk wel een zeer leerrijk gegeven. 
 
-**Tweede semester**
+**Semester 2**
 
 In het tweede semester kozen we ervoor om de testen steeds met kennissen uit te voeren, dit om niet te veel tijd te verliezen met het rekruteren van mensen. Wel probeerden we steeds te variëren met respondenten. In de laatste Develop fase werd er nogmaals gewerkt met onbekenden om een goed gevarieerde en neutrale testing pool te hebben. 
 
@@ -869,9 +869,9 @@ Tot slot is er nog veel mogelijkheid om later nieuwe functies aan het product to
 
 #### Build instructions + code
 
-Onder cad/dispenserwave3 zijn de cad files terug te vinden van het laatst ontworpen prototype. Onder cad/dispenserfinaal zijn de cad files zijn de cad files van het finaal prototype, wat niet meer fysiek gerealiseerd is kunnen worden. 
+Onder cad/dispenserwave3 zijn de cad files terug te vinden van het laatst ontworpen prototype. Onder cad/dispenserfinaal zijn de cad files zijn de cad files van het finaal prototype, wat niet meer fysiek gerealiseerd is kunnen worden. In het finaal protoype werd aan alle design requirements voldaan.
 
-De simpele platen van de behuizing werden gemaakt uit witgeschilderde multiplex. De meer complexe componenten werden geprint met een 3D printer. Hetzelfde zou gelden voor het finale protoype. Het deurtje van de dispenser wordt met scharnieren bevestigd.
+De simpele platen van de behuizing werden gemaakt uit witgeschilderde multiplex. De meer complexe componenten werden geprint met een 3D printer. Hetzelfde zou gelden voor het finale prototype. Het deurtje van de dispenser wordt met scharnieren bevestigd.
 
 De interface werd uitgewerkt op de Raspberry Pi 5, alle code en afbeeldingen zijn te bekijken onder code/Raspberry Pi. De Pi werd in de dispenser gepositioneerd om rechtstreeks de stappenmotor aan te kunnen sturen. De stappenmotor werd geconnecteerd aan de ULN2003AN Stepper Motor Driver. Deze werd gevoed door de 9V batterij en kreeg signalen van de Raspberry Pi.
 
@@ -896,31 +896,31 @@ De interface werd uitgewerkt op de Raspberry Pi 5, alle code en afbeeldingen zij
 
 #### Build instructions + code
 
-De cad file van het botje is te zien onder cad/speeltje. Dit bestaat volledig uit 3D prints. Om de motors vast te zetten in het midden van de behuizing werd resthout gebruikt waarin een gat gemaakt werd voor de motor. De elektronica bestaat uit een Arduino waarop een L298N motor driver is aangesloten. Deze wordt appart gevoed met twee 9V batterijen en stuurt twee 6V DC motoren aan. De Arduino zelf wordt gevoed met één 9V batterij die met de Arduino VIN en GND verbonden is. Tussen de batterij en de VIN van de Arduino wordt de switch geplaatst om het geheel uit te kunnen zetten.
+De cad file van het botje is te zien onder cad/speeltje. Dit bestaat volledig uit 3D prints. Om de motors vast te zetten in het midden van de behuizing werd resthout gebruikt waarin een gat gemaakt werd voor de motor. De elektronica bestaat uit een Arduino waarop een L298N motor driver is aangesloten. Deze wordt apart gevoed met twee 9V batterijen en stuurt twee 6V DC motoren aan. De Arduino zelf wordt gevoed met één 9V batterij die met de Arduino VIN en GND verbonden is. Tussen de batterij en de VIN van de Arduino wordt de switch geplaatst om het geheel uit te kunnen zetten.
 
-Er wordt ook een HC-05 bluetooth module aangesloten op het geheel. Deze wordt via bluetooth geconnecteerd met de Pi en ontvangt signaal wanneer het speeltje geactiveerd moet worden. Omdat de RX pin van de bluetooth module op 3.3V logica werkt en de rest van de module op 5V, wordt er simpele spanningdeler met enkele weerstanden gemaakt. De 1k en 2k weerstand in serie verbinden de RX pin van de HC-05 met de GND. De 1700ohm weerstand verbind deze pin met de Arduino. Arduino code is te vinden onder code/Arduino/Botje/Speeltje. 
+Er wordt ook een HC-05 bluetooth module aangesloten op het geheel. Deze wordt via bluetooth geconnecteerd met de Pi en ontvangt signaal wanneer het speeltje geactiveerd moet worden. Omdat de RX pin van de bluetooth module op 3.3V logica werkt en de rest van de module op 5V, wordt er simpele spanningdeler met enkele weerstanden gemaakt. De 1k en 2k weerstand in serie verbinden de RX pin van de HC-05 met de GND. De 1700ohm weerstand verbindt deze pin met de Arduino. Arduino code is te vinden onder code/Arduino/Botje/Speeltje.
 
-Op de Raspberry Pi moet connectie worden gemaakt met de bluetooth module door eerst volgende commando's te runnen:
+Op de Raspberry Pi moet connectie worden gemaakt met de bluetooth module door eerstvolgende commando's te runnen:
 
-*bluetoothctl*
+bluetoothctl
 
-*power on*
+power on
 
-*agent on*
+agent on
 
-*scan on*
+scan on
 
 Na een tijdje verschijnt er een apparaat van de vorm: xx:xx:xx:xx:xx:xx HC-05
 
-*pair xx:xx:xx:xx:xx:xx*
+pair xx:xx:xx:xx:xx:xx
 
-*trust xx:xx:xx:xx:xx:xx*
+trust xx:xx:xx:xx:xx:xx
 
-*exit* 
+exit 
 
 Volgend commando moet telkens ingegeven worden bij reboot van de Pi om te connecteren:
 
-*sudo rfcomm bind /dev/rfcomm1 xx:xx:xx:xx:xx:xx*
+sudo rfcomm bind /dev/rfcomm1 xx:xx:xx:xx:xx:xx
 
 ### Hartslagcomponent + Rotary Encoder (om hartslag na te bootsen)
 #### Bill of Materials
@@ -940,11 +940,11 @@ Volgend commando moet telkens ingegeven worden bij reboot van de Pi om te connec
 
 De hartslagcomponent bestaat simpelweg uit een 3D print met twee schroeven, cad is te vinden onder cad/wearable. Dit wordt op een halsband of harnas bevestigd.
 
-De Rotary encoder is aangesloten op een Arduino nano. Deze wordt gevoed met de computer via USB kabel. Ook hier is een HC-05 Bluetooth module aangsloten op de arduino. Opnieuw met de spanningsdeler zoals beschreven onder het botje. Hier wordt de component gebruikt om informatie naar de Pi te sturen. De code is te vinden onder code/Arduino/RotaryEncoder.
+De Rotary encoder is aangesloten op een Arduino nano. Deze wordt gevoed met de computer via USB-kabel. Ook hier is een HC-05 Bluetooth module aangesloten op de Arduino. Opnieuw met de spanningsdeler zoals beschreven onder het botje. Hier wordt de component gebruikt om informatie naar de Pi te sturen. De code is te vinden onder code/Arduino/RotaryEncoder.
 
 Om de HC-05 te connecteren met de Raspberry Pi moeten dezelfde commando's als onder het botje beschreven ingevoerd worden in de terminal. Alleen bij het connecteren moet ervoor gezorgd worden dat de component met een andere poort geconnecteerd wordt:
 
-*sudo rfcomm bind /dev/rfcomm0 xx:xx:xx:xx:xx:xx*
+sudo rfcomm bind /dev/rfcomm0 xx:xx:xx:xx:xx:xx
   
 ## Bronnen
 Edwards, P. T., Smith, B. P., McArthur, M. L., & Hazel, S. J. (2022). At the heart of a dog’s veterinary experience: Heart rate responses in dogs vary across a standard physical examination. Journal Of Veterinary Behavior, 51, 23–34. https://doi.org/10.1016/j.jveb.2022.03.003
