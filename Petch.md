@@ -7,18 +7,19 @@
 
 ## Samenvatting
 Veel hondeneigenaars vinden het moeilijk om hun hond alleen thuis te laten. Of ze nu naar het werk gaan, naar een feestje, of simpelweg iets gaan drinken, ze blijven zich zorgen maken om hun hondje. Veel honden hebben ook last van verlatingsangst. Uit een enquête onder ongeveer 200 respondenten blijkt dat ruim 75% zich hierin herkent.
-Onze oplossing is een wearable voor honden die op een halsband of harnas aangebracht kan worden. Deze meet het stresslevel van de hond wanneer het baasje van huis gaat. Wanneer de hond tekenen van stress vertoont, krijgt het baasje via een app een melding dat zijn of haar viervoeter zich ongemakkelijk voelt. Op de interface heeft het baasje dan onder andere de mogelijkheid om het hondje te controleren via een camera, met hen te praten vanop afstand, zijn stressniveau te bekijken, een speeltje te doen bewegen of een snoepje te geven.
+Onze oplossing is een wearable voor honden die op een halsband of harnas aangebracht wordt. Deze meet het stresslevel van de hond wanneer het baasje van huis gaat. Bij verhoogde stress, krijgt het baasje via een app een melding dat zijn of haar viervoeter zich ongemakkelijk voelt. Op de interface heeft het baasje dan onder andere de mogelijkheid om het hondje te controleren via een camera, met hen te praten vanop afstand, zijn stressniveau te bekijken, een speeltje te doen bewegen of een snoepje te geven.
 
 Dit snoepje wordt gegeven met een dispenser die in de huiskamer bij de hond staat en met de app bediend kan worden (of automatisch werkt indien de gebruiker dit wenst). Ook de camera is op de dispenser aangebracht zodat het baasje meteen ziet hoe het met zijn viervoeter gaat.
 
-Doordat baasjes met hun hond kunnen interageren op afstand en hen beloningen kunnen geven, hebben ze minder het gevoel dat ze hun hond “in de steek” laten. Ook krijgen ze met de live stressmeter een gevoel van controle over de situatie. Deze combinatie gaat schuldgevoel en verlatingsangst bij baasjes tegen. Daarnaast heeft het een kalmerend en positief effect op honden en helpt het ook bij hun verlatingsangst.
+Doordat baasjes met hun hond kunnen interageren op afstand en hen beloningen kunnen geven, hebben ze minder het gevoel dat ze hun hond “in de steek” laten. De live stressmeter 
+en de camera geven een gevoel van controle. Deze combinatie gaat schuldgevoel en verlatingsangst bij baasjes tegen. Daarnaast heeft het een kalmerend en positief effect op honden en helpt het ook bij hun verlatingsangst.
 
-![Hero Schets](https://github.com/user-attachments/assets/aa6882d1-d53e-430d-b6bf-dd8766a94dfd)
+![Hero Shot](https://github.com/user-attachments/assets/c8ea3e88-eb43-47ac-8855-15e59746ab20)
 
 
 ## Introductie
-Veel hondeneigenaars vinden het moeilijk om hun hond alleen thuis te laten. Vooral wanneer de hond last heeft van verlatingsangst of destructief gedrag vertoont, wordt dit een uitdaging. Dit kan bij het baasje leiden tot een constante bezorgdheid en een gevoel van machteloosheid, wat hun dagelijks leven beïnvloedt. Ze vermijden bepaalde activiteiten of haasten zich naar huis om hun hond gerust te stellen.
-Het doel van het project is om een slim product te ontwerpen dat hondeneigenaars een gerust gevoel geeft wanneer hun hond alleen thuis is. Er wordt een systeem ontworpen dat de hond zal kalmeren en een aangenamere tijd zal bieden, wanneer hun baasje van huis is. De baasjes hebben de optie om vanop afstand te kunnen interageren met hun hond. Uit onderzoek, zoals beschreven in Stressed Out Dog: 10 Ways to Ease Their Stress - Diggs, 2021, blijkt dat fysieke en mentale stimulatie stress vermindert bij honden. Dit zal worden toegepast in het uiteindelijke product dat uit 4 onderdelen bestaat:
+Veel hondeneigenaars vinden het moeilijk om hun hond alleen thuis te laten. Vooral wanneer de hond last heeft van verlatingsangst of destructief gedrag vertoont, wordt dit een uitdaging. Dit kan bij het baasje leiden tot een constante bezorgdheid en een gevoel van machteloosheid. Ze vermijden bepaalde activiteiten of haasten zich naar huis om hun hond gerust te stellen.
+Het doel van het project is om een slim product te ontwerpen dat hondeneigenaars een gerust gevoel geeft wanneer hun hond alleen thuis is. De hoofdfunctie is om de hond te kalmeren en een aangenamere tijd te bieden, wanneer hun baasjes van huis zijn. De baasjes hebben de optie om vanop afstand te kunnen interageren met hun hond. Uit onderzoek, zoals beschreven in Stressed Out Dog: 10 Ways to Ease Their Stress - Diggs, 2021, blijkt dat fysieke en mentale stimulatie stress vermindert bij honden. Dit wordt toegepast in het uiteindelijke product dat uit 4 onderdelen bestaat:
 
 1. Een halsband die de stressniveaus van de hond meet.
 2. Een dispenser met een camera, die het baasje op afstand via een app kan besturen. Ze kunnen snoepjes geven en kijken hoe het met hun hond gaat.
@@ -27,26 +28,26 @@ Het doel van het project is om een slim product te ontwerpen dat hondeneigenaars
 
 
 ## Methodologie
-De productontwikkeling startte met de discovery fase, waarin werd gezocht naar een probleem dat aansloot bij de design challenge. Aanvankelijk ging het project over hondenagressie en hondenfobie in het algemeen. Na de eerste conceptpitch bleek echter dat dit product veel vertrouwen van de gebruiker vereiste. Hondenangst en hondenagressie is namelijk een zeer grote uitdaging om op te lossen. Daarnaast is hondenagressie ook moeilijk om correct te meten. Zo bleek dat een andere problematiek binnen dezelfde doelgroep meer potentieel heeft: hondenbaasjes die moeite hebben met het alleen thuislaten van hun hond. Het zal in dit dossier dus ook enkel over deze specifieke doelgroep gaan.
+De productontwikkeling startte met de **discovery fase**, waarin werd gezocht naar een probleem dat aansloot bij de design challenge. Aanvankelijk ging het project over hondenagressie en hondenfobie in het algemeen. Na de eerste conceptpitch bleek echter dat dit product veel vertrouwen van de gebruiker vereiste. Hondenangst en hondenagressie is namelijk een zeer grote uitdaging om op te lossen. Daarnaast is hondenagressie ook moeilijk om correct te meten. Zo bleek dat een andere problematiek binnen dezelfde doelgroep meer potentieel heeft: **hondenbaasjes die moeite hebben met het alleen thuislaten van hun hond**. Het zal in dit dossier dus ook enkel over deze specifieke doelgroep gaan.
 
-Er werd gebrainstormd over mogelijke oplossingen voor dit probleem, wat leidde tot het idee van een halsband die via hartslag en beweging de stressniveaus van de hond monitort. De verzamelde gegevens worden gebruikt om het gedrag van de hond beter te begrijpen en gerichter in te spelen op zijn behoeften.
-Na onderzoek, een enquête, benchmarking en brainstormsessies werd een eerste concept ontwikkeld. Dit omvatte een interactieve oplossing om honden thuis te vermaken.
+Er werd **gebrainstormd** over mogelijke oplossingen voor dit probleem, wat leidde tot het idee van een halsband die via hartslag en beweging de stressniveaus van de hond monitort. De verzamelde gegevens worden gebruikt om het gedrag van de hond beter te begrijpen en gerichter in te spelen op zijn behoeften.
+Na onderzoek, een enquête, benchmarking en brainstormsessies werd een eerste concept ontwikkeld. Dit omvatte een **interactieve oplossing om honden thuis te vermaken**.
 
-In de definitiefase werd onderzocht hoe het product vorm kon krijgen. Het concept bestond uit een app waarmee baasjes op afstand hun hond kunnen observeren, snoepjes kunnen geven, speelgoed kunnen activeren, enzovoort. De interface werd uitgewerkt in Figma en ProtoPie om testpersonen een zo realistisch mogelijk beeld te geven van de werking. Tegelijkertijd werden quick-and-dirty prototypes van een dispenser gemaakt om verschillende ideeën te testen.
+In de **definitiefase** werd onderzocht hoe het product vorm kon krijgen. Het concept bestond uit een app waarmee baasjes op afstand hun hond kunnen observeren, snoepjes kunnen geven, speelgoed kunnen activeren, enzovoort. De interface werd uitgewerkt in Figma en ProtoPie om testpersonen een zo realistisch mogelijk beeld te geven van de werking. Tegelijkertijd werden quick-and-dirty **prototypes** van een dispenser gemaakt om verschillende ideeën te testen.
 
 Deze prototypes en interfaces werden getest via de eerder aan bod gekomen techniek: Concept Testing in een gecontroleerde omgeving. Hiermee werd een optimaal concept van de dispenser gerealiseerd, werd inzicht verworven in het soort wearable en een goed beeld verkregen van de functies die de app moet kunnen besturen.
 
-Het speeltje werd enkel conceptueel uitgewerkt in deze fase, aangezien de technieken om dit te prototypen nog niet gekend waren.
+Het **speeltje werd enkel conceptueel uitgewerkt** in deze fase, aangezien de technieken om dit te prototypen nog niet gekend waren.
 
-In de tweede wave werden de meldingen die de app zal geven geoptimaliseerd. Het belangrijkste doel was dat baasjes zich gerustgesteld voelen terwijl ze van huis zijn. Dit werd getest met een variant op ESM-testing, waarbij de baasjes op hun werk meldingen kregen over hun hond (zoals het uiteindelijke product dit ook zal doen) en deze meldingen samen met hen geëvalueerd werden.
+In de **tweede wave** werden de **meldingen die de app zal geven** geoptimaliseerd. Het belangrijkste doel was dat baasjes zich gerustgesteld voelen terwijl ze van huis zijn. Dit werd getest met een variant op ESM-testing, waarbij de baasjes op hun werk meldingen kregen over hun hond (zoals het uiteindelijke product dit ook zal doen) en deze meldingen samen met hen geëvalueerd werden.
 
-Er volgde een eerste Develop fase. De focus lag hier op het concretiseren van de stijl en lay-out van de interface, het mechanisme van de dispenser uitwerken en de methoden om de hartslag van honden te meten bepalen. Dankzij de lessen in Arduino werd het mogelijk een effectief werkend prototype te maken van de dispenser met behulp van een Protopie programma dat met de Arduino geconnecteerd is en een motortje doet draaien. Met dit prototype en de nieuwe dispenser werd aan Usability Testing (n=4) gedaan om nieuwe inzichten te krijgen. Hiernaast werden ook de methode om de hartslag van honden te meten onderzocht.
+Er volgde een **eerste Develop fase**. De focus lag hier op het concretiseren van de stijl en lay-out van de interface, het mechanisme van de dispenser uitwerken en de methoden bepalen om de hartslag van honden te meten. Dankzij de lessen in Arduino werd het mogelijk een effectief werkend prototype te maken van de dispenser met behulp van een Protopie programma dat met de Arduino geconnecteerd is en een motortje doet draaien. Met dit prototype en de nieuwe dispenser werd aan Usability Testing (n=4) gedaan om nieuwe inzichten te krijgen. Hiernaast werden ook de methode om de hartslag van honden te meten onderzocht.
 
-In de tweede Develop fase werd eerder op vormgeving gefocust. Zowel van de dispenser als het logo. Ook werd het inlaad- en uitlaadmechanisme van het bakje met de snoepjes in de dispenser geoptimaliseerd. Dit alles werd opnieuw gestest met Usability Testing (n=4).
+In de **tweede Develop fase** werd eerder op vormgeving gefocust. Zowel van de dispenser als het logo. Ook werd het inlaad- en uitlaadmechanisme van het bakje met de snoepjes in de dispenser geoptimaliseerd. Dit alles werd opnieuw gestest met Usability Testing (n=4).
 
-In de laatste Develop fase werd Usability testing (n=6) gebruikt om de User Experience te optimaliseren. Er werden high-fidelity prototypes gemaakt van vrijwel alle componenten om zo nieuwe pijnpunten te kunnen identificeren. In deze prototypes werd alle eerder opgedane kennnis gecombineerd om tot een zo goed mogelijk resultaat te komen.
+In de **laatste Develop fase** werd Usability testing (n=6) gebruikt om de User Experience te optimaliseren. Er werden high-fidelity prototypes gemaakt van vrijwel alle componenten om zo nieuwe pijnpunten te kunnen identificeren. In deze prototypes werd alle eerder opgedane kennnis gecombineerd om tot een zo goed mogelijk resultaat te komen.
 
-In deze fase werd ook getracht het botje te doen werken om de respondenten een zo goed mogelijk beeld van het systeem te kunnen geven.
+In deze fase werd ook getracht speeltje te doen werken om de respondenten een zo goed mogelijk beeld van het systeem te kunnen geven.
 
 Tot slot wordt met behulp van de feedback van de respondenten in de laatste wave het finaal prototype gerealiseerd voor dit project.
 
@@ -62,7 +63,7 @@ Tot slot wordt met behulp van de feedback van de respondenten in de laatste wave
 
 ### Materiaal & methoden
 #### Enquête
-Er is een enquête opgesteld en verspreid in diverse Facebookgroepen om meer inzicht te krijgen in de problematiek. Deze enquête werd door 221 mensen ingevuld. De vragen waren gericht op hoe vaak mensen moeite hadden met het alleen thuis laten van hun hond en wat de belangrijkste redenen hiervoor waren.
+Er is een enquête opgesteld en verspreid in diverse Facebookgroepen om meer inzicht te krijgen in de problematiek en marktpotentieel. Deze enquête werd door 221 mensen ingevuld. De vragen waren gericht op hoe vaak mensen moeite hadden met het alleen thuis laten van hun hond en wat de belangrijkste redenen hiervoor waren.
 
 #### Desk Research
 Aan de hand van een google search werd gezocht naar manieren om stress te meten en verminderen bij honden. Het onderzoek richt zich tot wetenschappelijke bronnen, ervaringsdeskundigen en artikels
@@ -121,8 +122,7 @@ We zijn gaan kijken naar producten die een camera en/of dispenser hebben, intera
 
 ### Conclusies & implicaties
 #### Enquête
-Uit de enquête hebben kan besloten worden dat de problematiek zeer reëel is 
-en dat een groot deel van de baasjes zich erin herkent.
+Uit de enquête hebben kan besloten worden dat de problematiek zeer reëel is en dat een groot deel van de baasjes zich erin herkent.
 
 => Het product moet verlatingsangst, destructief gedrag en langdurig in de bench zitten voorkomen.
 => Daarnaast moet het er ook voor zorgen dat de hond meer plezier heeft door de dag.
@@ -135,7 +135,7 @@ Fysieke en mentale stimulatie is een belangrijke factor wanneer stress verminder
 
 Het DAP-feromoon is een goede manier om een rustigere omgeving te creëren. Dit is zeker een aspect dat goed is om toe te voegen aan het product. 
 
-Het gebruik van laserspelletjes is een functie die niet wordt opgenomen om de veiligheid van het product te waarborgen en ongewenste effecten te vermijden.
+Het gebruik van laserspelletjes is een functie die niet wordt opgenomen om de veiligheid van het product te waarborgen en ongewenste effecten te vermijden. De laser activeert een jachtinstinct, maar geeft nooit de voldoening van de laser te pakken, wat voor meer stress zorgt
 
 
 #### Benchmarking
@@ -174,7 +174,7 @@ Hieruit worden de belangrijkste onderzoeksvragen afgeleid die in de eerste wave 
 - Welke wearable zal de hond krijgen?
 - Wat zal de werking zijn van de dispenser?
 	
-Om deze te onderzoeken worden prototypes gecreëerd voor de dispenser uit voornamelijk karton, maar ook met geprinte componenten, nagels en een lamp. Ook worden 2 interfaces gecreëerd, één met Figma en één met Protopie. 
+Om deze te onderzoeken worden prototypes gecreëerd voor de dispenser uit voornamelijk karton, maar ook met 3D-geprinte componenten, nagels en een lamp. Ook worden 2 interfaces gecreëerd, één met Figma en één met Protopie. 
 ![image](https://github.com/user-attachments/assets/3715c4c3-e484-4840-ba2d-09da68a7b09c)
 ![image](https://github.com/user-attachments/assets/d7be8d36-070e-453d-8158-0e0e85a35249)
 
@@ -193,7 +193,7 @@ Hieruit konden opnieuw een reeks onderzoeksvragen gevonden worden:
 - Hoe zal de gebruiker voorkeuren kunnen aangeven op de interface?
 - Moet de gebruiker kunnen instellen wanneer hij van huis gaat?
 
-Om dit te testen, worden enkele elementen uit de Figma interface in de Protopie interface geïntegreerd en wordt voorlopig met deze verder gewerkt. Hierin wordt een instellingenmenu ontworpen waarin de gebruiker zijn voorkeuren kan geven welke meldingen hij wilt en of er automatisch beloningen gegeven mogen worden. 
+Om dit te testen, werden enkele elementen uit de Figma interface in de Protopie interface geïntegreerd en er werd met deze verder gewerkt. Hierin werd een instellingenmenu ontworpen waarin de gebruiker zijn voorkeuren kan geven, welke meldingen hij wilt en of er automatisch beloningen gegeven mogen worden. 
 
 ![image](https://github.com/user-attachments/assets/e92e5613-8d80-4f0e-bbe1-51e59e27cb32)
 
@@ -211,7 +211,7 @@ Al de respondenten kregen de kans om met de twee interfaces te werken. Bijna all
 *“Ik vind die eerste de schoonste, maar die tweede is wel gemakkelijkst om te gebruiken want ik kan niet goed weg met die technologie enal.”*
 
 
-Bijna alle respondenten namen hun hond mee naar de testen. Dit werd niet gevraagd, maar ze wilden hun hond natuurlijk niet alleen thuis laten. De honden reageerden allemaal positief op de testen en de mensen genoten ervan om hun hond vanop afstand snoepjes te geven of ermee te praten.
+Bijna alle respondenten namen hun hond mee naar de testen. Dit werd niet gevraagd, maar ze wilden hun hond natuurlijk niet alleen thuislaten. De honden reageerden allemaal positief op de testen en de mensen genoten ervan om hun hond vanop afstand snoepjes te geven of ermee te praten.
 
 
 *“Hij kan mij horen nu? Dag Charlie!!”*
@@ -247,7 +247,7 @@ Toen de respondenten van huis gingen kregen ze, naargelang hun voorkeuren, meldi
 Bijna al de respondenten rapporteerden terug dat ze het fijn vonden om de meldingen te ontvangen. Eén van de respondenten was hier minder enthousiast over, ze ervaarde het als een beetje “vervelend”. De oplossing hiervoor was dat ze de meldingen volledig uitzette en het product altijd automatisch beloningen liet geven.
 
 
-Iets waar het merendeel van de respondenten zich zorgen over maakten is negatief aangeleerd gedrag. Dit is de reden dat bijna iedereen verkoos om zelf snoepjes te geven. Zo kunnen ze in het uiteindelijke product eerst met de camera kijken of hun hondje wel braaf is of of dat er echt iets aan de hand is om te vermijden dat ze een beloning geven als dit niet nodig is of als de hond iets stout aan het doen is.
+Iets waar het merendeel van de respondenten zich zorgen over maakten is negatief aangeleerd gedrag. Dit is de reden dat bijna iedereen verkoos om zelf snoepjes te geven. Zo kunnen ze in het uiteindelijke product eerst met de camera kijken of hun hondje wel braaf is, of dat er echt iets aan de hand is om te vermijden dat ze een beloning geven als dit niet nodig is of als de hond iets stout aan het doen is.
 
 
 ### Conclusies & implicaties
@@ -300,7 +300,7 @@ Er worden twee verschillende interfaces uitgewerkt. Eén interface heeft een vro
 Ook wordt het mechanisme van de dispenser verder uitgewerkt. Dit bestaat uit een rad dat over een stappenmotor bevestigd wordt met een zeskantig verbindingselement. Het rad bevat 9 bruikbare ruimtes waarin gebruikers verschillende snoepjes van verschillende groottes kunnen insteken, alsook eventueel een klein worteltje of een ander gezond snackje (zoals aangehaald in wave 1 van de Definition fase). 
 
 
-In de 2de wave kregen respondenten de kans om een maximaal aantal snoepjes in te geven indien ze voor automatische bediening kozen. Maxima varieerden, maar gingen niet boven de 10, vandaar de keuze voor het aantal vakjes. 
+In de 2de wave kregen respondenten de kans om een maximaal aantal snoepjes in te geven indien ze voor automatische bediening kozen. Maxima varieerden, maar gingen niet boven de 10, vandaar de keuze voor het aantal vakjes die met snoepjes gevuld worden. 
 
 
 Wanneer de gebruiker in de interface beslist een snoepje te geven, draait de stappenmotor over 36°. Wanneer er een snoepje onderaan terechtkomt, valt het uit de dispenser.
@@ -346,7 +346,7 @@ De resultaten van de BERT-testing formulieren zijn als volgt:
 
 De meningen over de twee interfaces waren soms verdeeld in het formulier. Toch liggen de beoordelingen dicht bij de ideale verwachtingen van de gebruiker. 
 De tweede interface werd eerder als persoonlijk gezien omdat de camera meteen op het beginscherm stond. Deze interface sloot ook het meest aan bij de verwachting van rust door het gebruik van één centrale kleur.
-Beide interfaces scoren goed op gebied van efficiëntie,  één van de belangrijkste eigenschappen.
+Beide interfaces scoren goed op gebied van efficiëntie, één van de belangrijkste eigenschappen.
 Globaal viel de tweede interface meer in de smaak qua stijl. 
 
 
@@ -362,7 +362,7 @@ Elementen die behouden worden aan de dispenser in de toekomst:
 
 Elementen die moeten worden aangepast aan de dispenser in de toekomst:
 - Constraint plaatsen bij het onbruikbare vakje in het draaimechanisme
-- Ergonomischere manier van uithalen van het reservoir
+- Meer ergonomische manier van uithalen van het reservoir
 - Intuïtiever aantonen hoe de dispenser wordt geopend
 - Vormelijk duidelijker aantonen hoe het reservoir in- en uitgeladen wordt
 - Het deksel beter bevestigen op het reservoir
@@ -486,7 +486,7 @@ Het is ook een goed idee om als bedrijf meerdere designs van dispensers of voork
 
 Wat de kleur betreft was iedereen enthousiast over het wit. De eerste dispenser maakt gebruik van houten accenten. Dit kan esthetisch zijn, maar dit maakt het ook moeilijker om te passen in elk huis. Er zijn heel veel verschillende kleuren en afwerkingen van hout. De kans is klein dat het hout van de dispenser zou overeenkomen met het reeds aanwezige houd bij mensen thuis. Daarom is het beter om hout helemaal te vermijden in dit prototype.
 
-Wat ze handig vonden aan de derde dispender is dat het gat waar de snoepjes uitvallen onderaan zit en niet vooraan zoals bij de andere twee. Zo wordt het gat beter verborgen en oogt het netter.
+Wat ze handig vonden aan de derde dispenser is dat het gat waar de snoepjes uitvallen onderaan zit en niet vooraan zoals bij de andere twee. Zo wordt het gat beter verborgen en oogt het netter.
 
 *Logo en naam*
 
@@ -500,7 +500,7 @@ Er zal hieraan worden gewerkt door een nieuw verbeterd logo te ontwerpen en opni
 
 *Extra*
 
-De consensus is dat de dispenser op batterijen moet werken. Dit zodat men de dispenser kan ophangen waar men wilt en niet gebonden is aan een stopcontact. Ook wordt er voorkomen dat de hond op de draad zou bijten of eraan zou trekken.
+De consensus is dat de dispenser op batterijen moet werken. Dit zodat men de dispenser kan ophangen waar men wil en niet gebonden is aan een stopcontact. Ook wordt er voorkomen dat de hond op de draad zou bijten of eraan zou trekken.
 
 #### Exploratie prototyping strategieën
 
@@ -547,11 +547,11 @@ Conclusie prototyping strategie:
 
 ## Develop 3
 
-### Doestellingen
+### Doelstellingen
 - De verschillen tussen de hartslagen van kleine en grote honden onderzoeken
 - De vormgeving van de hartslagcomponent uitwerken
 - De interface zo intuïtief mogelijk maken
-- De UX optimaliseren
+- De User Experience optimaliseren
 - Nagaan of er nog extra features aan het systeem toegevoegd moeten worden
 - De vormgeving van de dispenser optimaliseren
 
@@ -582,13 +582,13 @@ Er werd gekozen om zo high fidelity mogelijk te prototypen. Dit om een zo realis
 
 1. **De dispenser**
 
-De dispenser wordt gematerialiseerd met een combinatie van witgeschilderde houten platen en 3D-prints. Er werd uit de vorige test gekozen voor een drukmechanisme om het vulbakje eruit te halen. Het systeem om het rad juist te positioneren bleek eerder overbodig, waardoor dit niet in het nieuwe prototype werd opgenomen. In de dispenser bevindt zich de camera en een stappenmotor die het rad doet draaien om de snoepjes te geven. Dit alles is rechtstreeks aangesloten en bediend met een Raspberry Pi, waarop ook de interface gebouwd wordt. Dispenser
+De dispenser wordt gematerialiseerd met een combinatie van witgeschilderde houten platen en 3D-prints. Er werd uit de vorige test gekozen voor een drukmechanisme om het vulbakje eruit te halen. Het systeem om het rad juist te positioneren bleek eerder overbodig, waardoor dit niet in het nieuwe prototype werd opgenomen. In de dispenser bevindt zich de camera en een stappenmotor die het rad doet draaien om de snoepjes te geven. Dit alles is rechtstreeks aangesloten en bediend met een Raspberry Pi, waarop ook de interface gebouwd wordt. 
 
 2. **Het speelgoedje**
 
 Het botje bestaat uit drie 3D-geprinte componenten. In het midden een behuizing waar alle elektronica in zou moeten komen, aan de uiteinden twee ronde componenten die met behulp van twee DC motoren draaien en het botje doen bewegen. 
 
-Een arduino stuurt de motoren aan met behulp van een L298N motor driver. Op de arduino is een HC-05 bluetooth module aangesloten die signaal opvangt van de Raspberry Pi wanneer de gebruiker op de juiste knop duwt en het botje doet bewegen. 
+Een Arduino stuurt de motoren aan met behulp van een L298N motor driver. Op de Arduino is een HC-05 bluetooth module aangesloten die signaal opvangt van de Raspberry Pi wanneer de gebruiker op de juiste knop duwt en het botje doet bewegen. 
 
 3. **De interface**
 
@@ -598,17 +598,17 @@ In de interface werd ook de optie voorzien om de naam van de hond in te stellen 
 
 4. **De hartslagcomponent**
 
-De hartslagcomponent wordt puur vormelijk uitgewerkt, aangezien we binnen onze mogelijkheden niet de technologie hebben om de hartslag van dieren te kunnen meten. Uit eerdere testen bleek dat de meningen van gebruikers sterk verdeeld waren wanneer het ging over harnas vs halsband. Er werd toen de beslissing genomen om te werken met een hartslagcomponent die op de hondenwearable bestigd kan worden in plaats van met een een volledige halsband of harnas. 
+De hartslagcomponent wordt puur vormelijk uitgewerkt, aangezien we binnen onze mogelijkheden niet de technologie hebben om de hartslag van dieren te kunnen meten. Uit eerdere testen bleek dat de meningen van gebruikers sterk verdeeld waren wanneer het ging over harnas vs halsband. Er werd toen de beslissing genomen om te werken met een hartslagcomponent die op de hondenwearable bevestigd kan worden in plaats van met een een volledige halsband of harnas. 
 
 5. **De Rotary Encoder**
 
-Om de hartslag toch na te kunnen bootsen werd er gewerkt met een Rotary Encoder Module waaraan de interviewer achter de schermen draait om de hartslag te veranderderen op de interface. De encoder werkt met een arduino en een HC-05 Bluetooth module om de hartslag naar de Raspberry Pi te sturen. Zo kan de hartslag live geupdate worden op de interface. Op basis hiervan bewegen er pijlen of verandert er tekst.
+Om de hartslag toch na te kunnen bootsen werd er gewerkt met een Rotary Encoder Module waaraan de interviewer achter de schermen draait om de hartslag te veranderen op de interface. De encoder werkt met een Arduino en een HC-05 Bluetooth module om de hartslag naar de Raspberry Pi te sturen. Zo kan de hartslag live geüpdatet worden op de interface. Op basis hiervan bewegen er pijlen of verandert er tekst.
 
 ### Resultaten
 
 #### Onderzoek Hartslag
 
-In bijlage is een uitgebreid rapport te vinden. Hier de belangrijkste elementen.
+In bijlage is een uitgebreid rapport te vinden. Hier de belangrijkste elementen:
 
 - Hoe kan de hartslag van een hond gemeten worden?
 Er zijn verschillende halsbanden op de markt die succesvol de hartslag van honden meten. Een allesomvattend voorbeeld is de PetPace. Deze meet de hartslag van de hond door middel van akoestische sensoren. 
@@ -637,12 +637,12 @@ Alle testpersonen vonden de vormgeving van de dispenser neutraal en stijlvol. He
 Er werden manieren uitgewerkt om de dispenser compacter te maken:
 - De reden dat de dispenser iets dikker is, is omdat er aan de achterkant van het reservoir een stappenmotor zit die de tienhoekige cilinder aandrijft om zo het rad te doen draaien. Deze overbodige ruimte kan bespaard worden door met tandwielen te werken en de motor naast het reservoir te plaatsen. Zo wordt het vulbakje aangedreven door een motor die aan de zijkant zit, waardoor de ruimte in de dispenser optimaal benut wordt.
 
-![image](https://github.com/user-attachments/assets/3fe845e3-9e03-44bb-a59e-51db27743460)
+![image](https://github.com/user-attachments/assets/a7d45dca-03ec-409b-90ae-791442c7f847)
 
 - Iemand had ook het interessante idee om verschillende groottes van dispensers te maken. Kleine honden hebben een kleiner reservoir nodig, zo kan de grootte zo beperkt mogelijk blijven.
 
 Het drukmechanisme om de snoepjes bij te vullen bleek moeizaam te gaan. Enkele van de respondenten begrepen niet meteen dat ze moesten duwen, ondanks de "push" boodschap op het rad. Wanneer ze toch duwden kwam het bakje er moeizaam uit. Er zijn enkele verklaringen waarom dit zo is: 
-1. Het reservoir is niet helemaal verzonken in de behuizing van de dispenser. De rand van de dispenser steekt net uit boven boven het vlak, waardoor mensen het hier vastnemen en zo verwijderen uit de behuizing. Als deze meer verscholen zou zijn, zou de gebruiker op zoek gaan naar een andere manier en zou het duwmechanisme intuïtiever gebruikt kunnen worden.
+1. Het reservoir is niet helemaal verzonken in de behuizing van de dispenser. De rand van de dispenser steekt net uit boven het vlak, waardoor mensen het hier vastnemen en zo verwijderen uit de behuizing. Als deze meer verscholen zou zijn, zou de gebruiker op zoek gaan naar een andere manier en zou het duwmechanisme intuïtiever gebruikt kunnen worden.
 2. Het woord “PUSH” zou duidelijker aanwezig kunnen zijn op de dispenser. Momenteel staat het gegraveerd op het rad, maar het kan duidelijker gemaakt worden door het in een andere kleur te schrijven of groter en zichtbaarder te plaatsen.
 3. Het is van nature intuïtiever om de doos eruit te halen zonder te drukken. Men gaat hier niet meteen aan denken. 
 
@@ -692,6 +692,9 @@ De andere suggesties worden meegenomen en kunnen later nog toegevoegd worden als
 
 Uit de gebruikerstesten zijn enkele goede design implicaties gekomen die worden meegenomen in de toekomst:
 
+Design implicaties voor stressmeting:
+- Aangezien stress meten lastig is en van veel factoren afhangt kan er een self learning periode zijn, waarin het systeem de hond beter leert inschatten. Het baasje kan dan zelf aangeven wat de redenen zijn van de verhoogde hartslag zodat het systeem deze oorzaken kan uitsluiten wanneer het baasje er niet is.
+
 Design implicaties voor de dispenser:
 - De dispenser minder diep maken door de motor naast het vulbakje te plaatsen en te werken met tandwielaandrijving om het rad te doen draaien.
 - Verschillende groottes van dispensers maken voor kleinere honden die bijgevolg kleinere snoepjes krijgen. Zo wordt de dispenser niet onnodig groot.
@@ -702,7 +705,7 @@ Design implicaties voor de dispenser:
 Design implicaties voor het speeltje:
 - Doordat niet alle honden geïnteresserd zijn in bewegende speelgoedjes moet ofwel de doelgroep beperkt worden of een manier gevonden worden om honden te entertainen die niet reageren op speeltjes.
 - Vooral het speelgoed moet zorgen voor het verminderen van stress.
-- Verschillende soorten speelgoed kunnen beschikbaar zijn voor verandering.
+- Als bedrijf verschillende soorten speelgoed verkopen voor varriatie.
 
 Design implicaties voor de halsband:
 - Het bakje wordt niet verkocht met bijhorende halsband, maar apart.
@@ -710,13 +713,13 @@ Design implicaties voor de halsband:
 - Er moet een simpelere en gebruiksvriendelijkere manier zijn om het bakje te bevestigen aan de halsband van de hond.
 
 Design implicaties voor de interface:
-- De interface wordt stillistisch behouden
+- De interface wordt stilistisch behouden
 - De praatfunctie blijft behouden voor de gebruikers die hierin geïnteresseerd zouden zijn
-- Er wordt een extra functie toegevoegd, namelijk een grafiekje waarop de stressniveau van de hele dag te zien zijn.
+- Er wordt een extra functie toegevoegd, namelijk een grafiekje waarop de stressniveaus van de hele dag te zien zijn.
 
 Mogelijke uitbreidingen die in de toekomst kunnen worden toegevoegd:
 - Het aanleren van enkele kunstjes door het analyseren van lichaamstaal en de juiste timing van een snoepje
-- Een overzicht van hoe vaak en hoe luit de hond blaft zodat de buren zich niet ergeren.
+- Een overzicht van hoe vaak en hoe luid de hond blaft zodat de buren zich niet ergeren.
 
 > [!IMPORTANT]
 > Design Requirements:
@@ -735,6 +738,8 @@ Mogelijke uitbreidingen die in de toekomst kunnen worden toegevoegd:
 De gebruiker zal de interface krijgen in de vorm van een app op zijn smartphone. Deze wordt zo intuïtief mogelijk gemaakt met aandacht voor de User Experience. Belangrijk is dat de gebruiker snel te weten komt wat hij moet weten wanneer hij de app opent en dat hij er een goed gevoel bij krijgt. Op deze app kan de gebruiker een speeltje aanzetten, een snoepje geven, de home-camera bekijken en met zijn hond praten. Hiernaast moet de gebruiker enkele eenvoudige statistieken kunnen raadplegen en instellen of hij manuele of (deels) automatische bediending wilt. Alsook moet hij de grootte van de hond kunnen ingeven, aangezien dit een effect heeft op het stresslevel.
 
 #### Dispenser
+
+![image](https://github.com/user-attachments/assets/d6fafb4e-e460-4de0-b7db-2e4ee39494e6)
 
 De dispenser zal de camera zelf bevatten. Alsook zal hij al dan niet automatisch snoepjes geven aan de hond. De dispenser zal de meer lamp-achtige vormgeving uit de tweede Develop fase krijgen zodat hij mooi opgaat in het interieur. Om de snoepjes in de dispenser te steken of om het vulbakje te wassen, zal er gewerkt worden met een in- en uitlaadsysteem waarbij het vulbakje met een handvat uit de dispenser gehaald kan worden en vervolgens worden opgedraaid om het rad eruit te halen of bij te vullen. Hoewel dit idee eerst achterwege gelaten werd, is er toch besloten het positioneermechanisme uit de tweede Develop Fase te gebruiken om het gebruiksgemak te optimaliseren.
 
@@ -801,28 +806,34 @@ De hartslagcomponent moet zowel de hartslag als de beweging van de hond meten en
 | 5.2 | Er moeten verschillende soorten speelgoed beschikbaar zijn naargelang de hond | Usability Testing | 21/05/2025 |
 
 
-## Kritische reflectie semester 1
-Hoewel het een spannend gegeven was, was het een goede keuze om de pivot te maken. De angst om een hond alleen te laten is een probleem waar veel mensen zich in kunnen vinden en met een grote impact op het leven. Het nieuwe concept kwam met vele nieuwe discussies en uitdagingen. Er moest namelijk een hele nieuwe probleemruimte onderzocht worden. 
+## Kritische reflectie 
+
+**Semester 1**
+
+Hoewel het een spannend gegeven was, was het een goede keuze om de **pivot** te maken. De angst om een hond alleen te laten is een probleem waar veel mensen zich in kunnen vinden en met een grote impact op het leven. Het nieuwe concept kwam met vele nieuwe discussies en uitdagingen. Er moest namelijk een hele nieuwe probleemruimte onderzocht worden. 
 
 Via benchmarking, desk research en een enquête werd onderzocht wat er al op de markt is en vooral wat nog niet. We zagen dat veel van de technologieën die we graag zouden opnemen in ons concept al bestonden. De combinatie ervan echter nog niet. Dit maakte de benchmarking cruciaal.
 
 De enquête had vooral het doel om te onderzoeken of er vraag naar het concept zou zijn en om de noden van de potentiële gebruikers te identificeren. Daarnaast vroegen we op het einde of we hen mochten contacteren voor verdere testen. Hoewel we samen genoeg hondenbaasjes kenden via familie of vrienden kozen we ervoor om het op deze manier te doen om uit onze comfortzone te gaan en te werken met mensen die we niet kennen.
 
-In de definition fase gingen we met deze mensen aan de slag. Hoewel 40% van de respondenten zei dat we hen mochten contacteren was het toch extreem moeilijk om effectief afspraken te maken. Eerst moesten de mensen gefilterd worden: mensen die geen problemen ervaren met hun hond alleen thuis laten of die heel erg ver wonen waren natuurlijk niet interessant. Uiteindelijk zijn er een 20-tal mensen gecontacteerd, waarvan slechts 2 wilden deelnemen. 
+In de definition fase gingen we met deze mensen aan de slag. Hoewel 40% van de respondenten zei dat we hen mochten contacteren was het toch extreem moeilijk om effectief afspraken te maken. Eerst moesten de mensen gefilterd worden: mensen die geen problemen ervaren met hun hond alleen thuislaten of die heel erg ver wonen waren natuurlijk niet interessant. Uiteindelijk zijn er een 20-tal mensen gecontacteerd, waarvan slechts 2 wilden deelnemen. 
 
-Bij de tweede test (vanop afstand) konden we de locatiefactor ook achterwege laten en een grotere groep mensen contacteren. Toch hebben uiteindelijk slechts 3 mensen deelgenomen. Dit was tijdens het eerste semester de grootste uitdaging voor ons: de combinatie van het managen van een design proces en het rekruteren van respondenten. Natuurlijk wel een zeer leerrijk gegeven. 
+Bij de tweede test (vanop afstand) konden we de locatiefactor ook achterwege laten en een grotere groep mensen contacteren. Toch hebben uiteindelijk slechts 3 mensen deelgenomen. Dit was tijdens het eerste semester de grootste uitdaging voor ons: de combinatie van het managen van een designproces en het rekruteren van respondenten. Natuurlijk wel een zeer leerrijk gegeven. 
+
+**Tweede semester**
 
 In het tweede semester kozen we ervoor om de testen steeds met kennissen uit te voeren, dit om niet te veel tijd te verliezen met het rekruteren van mensen. Wel probeerden we steeds te variëren met respondenten. In de laatste Develop fase werd er nogmaals gewerkt met onbekenden om een goed gevarieerde en neutrale testing pool te hebben. 
 
-De grootste uitdaging in het tweede semester lag bij het bepalen van de stijl en lay-out van de interface. Dit was een groot onderwerp in meerdere testfases en werd nooit eenduidig beantwoord. We merkten dat het grote probleem lag bij het vinden van een geschikt kleurenpalet. Toen we dit uiteindelijk vonden (aan de hand van een al bestaande app) slaagden we er wel in een app lay-out en stijl te bekomen waar we zelf trots op kunnen zijn en dat de respondenten ook aansprak. 
+De grootste uitdaging in het tweede semester lag bij het bepalen van de stijl en lay-out van de interface. Dit was een groot onderwerp in meerdere testfases en werd nooit eenduidig beantwoord. We merkten dat het grote probleem lag bij het vinden van een geschikt kleurenpalet. Toen we dit uiteindelijk vonden (aan de hand van een al bestaande app) slaagden we er wel in een app lay-out en stijl te bekomen waar we zelf trots op kunnen zijn en die de respondenten ook aansprak. 
 
 Een andere grote uitdaging lag bij het effectief prototypen van het systeem. In de eerste Develop fase slaagden we erin om de dispenser met een arduino te besturen en met een interface of Protopie commando's te sturen. Maar wanneer in verdere fases het speeltje ook fysiek uitgewerkt werd, bleek dit niet meer voldoende. Er werd toen gekozen om met een interface op een Raspberry Pi te werken die enkele Arduino componenten aanstuurt, maar we hebben onderschat hoeveel werk dit met zich mee zou brengen. 
 
 Toch besloten we hiermee verder te gaan. Dit om de respondenten een zo goed mogelijk beeld van het finaal concept te kunnen geven. Ook was het interesant voor ons om met deze technieken te leren werken.
 
-Volgende stappen zouden zijn om de finale dispenser fysiek te prototypen. Daarna kan naar het werkelijke product gekeken beginnen worden en hoe het op de markt zou komen: de technologie achter de app, de elektronica in de dispenser en het speeltje. De effectieve materialen. Voor het halsbandje zou het een goed idee kunnen zijn om een al bestaande partner te vinden in de wereld van dierengeneeskunde die dit soort bandjes of componenten produceerd. 
+**Volgende stappen** zouden zijn om de finale dispenser fysiek te prototypen. Daarna kan naar het werkelijke product gekeken beginnen worden en hoe het op de markt zou komen: de technologie achter de app, de elektronica in de dispenser en het speeltje. De effectieve materialen. Voor het halsbandje zou het een goed idee kunnen zijn om een al bestaande partner te vinden in de wereld van dierengeneeskunde die dit soort bandjes of componenten produceert. 
+Op vlak van veiligheid moeten er ook nog enkele stappen ondernomen worden. Het is een product met een camera in huis en het houdt veel data bij. Daarom is het belangrijk om de gegevens goed te beveiligen.
 
-Ook zou het algoritme om automatisch snoepjes en speeltjes te geven uitgewerkt moeten worden. Daarnaast moet er nagedacht worden over materiaalkeuzes en de verschillende vormgevingen/groottes van de speeltjes. 
+Ook zou het algoritme om automatisch snoepjes en speeltjes te geven uitgewerkt moeten worden. Daarnaast moet er nagedacht worden over materiaalkeuzes en de verschillende vormgevingen/groottes van de speeltjes ofwel om bestaande, op de markt verkrijgbare speeltjes te kunnen aansturen vanuit de app. 
 
 Tot slot is er nog veel mogelijkheid om later nieuwe functies aan het product toe te voegen zoals aangeleerd gedrag, de optie om snoepjes over te slaan, verschillende dispensergroottes, etc.
 
