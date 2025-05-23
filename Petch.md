@@ -737,6 +737,8 @@ Mogelijke uitbreidingen die in de toekomst kunnen worden toegevoegd:
 
 De gebruiker zal de interface krijgen in de vorm van een app op zijn smartphone. Deze wordt zo intuïtief mogelijk gemaakt met aandacht voor de User Experience. Belangrijk is dat de gebruiker snel te weten komt wat hij moet weten wanneer hij de app opent en dat hij er een goed gevoel bij krijgt. Op deze app kan de gebruiker een speeltje aanzetten, een snoepje geven, de home-camera bekijken en met zijn hond praten. Hiernaast moet de gebruiker enkele eenvoudige statistieken kunnen raadplegen en instellen of hij manuele of (deels) automatische bediending wilt. Alsook moet hij de grootte van de hond kunnen ingeven, aangezien dit een effect heeft op het stresslevel.
 
+https://youtu.be/wS9h-OdoYkw
+
 #### Dispenser
 
 ![image](https://github.com/user-attachments/assets/d6fafb4e-e460-4de0-b7db-2e4ee39494e6)
