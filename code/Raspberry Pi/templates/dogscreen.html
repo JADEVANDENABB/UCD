@@ -4,14 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homescreen</title>
+    <title>Dogscreen</title>
     <link rel="stylesheet" href="{{url_for('static', filename='stylethree.css')}}">
     <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+
+    <script>
+        $(document).ready(function() {
+            function saveName(name) {
+                $.ajax({
+                    url: "/save_name",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify({ name: name }),
+                    success: function(response) {
+                        console.log("Name saved:", response);
+                    },
+                    error: function() {
+                        alert("Naam opslaan mislukt.");
+                    }
+                });
+            }
+    
+            $('input[type="text"]').on('blur', function() {
+                let name = $(this).val();
+                saveName(name);
+            });
+    
+            $('input[type="text"]').on('keydown', function(e) {
+                if (e.key === "Enter") {
+                    e.preventDefault(); // Prevent form submission
+                    let name = $(this).val();
+                    saveName(name);
+                    $(this).blur(); // Optionally trigger blur to close keyboard on mobile
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
     <div class="app-box">
-        <img src="{{url_for('static', filename='page3/stripes3.png')}}" class="component" style="top: 0%; left: 0%; width: 100%; height: 100%;">
+        <img src="{{url_for('static', filename='page3/stripes3.png')}}" class="component" style="top: 0%; left: 0%; width: 100%; height: 100%; z-index: 0; ">
         {% if direction == 0 %}
         <a href="{{ url_for('startscreen') }}">
         {% elif direction == 1 %}
@@ -21,7 +55,51 @@
         </a>
         <img src="{{url_for('static', filename='page3/logo.png')}}" class="component" style="top: 0%; left: 50%; width: 179px; height: 104px; transform: translateX(-50%);">
         <img src="{{url_for('static', filename='page7/pop5.png')}}" class="component" style="top: 13%; left: 0%; width: 100%; height: 87%;">
+        <img src="{{url_for('static', filename='page9/dog.png')}}" class="component" style="top: 16%; left: 75%; width: 77px; height: 69px;">
 
-        <p class="redditblackish" style="position: absolute; top: 12%; left: 19%; font-size: 32px; transform: translate(-50%);">Mijn hond</p>
+        <div class="component" style="top: 21%; left: 6%; width: 88%; height: 80px;">
+            <p class="redditblackish" style="position: absolute; top: 20%; left: 0%; font-size: 24px;">Hoe groot is uw hond?</p>
+            <img src="{{url_for('static', filename='page7/line.png')}}" style="position: absolute; top: 95%; left: 0%; width: 100%; height: 1px;">
+        </div>
+
+        <div class="component" style="top: 31.7%; left: 6%; width: 88%; height: 47px; position: absolute; display: flex; justify-content: space-between;">
+            <!-- Klein -->
+            <div style="width: 105px; height: 47px; position: relative;">
+                <img src="{{url_for('static', filename='page9/button.png')}}" style="width: 100%; height: 100%; display: block;">
+                <img src="{{url_for('static', filename='page9/slider.png')}}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <p class="redditblackish" style="position: absolute; top: 50%; left: 50%; font-size: 22px; margin: 0; transform: translate(-50%, -50%);">Klein</p>
+            </div>
+        
+            <!-- Middelgroot -->
+            <div style="width: 105px; height: 47px; position: relative;">
+                <img src="{{url_for('static', filename='page9/button.png')}}" style="width: 100%; height: 100%; display: block;">
+                <img src="{{url_for('static', filename='page9/slider.png')}}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <p class="redditblackish" style="position: absolute; top: 50%; left: 50%; font-size: 16px; margin: 0; transform: translate(-50%, -50%); white-space: nowrap;">Middelgroot</p>
+            </div>
+        
+            <!-- Groot -->
+            <div style="width: 105px; height: 47px; position: relative;">
+                <img src="{{url_for('static', filename='page9/button.png')}}" style="width: 100%; height: 100%; display: block;">
+                <img src="{{url_for('static', filename='page9/slider.png')}}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <p class="redditblackish" style="position: absolute; top: 50%; left: 50%; font-size: 22px; margin: 0; transform: translate(-50%, -50%);">Groot</p>
+            </div>
+        </div>
+
+        <div class="component" style="top: 40%; left: 6%; width: 88%; height: 80px;">
+            <p class="redditblackish" style="position: absolute; top: 20%; left: 0%; font-size: 24px;">Wat is de naam van uw hond?</p>
+            <img src="{{url_for('static', filename='page7/line.png')}}" style="position: absolute; top: 95%; left: 0%; width: 100%; height: 1px;">
+        </div>
+
+        <input type="text" class="redditblackish" value="{{ dog_name }}" placeholder="Max" style="top: 51%; left: 50%; width: 88%; height: 47px; border: 2px solid #000; border-radius: 20px; padding: 10px; position: absolute; font-size: 24px; box-sizing: border-box; transform: translateX(-50%);">
+
+        <p class="redditblackish" style="position: absolute; top: 12%; left: 24%; font-size: 32px; transform: translate(-50%);">Mijn hond</p>
+        
+        <a href="{{ url_for('menuscreen') }}">
+            <p class="redditblackish" style="position: absolute; top: 57%; left: 71%; font-size: 24px; font-weight: 700;">Terug</p>
+        </a>
+
+        <a href="{{ url_for('menuscreen') }}">
+        <img src="{{url_for('static', filename='page9/return.png')}}" class="component" style="top: 60%; left: 61.5%; width: 31px; height: 31px;">
+        </a>
     </div>
 </body>

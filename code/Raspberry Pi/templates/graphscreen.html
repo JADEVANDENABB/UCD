@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pulsescreen</title>
+    <title>Graphscreen</title>
     <link rel="stylesheet" href="{{url_for('static', filename='stylethree.css')}}">
     <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -51,30 +51,27 @@
         </a>
         <img src="{{url_for('static', filename='page5/pop4.png')}}" class="component" style="top: 5.92%; left: 50%; width: 365px; height: 722px; transform: translateX(-50%);">
         <img src="{{url_for('static', filename='page5/pulse.png')}}" class="component" style="top: 10.07%; left: 69%; width: 82px; height: 90px;">
-        <img src="{{url_for('static', filename='page5/graph.png')}}" class="component" style="top: 21%; left: 35.13%; width: 131px; height: 403px;">
-        
-        <!--Tellers-->
-        <div class="component" style="top: 70%; left: 50%; transform: translateX(-50%); width: 344px; height: 174.74px;">
-            <img src="{{url_for('static', filename='page5/data.png')}}" style="width: 100%; height: 100%; display: block;">
-            <p class="redditblackish" style="position: absolute; top: 38.8%; left: 25%; font-size: 16px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">{{ session.get('dog_name', 'Max') }} kreeg</p>
-            <p class="redditblackish" style="position: absolute; top: 47.8%; left: 10%; font-size: 36px; margin: 0; white-space: nowrap;">4</p>
-            <p class="redditblackish" style="position: absolute; top: 54%; left: 17%; font-size: 24px; margin: 0; white-space: nowrap;">snoepjes</p>
+        <img src="{{url_for('static', filename='page10/graph.png')}}" class="component" style="top: 26%; left: 14%; width: 300px; height: 323px;">
+        <img src="{{url_for('static', filename='page10/stats.png')}}" class="component" style="top: 71.8%; left: 50%; width: 342px; height: 151px; transform: translateX(-50%);">
 
-            <p class="redditblackish" style="position: absolute; top: 40.5%; left: 75%; font-size: 16px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">{{ session.get('dog_name', 'Max') }} speelde</p>
-            <p class="redditblackish" style="position: absolute; top: 48.7%; left: 64.5%; font-size: 36px; margin: 0; white-space: nowrap;">6</p>
-            <p class="redditblackish" style="position: absolute; top: 54.7%; left: 71.5%; font-size: 24px; margin: 0; white-space: nowrap;">min</p>
-        </div>
-
-        <!--Pijltje-->
-        <div id="upArrow" class="component" style="top: 58%; left: 62%; width: 100px; height: 50px;">
-            <img src="{{url_for('static', filename='page5/arrow.png')}}" class="component" style="top: 68%; left: 0%; width: 100%; height: 16px;">
-            <p id="heartrateMini" class="redditblackish" style="position: absolute; top: 23%; left: 14%; font-size: 24px; margin: 0; white-space: nowrap;">---</p>
-            <p class="redditblackish" style="position: absolute; top: 23%; left: 55%; font-size: 24px; margin: 0; white-space: nowrap;">bpm</p>
-        </div>
-
-        <a href="{{ url_for('graphscreen') }}">
-            <img src="{{url_for('static', filename='page5/right.png')}}" class="component" style="top: 43%; left: 89%; width: 17px; height: 30px;">
+        <a href="{{ url_for('pulsescreen') }}">
+            <img src="{{url_for('static', filename='page10/left.png')}}" class="component" style="top: 43%; left: 7%; width: 17px; height: 30px;">
         </a>
+
+        <p class="redditblackish" style="position: absolute; top: 72.7%; left: 50%; transform: translateX(-50%); font-size: 20px; margin: 0;">Aantal uur stress</p>
+        <p class="redditblackish" style="position: absolute; top: 76%; left: 50%; transform: translateX(-50%); font-size: 20px; margin: 0;">Do</p>
+        <p class="redditblackish" style="position: absolute; top: 76%; left: 21%; transform: translateX(-50%); font-size: 20px; margin: 0;">Woe</p>
+        <p class="redditblackish" style="position: absolute; top: 76%; left: 79%; transform: translateX(-50%); font-size: 20px; margin: 0;">Vandaag</p>
+
+        <p class="redditblackish" style="position: absolute; top: 81.3%; left: 79%; transform: translateX(-50%); font-size: 20px; margin: 0;">0 u 50</p>
+        <p class="redditblackish" style="position: absolute; top: 81.3%; left: 50.3%; transform: translateX(-50%); font-size: 20px; margin: 0;">1 u 20</p>
+        <p class="redditblackish" style="position: absolute; top: 81.3%; left: 21%; transform: translateX(-50%); font-size: 20px; margin: 0;">1 u 40</p>
+
+        <p class="redditblackish" style="position: absolute; top: 22.5%; left: 80.5%; font-size: 20px; margin: 0;">Stress</p>
+        <p class="redditblackish" style="position: absolute; top: 44.5%; left: 57%; font-size: 20px; margin: 0; transform: rotate(90deg);">Hoog&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Normaal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slapend</p>
+
+        <p class="redditblackish" style="position: absolute; top: 65.3%; left: 6%; font-size: 20px; margin: 0;">Uur</p>
+        <p class="redditblackish" style="position: absolute; top: 65%; left: 51.7%; transform: translateX(-50%); font-size: 23px; margin: 0;">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13</p>
 
         <p class="redditblackish" style="position: absolute; top: 13%; left: 27%; font-size: 36px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">Hartslag</p>
         <p id="heartrateMain" class="redditblackish" style="position: absolute; top: 20%; left: 16.5%; font-size: 48px; margin: 0; transform: translate(-50%, -80%); white-space: nowrap;">--</p>

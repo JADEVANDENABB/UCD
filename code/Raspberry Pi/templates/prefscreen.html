@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferencescreen</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='stylethree.css')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans&display=swap" rel="stylesheet">
+
+    <script>
+        function showMode(mode) {
+            document.querySelectorAll('.mode-set').forEach(div => {
+                div.style.display = 'none';
+            });
+    
+            document.querySelectorAll('.' + mode + '-set').forEach(div => {
+                div.style.display = 'block';
+            });
+        }
+        function toggleSlider(img) {
+        if (img.offsetParent !== null && window.getComputedStyle(img).display !== 'none') {
+            const currentSrc = img.getAttribute('src');
+
+            if (currentSrc.includes('slideron.png')) {
+                img.setAttribute('src', currentSrc.replace('slideron.png', 'slideroff.png'));
+            } else if (currentSrc.includes('slideroff.png')) {
+                img.setAttribute('src', currentSrc.replace('slideroff.png', 'slideron.png'));
+            }
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div class="app-box">
+        <img src="{{url_for('static', filename='page3/stripes3.png')}}" class="component" style="top: 0%; left: 0%; width: 100%; height: 100%; z-index: 0;">
+        {% if direction == 0 %}
+        <a href="{{ url_for('startscreen') }}">
+        {% elif direction == 1 %}
+        <a href="{{ url_for('homescreen') }}">
+        {% endif %}
+            <img src="{{url_for('static', filename='page7/menu.png')}}" class="component" style="top: 3.79%; left: 7.18%; width: 8.97%; height: 4.8%; z-index: 1;">
+        </a>
+        <img src="{{url_for('static', filename='page3/logo.png')}}" class="component" style="top: 0%; left: 50%; width: 179px; height: 104px; transform: translateX(-50%);">
+        <img src="{{url_for('static', filename='page7/pop5.png')}}" class="component" style="top: 13%; left: 0%; width: 100%; height: 87%;">
+        <img src="{{url_for('static', filename='page8/pop6.png')}}" class="component" style="top: 15%; left: 50%; width: 365px; height: 659px; transform: translateX(-50%);">
+        <img src="{{url_for('static', filename='page8/backgnd.png')}}" class="component" style="top: 34.5%; left: 50%; width: 332px; height: 275px; transform: translateX(-50%);">
+        <img src="{{url_for('static', filename='page8/automatic.png')}}" class="component" style="top: 35.5%; left: 50%; width: 311px; height: 30px; transform: translateX(-50%);">
+        <p class="redditspecial" style="position: absolute; top: 14%; left: 8.5%; font-size: 32px;">Voorkeuren</p>
+        <p class="redditblackish" style="position: absolute; top: 22%; left: 8.8%; font-size: 24px;">Hoe lang zult u van huis zijn?</p>
+        <p class="redditblackish" style="position: absolute; top: 28%; left: 9%; font-size: 17px;">Uren:</p>
+        <input type="number" min="1" max="12" placeholder="6" style="position: absolute; top: 30.25%; left: 25%; width: 28px; height: 17px; background: white; border: none; text-align: center; font-size: 16px; border-radius: 2px;">
+        <p class="redditblackish" style="position: absolute; top: 28%; left: 34.5%; font-size: 17px;">uur</p>
+
+        <p class="redditblackish" style="z-index: 5; color: #EAE4E0; position: absolute; top: 34.7%; left: 13.3%; font-size: 14px; cursor: pointer;" onclick="showMode('automatisch')">Automatisch</p>
+        <p class="redditblackish" style="z-index: 5; color: #EAE4E0; position: absolute; top: 35%; left: 36.3%; font-size: 13px; cursor: pointer;" onclick="showMode('deels')">Deels automatisch</p>
+        <p class="redditblackish" style="z-index: 5; color: #EAE4E0; position: absolute; top: 34.7%; left: 69.5%; font-size: 14px; cursor: pointer;" onclick="showMode('manueel')">Manueel</p>
+
+        <a href="{{ url_for('menuscreen') }}">
+            <img src="{{url_for('static', filename='page8/Return.png')}}" class="component" style="top: 89%; left: 6.5%; width: 23px; height: 23px;">
+        </a>
+
+        <a href="{{ url_for('menuscreen') }}">
+            <p class="redditspecial" style="position: absolute; top: 86.4%; left: 14%; font-size: 20px;">Terug</p>
+        </a>
+
+        <!--Automatisch-->
+        <div class="component mode-set automatisch-set" style="z-index: 0; top: 36.1%; left: 11%; width: 92px; height: 21px; display: none;">
+            <img src="{{url_for('static', filename='page8/choice.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 50%; left: 50%; font-size: 14px; margin: 0; transform: translate(-50%, -50%); white-space: nowrap;">Automatisch</p>
+        </div>
+
+        <!--Deels Automatisch-->
+        <div class="component mode-set deels-set" style="z-index: 0; top: 36.1%; left: 35.5%; width: 112px; height: 21px; display: none;">
+            <img src="{{url_for('static', filename='page8/choice2.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 50%; left: 50%; font-size: 13px; margin: 0; transform: translate(-50%, -50%); white-space: nowrap;">Deels automatisch</p>
+        </div>
+
+        <!--Manueel-->
+        <div class="component mode-set manueel-set" style="z-index: 0; top: 36.1%; left: 64.5%; width: 95px; height: 21px; display: none;">
+            <img src="{{url_for('static', filename='page8/choice3.png')}}" style="width: 100%; height: 100%; display: block;">
+            <p class="redditblackish" style="position: absolute; top: 50%; left: 50%; font-size: 14px; margin: 0; transform: translate(-50%, -50%); white-space: nowrap;">Manueel</p>
+        </div>
+
+        <!--Automatisch-->
+        <div class="component mode-set automatisch-set" style="z-index: 1; top: 34.5%; left: 50%; width: 332px; height: 275px; transform: translateX(-50%); display: none;">
+            <p class="redditblackish" style="position: absolute; top: 16%; left: 8%; font-size: 14px; margin: 0; font-style: italic;">Snoepjes en speeltjes worden automatisch gegeven, naargelang hoe de hond zich voelt.</p>
+            <p class="redditblackish" style="position: absolute; top: 32%; left: 6%; font-size: 16px; margin: 0;">Aantal snoepjes in dispenser:</p>
+            <input type="number" min="1" max="9" placeholder="8" style="position: absolute; top: 32.5%; left: 84%; width: 28px; height: 17px; background: white; border: none; text-align: center; font-size: 16px; border-radius: 2px;">
+            <img src="{{url_for('static', filename='page7/line.png')}}" style="position: absolute; top: 41%; left: 5%; width: 90%; height: 1px;">
+            <p class="redditblackish" style="position: absolute; top: 45%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij blaffen</p>
+            <img src="{{url_for('static', filename='page7/slideroff.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 44%; left: 80%; width: 48px; height: 26.75px;">
+            <p class="redditblackish" style="position: absolute; top: 59%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij stress</p>
+            <img src="{{url_for('static', filename='page7/slideroff.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 58%; left: 80%; width: 48px; height: 26.75px;">
+            <p class="redditblackish" style="position: absolute; top: 73%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij snoepje</p>
+            <img src="{{url_for('static', filename='page7/slideron.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 72%; left: 80%; width: 48px; height: 26.75px;">
+            <p class="redditblackish" style="position: absolute; top: 87%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij activatie speeltje</p>
+            <img src="{{url_for('static', filename='page7/slideron.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 86%; left: 80%; width: 48px; height: 26.75px;">
+        </div>
+
+        <!--Deels Automatisch-->
+        <div class="component mode-set deels-set" style="z-index: 1; top: 34.5%; left: 50%; width: 332px; height: 360px; transform: translateX(-50%); display: none;">
+            <img src="{{url_for('static', filename='page8/backextra.png')}}" class="component" style="top: 50%; left: 50%; width: 332px; height: 175px; transform: translateX(-50%);">
+            <p class="redditblackish" style="position: absolute; top: 13%; left: 7%; font-size: 14px; margin: 0; font-style: italic;">Speeltjes en snoepjes worden door u gegeven. Indien u onbeschikbaar bent en niet reageert binnen enkele minuten, doen wij het voor u.</p>
+            <p class="redditblackish" style="position: absolute; top: 31%; left: 6%; font-size: 16px; margin: 0;">Aantal snoepjes in dispenser:</p>
+            <input type="number" min="1" max="9" placeholder="8" style="position: absolute; top: 31.5%; left: 84%; width: 28px; height: 17px; background: white; border: none; text-align: center; font-size: 16px; border-radius: 2px;">
+            <p class="redditblackish" style="position: absolute; top: 39%; left: 6%; font-size: 16px; margin: 0;">Antwoordtijd:</p>
+            <input type="number" min="1" max="60" placeholder="5" style="position: absolute; top: 39.5%; left: 75%; width: 28px; height: 17px; background: white; border: none; text-align: center; font-size: 16px; border-radius: 2px;">
+            <p class="redditblackish" style="position: absolute; top: 39%; left: 86%; font-size: 16px; margin: 0;">min</p>
+            <img src="{{url_for('static', filename='page7/line.png')}}" style="position: absolute; top: 49%; left: 5%; width: 90%; height: 1px;">
+            <p class="redditblackish" style="position: absolute; top: 52%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij blaffen</p>
+            <img src="{{url_for('static', filename='page7/slideroff.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 51%; left: 80%; width: 48px; height: 26.75px;">
+            <p class="redditblackish" style="position: absolute; top: 64%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij stress</p>
+            <img src="{{url_for('static', filename='page7/slideroff.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 63%; left: 80%; width: 48px; height: 26.75px;">
+            <p class="redditblackish" style="position: absolute; top: 76%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij snoepje</p>
+            <img src="{{url_for('static', filename='page7/slideron.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 75%; left: 80%; width: 48px; height: 26.75px;">
+            <p class="redditblackish" style="position: absolute; top: 88%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij activatie speeltje</p>
+            <img src="{{url_for('static', filename='page7/slideron.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 87%; left: 80%; width: 48px; height: 26.75px;">
+        </div>
+
+        <!--Manueel-->
+        <div class="component mode-set manueel-set" style="z-index: 1; top: 34.5%; left: 50%; width: 332px; height: 275px; transform: translateX(-50%); display: none;">
+            <p class="redditblackish" style="position: absolute; top: 18%; left: 7%; font-size: 14px; margin: 0; font-style: italic; width: 85%;">Enkel u beslist wanneer uw hond een speeltje of snoepje krijgt.</p>
+            <p class="redditblackish" style="position: absolute; top: 39%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij blaffen</p>
+            <img src="{{url_for('static', filename='page7/slideroff.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 38%; left: 80%; width: 48px; height: 26.75px;">
+            <p class="redditblackish" style="position: absolute; top: 54%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij stress</p>
+            <img src="{{url_for('static', filename='page7/slideroff.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 53%; left: 80%; width: 48px; height: 26.75px;">
+            <p class="redditblackish" style="position: absolute; top: 69%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij snoepje</p>
+            <img src="{{url_for('static', filename='page7/slideron.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 68%; left: 80%; width: 48px; height: 26.75px;">
+            <p class="redditblackish" style="position: absolute; top: 84%; left: 6%; font-size: 16px; margin: 0;">Notificatie bij activatie speeltje</p>
+            <img src="{{url_for('static', filename='page7/slideron.png')}}" onclick="toggleSlider(this)" style="position: absolute; top: 83%; left: 80%; width: 48px; height: 26.75px;">
+        </div>
+    </div>
+</body>
