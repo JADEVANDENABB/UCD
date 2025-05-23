@@ -820,7 +820,7 @@ Een andere grote uitdaging lag bij het effectief prototypen van het systeem. In 
 
 Toch besloten we hiermee verder te gaan. Dit om de respondenten een zo goed mogelijk beeld van het finaal concept te kunnen geven. Ook was het interesant voor ons om met deze technieken te leren werken.
 
-Volgende stappen zouden zijn om naar het werkelijke product te beginnen kijken en hoe het op de markt zou komen: de technologie achter de app, de elektronica in de dispenser en het speeltje. De effectieve materialen. Voor het halsbandje zou het een goed idee kunnen zijn om een al bestaande partner te vinden in de wereld van dierengeneeskunde die dit soort bandjes of componenten produceerd. 
+Volgende stappen zouden zijn om de finale dispenser fysiek te prototypen. Daarna kan naar het werkelijke product gekeken beginnen worden en hoe het op de markt zou komen: de technologie achter de app, de elektronica in de dispenser en het speeltje. De effectieve materialen. Voor het halsbandje zou het een goed idee kunnen zijn om een al bestaande partner te vinden in de wereld van dierengeneeskunde die dit soort bandjes of componenten produceerd. 
 
 Ook zou het algoritme om automatisch snoepjes en speeltjes te geven uitgewerkt moeten worden. Daarnaast moet er nagedacht worden over materiaalkeuzes en de verschillende vormgevingen/groottes van de speeltjes. 
 
@@ -830,9 +830,11 @@ Tot slot is er nog veel mogelijkheid om later nieuwe functies aan het product to
 
 ### Dispenser + Interface
 #### Bill of Materials
-- 3D printer (+filament)
+- 3D printer (+wit filament)
 - Multiplex 8mm platen
 - Witte verf
+- 2 scharnieren
+- Kleine schroeven
 - Deksel van Multikom Cirqula vershouddoos €8,99
   -> https://www.bol.com/nl/nl/p/mepal-multikom-cirqula-vershouddoos-750-ml-rond-nordic-sage/9300000118607224/?bltgh=rZQon1BF6EJuQLlerehL6Q.6_24.54.ProductImage
 - 5V 28BYJ-48 Stappenmotor
@@ -854,6 +856,12 @@ Tot slot is er nog veel mogelijkheid om later nieuwe functies aan het product to
 
 #### Build instructions + code
 
+Onder cad/dispenserwave3 zijn de cad files terug te vinden van het laatst ontworpen prototype. Onder cad/dispenserfinaal zijn de cad files zijn de cad files van het finaal prototype, wat niet meer fysiek gerealiseerd is kunnen worden. 
+
+De simpele platen van de behuizing werden gemaakt uit witgeschilderde multiplex. De meer complexe componenten werden geprint met een 3D printer. Hetzelfde zou gelden voor het finale protoype. Het deurtje van de dispenser wordt met scharnieren bevestigd.
+
+De interface werd uitgewerkt op de Raspberry Pi 5, alle code en afbeeldingen zijn te bekijken onder code/Raspberry Pi. De Pi werd in de dispenser gepositioneerd om rechtstreeks de stappenmotor aan te kunnen sturen. De stappenmotor werd geconnecteerd aan de ULN2003AN Stepper Motor Driver. Deze werd gevoed door de 9V batterij en kreeg signalen van de Raspberry Pi.
+
 ### Bewegend botje
 #### Bill of Materials
 - 3D printer (+filament)
@@ -873,9 +881,38 @@ Tot slot is er nog veel mogelijkheid om later nieuwe functies aan het product to
 - 1000ohm weerstand
 - 2000ohm weerstand
 
+#### Build instructions + code
+
+De cad file van het botje is te zien onder cad/speeltje. Dit bestaat volledig uit 3D prints. Om de motors vast te zetten in het midden van de behuizing werd resthout gebruikt waarin een gat gemaakt werd voor de motor. De elektronica bestaat uit een Arduino waarop een L298N motor driver is aangesloten. Deze wordt appart gevoed met twee 9V batterijen en stuurt twee 6V DC motoren aan. De Arduino zelf wordt gevoed met één 9V batterij die met de Arduino VIN en GND verbonden is. Tussen de batterij en de VIN van de Arduino wordt de switch geplaatst om het geheel uit te kunnen zetten.
+
+Er wordt ook een HC-05 bluetooth module aangesloten op het geheel. Deze wordt via bluetooth geconnecteerd met de Pi en ontvangt signaal wanneer het speeltje geactiveerd moet worden. Omdat de RX pin van de bluetooth module op 3.3V logica werkt en de rest van de module op 5V, wordt er simpele spanningdeler met enkele weerstanden gemaakt. De 1k en 2k weerstand in serie verbinden de RX pin van de HC-05 met de GND. De 1700ohm weerstand verbind deze pin met de Arduino. Arduino code is te vinden onder code/Arduino/Botje/Speeltje. 
+
+Op de Raspberry Pi moet connectie worden gemaakt met de bluetooth module door eerst volgende commando's te runnen:
+
+*bluetoothctl*
+
+*power on*
+
+*agent on*
+
+*scan on*
+
+Na een tijdje verschijnt er een apparaat van de vorm: xx:xx:xx:xx:xx:xx HC-05
+
+*pair xx:xx:xx:xx:xx:xx*
+
+*trust xx:xx:xx:xx:xx:xx*
+
+*exit* 
+
+Volgend commando moet telkens ingegeven worden bij reboot van de Pi om te connecteren:
+
+*sudo rfcomm bind /dev/rfcomm1 xx:xx:xx:xx:xx:xx*
+
 ### Hartslagcomponent + Rotary Encoder (om hartslag na te bootsen)
 #### Bill of Materials
 - 3D printer (+filament)
+- 2 kleine schroeven
 - Arduino nano + kabel
 - KY-040 Rotary Encoder Module
 - HC-05 Bluetooth Module
@@ -885,6 +922,16 @@ Tot slot is er nog veel mogelijkheid om later nieuwe functies aan het product to
 - 1700ohm weerstand
 - 1000ohm weerstand
 - 2000ohm weerstand
+
+#### Build instructions + code
+
+De hartslagcomponent bestaat simpelweg uit een 3D print met twee schroeven, cad is te vinden onder cad/wearable. Dit wordt op een halsband of harnas bevestigd.
+
+De Rotary encoder is aangesloten op een Arduino nano. Deze wordt gevoed met de computer via USB kabel. Ook hier is een HC-05 Bluetooth module aangsloten op de arduino. Opnieuw met de spanningsdeler zoals beschreven onder het botje. Hier wordt de component gebruikt om informatie naar de Pi te sturen. De code is te vinden onder code/Arduino/RotaryEncoder.
+
+Om de HC-05 te connecteren met de Raspberry Pi moeten dezelfde commando's als onder het botje beschreven ingevoerd worden in de terminal. Alleen bij het connecteren moet ervoor gezorgd worden dat de component met een andere poort geconnecteerd wordt:
+
+*sudo rfcomm bind /dev/rfcomm0 xx:xx:xx:xx:xx:xx*
   
 ## Bronnen
 Edwards, P. T., Smith, B. P., McArthur, M. L., & Hazel, S. J. (2022). At the heart of a dog’s veterinary experience: Heart rate responses in dogs vary across a standard physical examination. Journal Of Veterinary Behavior, 51, 23–34. https://doi.org/10.1016/j.jveb.2022.03.003
