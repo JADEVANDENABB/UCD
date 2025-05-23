@@ -51,7 +51,7 @@ In deze fase werd ook getracht speeltje te doen werken om de respondenten een zo
 
 Tot slot wordt met behulp van de feedback van de respondenten in de laatste wave het finaal prototype gerealiseerd voor dit project.
 
-![image](https://github.com/user-attachments/assets/91ec4d0c-99f9-41ee-86b4-430e1830f22e)
+![Schermafbeelding 2025-05-23 201647](https://github.com/user-attachments/assets/43c8b1e0-b372-4278-a68a-13e2de07121c)
 
 ## Discovery
 ### Doestellingen
