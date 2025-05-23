@@ -826,17 +826,66 @@ Ook zou het algoritme om automatisch snoepjes en speeltjes te geven uitgewerkt m
 
 Tot slot is er nog veel mogelijkheid om later nieuwe functies aan het product toe te voegen zoals aangeleerd gedrag, de optie om snoepjes over te slaan, verschillende dispensergroottes, etc.
 
-## Bill of materials
-- Figma
-- Karton
-- 3D printer (+ filament)
-- Hout
-- Protopie
-- Arduino-kit
-- Motortje
-- Hartslagmeter component
+## Technische Beschrijving
 
+### Dispenser + Interface
+#### Bill of Materials
+- 3D printer (+filament)
+- Multiplex 8mm platen
+- Witte verf
+- Deksel van Multikom Cirqula vershouddoos €8,99
+  -> https://www.bol.com/nl/nl/p/mepal-multikom-cirqula-vershouddoos-750-ml-rond-nordic-sage/9300000118607224/?bltgh=rZQon1BF6EJuQLlerehL6Q.6_24.54.ProductImage
+- 5V 28BYJ-48 Stappenmotor
+- ULN2003AN Stepper Motor Driver Board
+- 9V batterij
+- 9V batterij clip aansluiting
+- SD kaart
+- Raspberry Pi 5 4GB €71,95
+  -> https://www.raspberrystore.nl/PrestaShop/nl/raspberry-pi-5/507-raspberry-pi-5-4gb-5056561803319.html
+- Raspberry Pi Officiële behuizing €11,95
+  -> https://www.raspberrystore.nl/PrestaShop/nl/raspberry-pi-5/509-officiele-behuizing-voor-de-raspberry-pi-5-wit-5056561803340.html
+- Raspberry Pi Raspberry Pi 27W USB-C Power Supply €13,95
+  -> https://www.raspberrystore.nl/PrestaShop/nl/raspberry-pi-5/511-raspberry-pi-27w-usb-c-power-supply-wit-eu-voor-raspberry-pi-5-5056561803401.html
+- Raspberry Pi Camera Module V2 €16.93
+  -> https://www.kiwi-electronics.com/en/raspberry-pi-camera-module-2-8mp-2359?src=raspberrypi
+- Raspberry Pi Camera Cable Standard-Mini 200mm
+  -> https://www.kiwi-electronics.com/en/raspberry-pi-camera-cable-standard-mini-200mm-11588?ff1=32&search=raspberry%20pi%20camera%20cable
+- Male to female jumper wires
 
+#### Build instructions + code
+
+### Bewegend botje
+#### Bill of Materials
+- 3D printer (+filament)
+- Resthout minstens 10mm dik
+- 2x 6VDC 250mA DC motor
+  -> https://www.beslist.be/p/klussen/nl-nl-gold-5410329401238/?productId=rxegzqmugucX69N7EXoH5YLmHpn&utm_medium=paid-search&utm_source=google-shopping&utm_campaign=PLA%2FElektra_b%7C71700000121906529%7CPLA%2FElektra_b%7C58700008881582159&device=c&productid=BE-nl-nl-gold-5410329401238&gad_source=1&gad_campaignid=21117295171&gbraid=0AAAAADred45CxD9uD6DK45hXSt7cR0-z4&gclsrc=aw.ds
+- L298N motor driver panel
+- Arduino Mega 2560 + kabel
+- HC-05 Bluetooth Module
+- 3x 9V batterij
+- 3x 9V batterij clip aansluiting
+- Slide switch (Arduino)
+- Male to female jumper wires
+- Male to male jumper wires
+- Breadboard
+- 1700ohm weerstand
+- 1000ohm weerstand
+- 2000ohm weerstand
+
+### Hartslagcomponent + Rotary Encoder (om hartslag na te bootsen)
+#### Bill of Materials
+- 3D printer (+filament)
+- Arduino nano + kabel
+- KY-040 Rotary Encoder Module
+- HC-05 Bluetooth Module
+- Breadboard
+- Male to female jumper wires
+- Male to male jumper wires
+- 1700ohm weerstand
+- 1000ohm weerstand
+- 2000ohm weerstand
+  
 ## Bronnen
 Edwards, P. T., Smith, B. P., McArthur, M. L., & Hazel, S. J. (2022). At the heart of a dog’s veterinary experience: Heart rate responses in dogs vary across a standard physical examination. Journal Of Veterinary Behavior, 51, 23–34. https://doi.org/10.1016/j.jveb.2022.03.003
 
