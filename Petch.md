@@ -43,9 +43,9 @@ In de **tweede wave** werden de **meldingen die de app zal geven** geoptimalisee
 
 Er volgde een **eerste Develop fase**. De focus lag hier op het concretiseren van de stijl en lay-out van de interface, het mechanisme van de dispenser uitwerken en de methoden bepalen om de hartslag van honden te meten. Dankzij de lessen in Arduino werd het mogelijk een effectief werkend prototype te maken van de dispenser met behulp van een Protopie programma dat met de Arduino geconnecteerd is en een motortje doet draaien. Met dit prototype en de nieuwe dispenser werd aan Usability Testing (n=4) gedaan om nieuwe inzichten te krijgen. Hiernaast werden ook de methode om de hartslag van honden te meten onderzocht.
 
-In de **tweede Develop fase** werd eerder op vormgeving gefocust. Zowel van de dispenser als het logo. Ook werd het inlaad- en uitlaadmechanisme van het bakje met de snoepjes in de dispenser geoptimaliseerd. Dit alles werd opnieuw gestest met Usability Testing (n=4).
+In de **tweede Develop fase** lag de focus meer op de vormgeving — waaronder het ontwerp van de dispenser en het logo — evenals op de keuze voor kleur, materiaal en afwerking (CMF). Daarnaast werd het inlaad- en uitlaadmechanisme van het bakje met de snoepjes geoptimaliseerd door middel van variety prototyping. Dit alles werd opnieuw getest met Usability Testing (n=4).
 
-In de **laatste Develop fase** werd Usability testing (n=6) gebruikt om de User Experience te optimaliseren. Er werden high-fidelity prototypes gemaakt van vrijwel alle componenten om zo nieuwe pijnpunten te kunnen identificeren. In deze prototypes werd alle eerder opgedane kennnis gecombineerd om tot een zo goed mogelijk resultaat te komen.
+In de **laatste Develop fase** werd Usability Testing (n=6) ingezet om de User Experience (UX) verder te optimaliseren. Er werden high-fidelity prototypes gemaakt van vrijwel alle componenten om nieuwe pijnpunten te identificeren. Eén van deze prototypes was een Wizard of Oz-prototype, waarbij hartslag en stressniveaus werden gesimuleerd om realistische gebruikersinteracties te kunnen observeren. In deze prototypes werd alle eerder opgedane kennis gecombineerd om tot een zo goed mogelijk resultaat te komen.
 
 In deze fase werd ook getracht speeltje te doen werken om de respondenten een zo goed mogelijk beeld van het systeem te kunnen geven.
 
